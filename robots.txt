@@ -1,7 +1,6 @@
 User-agent: *
 Disallow: 
 Disallow: /css/
-Disallow: /js/
 Disallow: /lib/
 Disallow: /atom.xml
 Sitemap: /sitemap.xml
