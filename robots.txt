@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: 
+Disallow: /css/
+Disallow: /js/
+Disallow: /lib/
+Sitemap: /sitemap.xml
+Sitemap: /baidusitemap.xml
