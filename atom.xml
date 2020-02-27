@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://freezing.cool/"/>
-  <updated>2020-02-24T15:21:27.484Z</updated>
+  <updated>2020-02-27T15:18:17.882Z</updated>
   <id>https://freezing.cool/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>十七个我</title>
+    <link href="https://freezing.cool/200227/"/>
+    <id>https://freezing.cool/200227/</id>
+    <published>2020-02-27T15:00:00.000Z</published>
+    <updated>2020-02-27T15:18:17.882Z</updated>
+    
+    <content type="html"><![CDATA[<!-- build time:Thu Feb 27 2020 23:18:41 GMT+0800 (中国标准时间) --><p><img data-src="https://media-1257181248.cos.ap-chengdu.myqcloud.com/blog/200227.jpg" alt="Time and Space"><br>于是，在这个不一般的日子，我应当说些什么。</p><a id="more"></a><blockquote><p>是　一万次江河的咆哮<br>七千次日起日落的轮回<br>十七个我　在这里说</p><p>我说<br>星河坠落　在阳光的影子里<br>有三亿次喘息<br>是第一个我</p><p>我说<br>白马奔腾　在无草之原<br>有八千八百次踢踏<br>是第二个我</p><p>我说<br>麦苗正青　在我头顶的稻田<br>有四万滴汗珠　第三个我</p><p>我说　我说第四个我<br>他匍匐在地　乞求他的兄第<br>有十二个我说<br>请叩首三十七次</p><p>是第十七个我<br>围堵十六颗星星<br>圈养一匹白马<br>种下三亩稻田<br>说<br>江河、红日、我</p></blockquote><!-- rebuild by neat -->]]></content>
+    
+    <summary type="html">
+    
+      &lt;!-- build time:Thu Feb 27 2020 23:18:41 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;&lt;img data-src=&quot;https://media-1257181248.cos.ap-chengdu.myqcloud.com/blog/200227.jpg&quot; alt=&quot;Time and Space&quot;&gt;&lt;br&gt;于是，在这个不一般的日子，我应当说些什么。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="随笔" scheme="https://freezing.cool/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="心绪" scheme="https://freezing.cool/tags/%E5%BF%83%E7%BB%AA/"/>
+    
+      <category term="诗" scheme="https://freezing.cool/tags/%E8%AF%97/"/>
+    
+  </entry>
   
   <entry>
     <title>Python“可迭代”漫谈</title>
@@ -75,13 +100,13 @@
     <link href="https://freezing.cool/200215/"/>
     <id>https://freezing.cool/200215/</id>
     <published>2020-02-15T15:00:00.000Z</published>
-    <updated>2020-02-24T11:50:23.367Z</updated>
+    <updated>2020-02-27T14:44:31.652Z</updated>
     
-    <content type="html"><![CDATA[<!-- build time:Mon Feb 24 2020 20:05:32 GMT+0800 (中国标准时间) --><p><img data-src="https://media-1257181248.cos.ap-chengdu.myqcloud.com/blog/200214.jpg" alt="海子像"><br>——我要致给海子，尤其致他疯狂自由之魂。</p><a id="more"></a><blockquote><p>一阵呜鸣　秋雨提早到了春天 在冬的<br>.　尾声里　第三万六千五百零一块顽石<br>昂起它燎烈的头颅　仇视着雨</p><p>来自田野的土腥味　跨过两条钢轨<br>携带着烧焦的尸骨　流浪汉<br>从北走到北　看到<br>支离破碎的髌骨　一颗火红的心</p><p>用你干枯的指头　抹去苍茫<br>用你苍茫的嘴唇　吻向春风<br>冬的好兄弟　春<br>.　迟来了<br>高原上　一只天鹅聆听圣洁佛语</p><p>麦苗属于你　还有途经戈壁的小路<br>.　属于你　大地的儿子<br>你说阳光充足、灿烂、健康</p><p>我与你偶遇　在前往大山的路上<br>你提着一壶血　自己的<br>叫我看红色的月亮　近在咫尺</p><p>这时　一只犍牛倒在北方的田埂上</p></blockquote><!-- rebuild by neat -->]]></content>
+    <content type="html"><![CDATA[<!-- build time:Thu Feb 27 2020 23:18:41 GMT+0800 (中国标准时间) --><p><img data-src="https://media-1257181248.cos.ap-chengdu.myqcloud.com/blog/200214.jpg" alt="海子像"><br>——我要致给海子，尤其致他疯狂自由之魂。</p><a id="more"></a><blockquote><p>一阵呜鸣　秋雨提早到了春天 在冬的<br>.　尾声里　第三万六千五百零一块顽石<br>昂起它燎烈的头颅　仇视着雨</p><p>来自田野的土腥味　跨过两条钢轨<br>携带着烧焦的尸骨　流浪汉<br>从北走到北　看到<br>支离破碎的髌骨　一颗火红的心</p><p>用你干枯的指头　抹去苍茫<br>用你苍茫的嘴唇　吻向春风<br>冬的好兄弟　春<br>.　迟来了<br>高原上　一只天鹅聆听圣洁佛语</p><p>麦苗属于你　还有途经戈壁的小路<br>.　属于你　大地的儿子<br>你说阳光充足、灿烂、健康</p><p>我与你偶遇　在前往大山的路上<br>你提着一壶血　自己的<br>叫我看红色的月亮　近在咫尺</p><p>这时　一只犍牛倒在北方的田埂上</p></blockquote><!-- rebuild by neat -->]]></content>
     
     <summary type="html">
     
-      &lt;!-- build time:Mon Feb 24 2020 20:05:32 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;&lt;img data-src=&quot;https://media-1257181248.cos.ap-chengdu.myqcloud.com/blog/200214.jpg&quot; alt=&quot;海子像&quot;&gt;&lt;br&gt;——我要致给海子，尤其致他疯狂自由之魂。&lt;/p&gt;
+      &lt;!-- build time:Thu Feb 27 2020 23:18:41 GMT+0800 (中国标准时间) --&gt;&lt;p&gt;&lt;img data-src=&quot;https://media-1257181248.cos.ap-chengdu.myqcloud.com/blog/200214.jpg&quot; alt=&quot;海子像&quot;&gt;&lt;br&gt;——我要致给海子，尤其致他疯狂自由之魂。&lt;/p&gt;
     
     </summary>
     
@@ -90,6 +115,10 @@
     
     
       <category term="有感" scheme="https://freezing.cool/tags/%E6%9C%89%E6%84%9F/"/>
+    
+      <category term="诗" scheme="https://freezing.cool/tags/%E8%AF%97/"/>
+    
+      <category term="海子" scheme="https://freezing.cool/tags/%E6%B5%B7%E5%AD%90/"/>
     
   </entry>
   
