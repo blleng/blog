@@ -1,7 +1,5 @@
 User-agent: *
 Disallow: 
 Disallow: /js/
-Disallow: /lib/
-Disallow: /atom.xml
 Sitemap: /sitemap.xml
 Sitemap: /baidusitemap.xml
