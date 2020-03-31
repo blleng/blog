@@ -1,4 +1,21 @@
-<div class="site-info"><a href="https://freezing.cool">{{ printf `%s%s%s%s` $siteInfoCopyright $siteInfoCreatedYear $siteInfoIcon .Site.Author.name | safeHTML }}</a></div>
+                {{- .Scratch.Set "siteInfoCopyright" "©&nbsp;" -}}
+            {{- else -}}
+                {{- .Scratch.Set "siteInfoCopyright" "" -}}
+            {{- end -}}
+            {{- $siteInfoCopyright := .Scratch.Get "siteInfoCopyright" -}}
+            {{- if .Site.Params.displaySiteCreatedYear -}}
+                {{- .Scratch.Set "siteInfoCreatedYear" (printf `%s–%s` (dateFormat "2006" (time .Site.Params.siteCreatedTime)) (now.Format "2006")) -}}
+            {{- else -}}
+                {{- .Scratch.Set "siteInfoCreatedYear" (now.Format "2006") -}}
+            {{- end -}}
+            {{- $siteInfoCreatedYear := .Scratch.Get "siteInfoCreatedYear" -}}
+            {{- with .Site.Params.iconBetweenYearAndAuthor -}}
+                {{- $.Scratch.Set "siteInfoIcon" (printf `&nbsp;%s&nbsp;` (replace (index $.Site.Data.SVG .) "icon" "icon footer-icon")) -}}
+            {{- else -}}
+                {{- $.Scratch.Set "siteInfoIcon" "&nbsp;" -}}
+            {{- end -}}
+            {{- $siteInfoIcon := .Scratch.Get "siteInfoIcon" -}}
+div class="site-info"><a href="https://freezing.cool">{{ printf `%s%s%s%s` $siteInfoCopyright $siteInfoCreatedYear $siteInfoIcon .Site.Author.name | safeHTML }}</a></div>
             {{- if .Site.Params.displayPoweredBy }}
                 {{- $raw := `由 [Hugo](https://github.com/gohugoio/hugo) 强行驱动| [reuixiy](https://github.com/reuixiy) 倾情设计` -}}
                 {{- partial "utils/markdownify.html" (dict "Deliver" $Deliver "raw" $raw "isContent" false) -}}
