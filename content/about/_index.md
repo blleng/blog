@@ -2,6 +2,7 @@
 title: 这个人
 date: 2020-03-31T10:52:18+08:00
 align: "center"
+comment: true
 ---
 
 这是一个黑夜的孩子，沉浸于冬天，倾心死亡
