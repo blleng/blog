@@ -12,7 +12,7 @@ copyright = "在保留本文作者及本文链接的前提下，非商业用途�
 theme = "meme"
 
 # `hugo new` 新建文章自动打开的文本编辑器
-newContentEditor = "vim"
+newContentEditor = "gedit"
 
 # i18n
 defaultContentLanguage = "zh"
@@ -231,24 +231,24 @@ uglyURLs = false
         identifier = "about"
 
     ## 首页的底部链接
-    # [[menu.home]]
-    #     url = "/life/"
-    #     weight = 1
-    #     pre = "internal"
-    #     post = "grav"
-    #     identifier = "life"
-    # [[menu.home]]
-    #     url = "/tech/"
-    #     weight = 2
-    #     pre = "internal"
-    #     post = "wpexplorer"
-    #     identifier = "tech"
-    # [[menu.home]]
-    #     url = "/about/"
-    #     weight = 3
-    #     pre = "internal"
-    #     post = "user-circle"
-    #     identifier = "about"
+     [[menu.home]]
+         url = "/life/"
+         weight = 1
+         pre = "internal"
+         post = "grav"
+         identifier = "life"
+     [[menu.home]]
+         url = "/tech/"
+         weight = 2
+         pre = "internal"
+         post = "wpexplorer"
+         identifier = "tech"
+     [[menu.home]]
+         url = "/about/"
+         weight = 3
+         pre = "internal"
+         post = "user-circle"
+         identifier = "about"
 
     ## 社交栏
     [[menu.socials]]
@@ -774,7 +774,7 @@ uglyURLs = false
     expiredDateIcon = "calendar-times"
 
     # 是否显示分类
-    displayCategory = true
+    displayCategory = false
     # 分类的图标
     categoryIcon = "folder"
     # 分类之间的分隔符
@@ -894,7 +894,7 @@ uglyURLs = false
     #      `<video src="`
 
     # 是否开启
-    enableVideoHost = true
+    enableVideoHost = false
 
     # 视频外链地址
     videoHostURL = "https://gateway.pinata.cloud/ipfs/"
