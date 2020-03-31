@@ -23,10 +23,10 @@
             {{- end -}}
             {{- $siteInfoIcon := .Scratch.Get "siteInfoIcon" -}}
 
-            <div class="site-info">{{ printf `%s%s%s%s` $siteInfoCopyright $siteInfoCreatedYear $siteInfoIcon .Site.Author.name | safeHTML }}</div>
+            <div class="site-info"><a href="https://freezing.cool">{{ printf `%s%s%s%s` $siteInfoCopyright $siteInfoCreatedYear $siteInfoIcon .Site.Author.name | safeHTML }}</a></div>
 
             {{- if .Site.Params.displayPoweredBy }}
-                {{- $raw := `Powered by [Hugo](https://github.com/gohugoio/hugo) | Theme is [MemE](https://github.com/reuixiy/hugo-theme-meme)` -}}
+                {{- $raw := `由 [Hugo](https://github.com/gohugoio/hugo) 强行驱动| 主题由 [reuixiy](https://github.com/reuixiy) 倾情设计` -}}
                 {{- partial "utils/markdownify.html" (dict "Deliver" $Deliver "raw" $raw "isContent" false) -}}
                 {{- $Content := .Scratch.Get "Content" -}}
                 <div class="powered-by">{{ $Content | safeHTML }}</div>
