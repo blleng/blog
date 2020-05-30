@@ -6,7 +6,7 @@ title = "freezing.cool"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
-copyright = "在保留本文作者及本文链接的前提下，非商业用途随意转载分享。"
+copyright = "非商业用途随意转载分享，但请保留本文作者及本文链接。"
 
 # 主题选择
 theme = "meme"
@@ -391,7 +391,7 @@ uglyURLs = false
     # 说明：用于 JSON-LD、Open Graph
 
     # 站点的描述
-    siteDescription = "少年拿云，谁念幽寒 | blleng的半个世界"
+    siteDescription = "少年拿云，谁念幽寒　|　blleng 的半个世界"
     # 说明：用于 HTML 的头部元数据、JSON-LD、
     #      Open Graph、Atom、RSS
 
@@ -638,7 +638,7 @@ uglyURLs = false
     # 说明：仅在生产环境（production）下渲染
 
     # 是否开启（全局设置）
-    enableComments = true
+    enableComments = false
     # 说明：文章的 Front Matter 中的 `comments`
     #      的优先级高于此处
 
