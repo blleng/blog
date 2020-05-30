@@ -1,7 +1,6 @@
 ---
 title: 罹寒 
 date: 2020-03-31T10:52:18+08:00
-comments: true
 align: "center"
 ---
 

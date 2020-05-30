@@ -647,9 +647,9 @@ uglyURLs = false
     disqusShortname = ""
 
     ## Valine
-    enableValine = true
-    valineAppId = "jFKsvISXetB9j77rPp1evfjF-gzGzoHsz"
-    valineAppKey = "FOvTTdbnisHh4oYpNA4R2Hrc"
+    enableValine = false
+    valineAppId = ""
+    valineAppKey = ""
     valinePlaceholder = "说点什么..."
     valineNotify = false
     valineVerify = false
