@@ -606,7 +606,7 @@ uglyURLs = false
 
     # 说明：仅在生产环境（production）下渲染
 
-    enableServiceWorker = false
+    enableServiceWorker = true 
     # 说明：需要第三方支持，暂见：
     #      https://io-oi.me/tech/pwa-via-workbox/
 
@@ -1060,7 +1060,7 @@ uglyURLs = false
     enablePostCopyright = true
 
     # 是否显示（全局设置）
-    displayPostCopyright = true
+    displayPostCopyright = false 
     # 说明：文章的 Front Matter 中的 `displayCopyright`
     #      的优先级高于此处
 
@@ -1072,7 +1072,7 @@ uglyURLs = false
     enablePostUpdatedBadge = true
 
     # 是否显示（全局设置）
-    displayUpdatedBadge = true
+    displayUpdatedBadge = false 
     # 说明：文章的 Front Matter 中的 `badge`
     #      的优先级高于此处
 
