@@ -134,10 +134,15 @@ uglyURLs = false
     mediaType = "application/rss+xml"
     baseName = "rss"
 
+# lunr.js 的搜索索引
+[outputFormats.SearchIndex]
+    mediaType = "application/json"
+    baseName = "search"
+
 # Hugo 的输出控制
 [outputs]
     page = ["HTML"]
-    home = ["HTML", "SectionsAtom", "SectionsRSS"]
+    home = ["HTML", "SectionsAtom", "SectionsRSS", "SearchIndex"]
     section = ["HTML"]
     # 类别
     taxonomyTerm = ["HTML"]
@@ -208,6 +213,10 @@ uglyURLs = false
     [[menu.main]]
         weight = 6
         identifier = "theme-switcher"
+    [[menu.main]]
+        weight = 8
+        identifier = "search"
+        post = "search"
     [[menu.main]]
         url = "/faith/"
         name = "静心斋"
@@ -1023,7 +1032,7 @@ uglyURLs = false
     ## 大型小写（英文）
 
     # 是否开启（全局设置）
-    enableSmallCaps = false
+    enableSmallCaps = true
     # 说明：只会应用到分节标题和目录标题
     #      文章的 Front Matter 中的 `smallCaps`
     #      的优先级高于此处
@@ -1051,7 +1060,7 @@ uglyURLs = false
     enablePostCopyright = true
 
     # 是否显示（全局设置）
-    displayPostCopyright = false
+    displayPostCopyright = true
     # 说明：文章的 Front Matter 中的 `displayCopyright`
     #      的优先级高于此处
 
@@ -1063,14 +1072,14 @@ uglyURLs = false
     enablePostUpdatedBadge = true
 
     # 是否显示（全局设置）
-    displayUpdatedBadge = false
+    displayUpdatedBadge = true
     # 说明：文章的 Front Matter 中的 `badge`
     #      的优先级高于此处
 
     # 是否添加 `title`
     enableBadgeTitle = true
     # `title` 的前缀
-    badgeTitlePrefix = "Updated @ "
+    badgeTitlePrefix = "最后更新于 @ "
 
 
     ######################################
@@ -1143,15 +1152,15 @@ uglyURLs = false
     # 相关文章
 
     # 是否开启
-    enableRelatedPosts = false
+    enableRelatedPosts = true
 
     # 是否显示（全局设置）
-    displayRelatedPosts = false
+    displayRelatedPosts = true
     # 说明：文章的 Front Matter 中的 `related`
     #      的优先级高于此处
 
     # 相关文章数
-    relatedPostsNumber = 5
+    relatedPostsNumber = 3
 
     # 相关文章标题右边的图标
     relatedPostsIcon = "plus-circle"
@@ -1178,7 +1187,7 @@ uglyURLs = false
     #      的是一篇更旧的文章。
 
     # 是否开启
-    enablePostNav = false
+    enablePostNav = true
 
     # 是否仅限于相同的文章分区
     postNavInSection = true
@@ -1328,6 +1337,14 @@ uglyURLs = false
 
     enableInstantPage = true
     # 说明：https://github.com/instantpage/instant.page
+    
+    ######################################
+    # Lunr 搜索（暂不支持中文）
+
+    # 说明：需要开启 `SearchIndex` 的输出
+
+    enableLunrSearch = false
+    # 说明：https://lunrjs.com/
 
 
     ######################################
