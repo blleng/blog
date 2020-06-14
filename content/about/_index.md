@@ -9,7 +9,7 @@ date: 2020-03-31T10:52:18+08:00
 
 ---
 
-你好！欢迎来到我的博客，我的江湖诨号为..blleng..，你可以通过域名..freezing.cool..或者..blleng.cn..找到我。你可以关注我的[GitHub](https://github.com/blleng)以随时掌握我的动向。
+你好！欢迎来到我的博客，我的江湖诨号为..blleng..，你可以通过域名freezing.cool或者blleng.cn找到我。你可以关注我的[GitHub](https://github.com/blleng)以随时掌握我的动向。
 
 我是[hexo-theme-lx](https://lx.js.org)的作者，然而本站却由「hugo」搭建，主题为由[reuixiy](https://github.com/reuixix)设计的「Meme」。虽然我从不承认自己抛弃了Hexo，但我确实爱上了Hugo的简洁高速。
 
@@ -19,4 +19,4 @@ date: 2020-03-31T10:52:18+08:00
 
 本站源码托管于GitHub: https://github.com/blleng/blog
 
-本站由..Netlify..提供托管服务。
+感谢..Netlify..提供的托管服务。
