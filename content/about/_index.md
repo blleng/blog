@@ -19,4 +19,4 @@ date: 2020-03-31T10:52:18+08:00
 
 本站源码托管于GitHub: https://github.com/blleng/blog
 
-感谢..Netlify..提供的托管服务。
+感谢..Netlify..提供的自动部署服务。
