@@ -3,7 +3,7 @@ const workboxVersion = '5.1.2';
 importScripts(`https://storage.googleapis.com/workbox-cdn/releases/${workboxVersion}/workbox-sw.js`);
 
 workbox.core.setCacheNameDetails({
-    prefix: "freezing"
+    prefix: "blleng"
 });
 
 workbox.core.skipWaiting();
