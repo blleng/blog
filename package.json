@@ -1,7 +1,7 @@
 {
   "name": "blleng",
-  "version": "1.0.0",
-  "description": "my blog",
+  "version": "1.0.1",
+  "description": "blleng's blog",
   "main": "gulpfile.js",
   "dependencies": {
     "gulp": "^4.0.2",
@@ -20,7 +20,8 @@
   },
   "keywords": [
     "blog",
-    "blleng"
+    "blleng",
+    "freezing"
   ],
   "author": "blleng",
   "license": "MIT",
