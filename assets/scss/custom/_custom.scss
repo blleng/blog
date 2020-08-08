@@ -31,6 +31,15 @@
     color: #555;
 }
 
+@media (max-width: $maxWidth) {
+    .nav {
+        margin: 2em 0;
+    }
+    .menu-item-name {
+        font-size: 80%;
+    }
+}
+
 .nav-toggle {
     transform: translateY(0.4em);
 }
