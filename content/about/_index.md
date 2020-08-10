@@ -15,7 +15,7 @@ date: 2020-03-31T10:52:18+08:00
 
 ---
 
-本站为PWA站点，如果你使用Chrome浏览器访问本站，可根据浏览器提示将本站添加至桌面便于访问，你也可以通过[Atom](https://freezing.cool/atom.xml)/[RSS](https://freezing.cool/rss.xml)订阅本站。
+本站为PWA站点，可根据浏览器提示将本站添加至桌面便于访问，你也可以通过[Atom](https://freezing.cool/atom.xml)/[RSS](https://freezing.cool/rss.xml)订阅本站。
 
 本站源码托管于GitHub: https://github.com/blleng/blog
 
