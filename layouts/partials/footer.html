@@ -43,11 +43,10 @@
                 {{- $raw := . -}}
                 {{- partial "utils/markdownify.html" (dict "Deliver" $Deliver "raw" $raw "isContent" false) -}}
                 {{- $Content := $Deliver.Scratch.Get "Content" -}}
-                <div class="custom-footer">{{ $Content | safeHTML }}</div>
-                <div class="custom-footer" style="width:300px;margin:0 auto; padding:20px 0;"><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51012202000874" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="/beian.png" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">川公网安备 51012202000874号</p></a></div>
-                <div class="custom-footer">蜀ICP备2021002262-1号</div>
+                <div class="custom-footer">{{ $Content | safeHTML }}</div>                
             {{- end }}
-
+                <div><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51012202000874" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="/beian.png" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px">川公网安备 51012202000874号</p></a></div>
+                <div>蜀ICP备2021002262-1号</div>
             {{- if and .Site.Params.displayBusuanziSiteUVAndPV (eq hugo.Environment "production") }}
                 <div class="busuanzi-site-uv-and-pv">
                     <span id="busuanzi_container_site_uv">
