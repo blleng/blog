@@ -12,7 +12,7 @@ copyright = "非商业用途随意转载分享，但请保留本文作者及本�
 theme = "meme"
 
 # `hugo new` 新建文章自动打开的文本编辑器
-newContentEditor = "gedit"
+newContentEditor = "vim"
 
 # i18n
 defaultContentLanguage = "zh"
