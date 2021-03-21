@@ -9,7 +9,7 @@ date: 2020-03-31T10:52:18+08:00
 
 ---
 
--你好！欢迎来到我的博客，我的江湖诨号为..blleng..，你可以通过域名freezing.cool或者blleng.cn找到我。你可以关注我的[GitHub](https://github.com/blleng)以随时掌握我的动向
+你好！欢迎来到我的博客，我的江湖诨号为..blleng..，你可以通过域名freezing.cool或者blleng.cn找到我。你可以关注我的[GitHub](https://github.com/blleng)以随时掌握我的动向
 
 ---
 
