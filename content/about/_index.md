@@ -7,7 +7,9 @@ date = "2020-03-31T10:52:18+08:00"
 
 ---
 
-你好，朋友！欢迎来到这个互联网的蛮荒之地，你可以通过地址[freezing.cool](https://freezing.cool)或者[blleng.cn](https://blleng.cn)再次找到这里。
+你好，朋友。欢迎你来到这个布满残垣、尽是呜咽的蛮荒之地。
+
+你可以通过地址[freezing.cool](https://freezing.cool)或者[blleng.cn](https://blleng.cn)再次找到这里。
 
 也欢迎关注我的[GitHub](https://github.com/blleng)。
 
@@ -20,5 +22,5 @@ date = "2020-03-31T10:52:18+08:00"
 {{< quote >}}
 可贺，你我不期而遇。
 
-*— blleng*
+*— Leng*
 {{< /quote >}}

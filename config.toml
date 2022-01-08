@@ -92,7 +92,7 @@ uglyURLs = false
 # 作者信息
 [author]
     # 名字
-    name = "blleng"
+    name = "Leng"
     # 邮箱
     email = "l0bl@outlook.com"
     # 座右铭或简介
@@ -400,7 +400,7 @@ uglyURLs = false
     # 说明：用于 JSON-LD、Open Graph
 
     # 站点的描述
-    siteDescription = "少年拿云，谁念幽寒　|　blleng 的半个世界"
+    siteDescription = "少年拿云，谁念幽寒　|　blleng"
     # 说明：用于 HTML 的头部元数据、JSON-LD、
     #      Open Graph、Atom、RSS
 
@@ -1246,7 +1246,7 @@ uglyURLs = false
     iconAnimation = false
 
     # 是否显示 Hugo 和 MemE 的链接
-    displayPoweredBy = true
+    displayPoweredBy = false
 
     # 是否显示站点的版权信息
     displaySiteCopyright = false
