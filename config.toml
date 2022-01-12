@@ -2,7 +2,7 @@
 # 站点配置
 
 baseURL = "https://freezing.cool"
-title = "LEGN"
+title = "LENG"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
