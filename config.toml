@@ -2,7 +2,7 @@
 # 站点配置
 
 baseURL = "https://freezing.cool"
-title = "冷的半个世界"
+title = "LEGN"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
