@@ -32,8 +32,6 @@
 
     <!-- Fonts -->
     {{- with .Site.Params.fontsLink -}}
-        <link rel="preconnect" href="https://fonts.font.im" />
-        <link rel="preconnect" href="https://fonts.gstatic.font.im" crossorigin />
         <link rel="stylesheet" href="{{ . }}" media="print" onload="this.media='all'" />
         <noscript><link rel="stylesheet" href="{{ . }}" /></noscript>
     {{- end }}
