@@ -1,5 +1,5 @@
 .list-title, .term-title, .list-year, .list-month {
-    font-family: 'glyph-correction', 'Cinzel Decorative', 'Noto Serif SC', serif;
+    font-family: 'Philosopher', 'Cinzel Decorative', 'Noto Serif SC', serif;
 }
 
 .brand {
@@ -52,26 +52,6 @@
 
 .footer {
     letter-spacing: -0.1em;
-}
-
-@font-face {
-    font-family: 'Amstelvar';
-    font-display: swap;
-    src: url('https://cdn.jsdelivr.net/gh/blleng/blog/static/fonts/Amstelvar-Roman-VF.woff2') format('woff2-variations'),
-         url('https://cdn.jsdelivr.net/gh/blleng/blog/static/fonts/Amstelvar-Roman-VF.woff2') format('woff2');
-    font-weight: 100 900;
-    font-stretch: 50% 125%;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Amstelvar';
-    font-display: swap;
-    src: url('https://cdn.jsdelivr.net/gh/blleng/blog/static/fonts/Amstelvar-Italic-VF.woff2') format('woff2-variations'),
-         url('https://cdn.jsdelivr.net/gh/blleng/blog/static/fonts/Amstelvar-Italic-VF.woff2') format("woff2");
-    font-weight: 100 900;
-    font-stretch: 50% 125%;
-    font-style: italic;
 }
 
 :root {

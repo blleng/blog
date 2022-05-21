@@ -1,11 +1,8 @@
 @font-face {
-    font-family: 'glyph-correction';
-    font-display: swap;
-    src: url('https://cdn.jsdelivr.net/gh/blleng/blog/static/fonts/glyph-correction.woff2') format('woff2'),
-         url('https://cdn.jsdelivr.net/gh/blleng/blog/static/fonts/glyph-correction.woff') format('woff'),
-         url('https://cdn.jsdelivr.net/gh/blleng/blog/static/fonts/glyph-correction.ttf') format('truetype'),
-         url('https://cdn.jsdelivr.net/gh/blleng/blog/static/fonts/glyph-correction.eot') format('embedded-opentype');
-    unicode-range: U+00B7, U+2014, U+2022, U+2026;
-    font-weight: inherit;
+    font-family: 'Philosopher';
     font-style: inherit;
-}
+    font-weight: inherit;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/philosopher/v19/vEFI2_5QCwIS4_Dhez5jcWjValgb8tc.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
