@@ -1,0 +1,50 @@
+name: Blog build & deploy
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+env:
+  TZ: Asia/Shanghai
+
+jobs:
+  build-deploy:
+    name: Hugo build
+    runs-on: ubuntu-18.04
+
+    steps:
+      - name: Checkout Codes
+        uses: actions/checkout@v3
+        with:
+          ref: "master"
+
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: "10.24.1"
+      
+      - name: Cache node modules
+        uses: actions/cache@v1
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+      
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "0.82"
+      
+      - name: Files generate
+        run: |
+          npm install
+          ./node_modules/gulp/bin/gulp.js build && hugo --environment production --minify
+      
+      - name: Deploy to gh-page
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          git-config-name: blleng
+          git-config-email: l0bl@outlook.com
+          branch: gh-page
+          folder: ./public        
