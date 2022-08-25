@@ -2,7 +2,7 @@
 # 站点配置
 
 baseURL = "https://freezing.cool"
-title = "LENG"
+title = "山月记"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
@@ -400,7 +400,7 @@ uglyURLs = false
     # 说明：用于 JSON-LD、Open Graph
 
     # 站点的描述
-    siteDescription = "少年拿云，谁念幽寒　|　blleng"
+    siteDescription = "少年拿云，谁念幽寒。blleng——山月记。"
     # 说明：用于 HTML 的头部元数据、JSON-LD、
     #      Open Graph、Atom、RSS
 
