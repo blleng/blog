@@ -41,9 +41,7 @@
         margin: 2em 0;
     }
     .menu {
-        display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        align-items: center;
         padding: 35px 0 0 0;
     }
     .menu-item-name {
