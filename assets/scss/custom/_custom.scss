@@ -30,7 +30,8 @@
 }
 
 .menu-item {
-    margin-left: 1em;
+    margin-left: 1.5em;
+    font-size: 1.14em;
 }
 
 @media (max-width: $maxWidth) {
@@ -45,6 +46,10 @@
     }
     .header-wrapper {
         padding: 0.8em 0;
+    }
+    .menu-item {
+        margin-left: 1em;
+        font-size: 1em;
     }
 }
 
