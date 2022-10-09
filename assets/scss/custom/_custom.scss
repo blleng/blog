@@ -40,15 +40,18 @@
     .nav {
         margin: 2em 0;
     }
-    .menu {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        padding: 35px 0 0 0;
-    }
     .menu-item-name {
         font-size: 80%;
     }
     .header-wrapper {
         padding: 0.8em 0;
+    }
+}
+
+@media (max-width: $maxWidth) and (min-width: 378px) {
+    .menu {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 35px 0 0 0;
     }
 }
 
