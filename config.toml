@@ -1032,7 +1032,7 @@ uglyURLs = false
     ## 大型小写（英文）
 
     # 是否开启（全局设置）
-    enableSmallCaps = true
+    enableSmallCaps = false
     # 说明：只会应用到分节标题和目录标题
     #      文章的 Front Matter 中的 `smallCaps`
     #      的优先级高于此处
