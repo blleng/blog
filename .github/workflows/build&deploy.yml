@@ -8,6 +8,7 @@ on:
 
 env:
   TZ: Asia/Shanghai
+  GITHUB_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
 
 jobs:
   build:
