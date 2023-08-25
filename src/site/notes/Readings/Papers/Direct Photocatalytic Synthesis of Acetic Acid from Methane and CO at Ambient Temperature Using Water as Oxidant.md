@@ -3,8 +3,7 @@
 ---
 
 
-# Direct Photocatalytic Synthesis of Acetic Acid from Methane and CO at Ambient Temperature Using Water as Oxidant
-
+Title: Direct Photocatalytic Synthesis of Acetic Acid from Methane and CO at Ambient Temperature Using Water as Oxidant
 Type: Journal Article
 Author: Dong, Chunyang; Marinova, Maya; Tayeb, Karima Ben; Safonova, Olga V.; Zhou, Yong; Hu, Di; Chernyak, Sergei; Corda, Massimo; Zaffran, Jérémie; Khodakov, Andrei Y.; Ordomsky, Vitaly V.
 Journal: Journal of the American Chemical Society
