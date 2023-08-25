@@ -22,12 +22,12 @@ jobs:
           submodules: recursive
 
       - name: Setup Node
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3.8.1
         with:
           node-version: "16.20.2"
       
       - name: Cache node modules
-        uses: actions/cache@v1
+        uses: actions/cache@v1.2.1
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
@@ -43,10 +43,9 @@ jobs:
     runs-on: ubuntu-22.04
     
     steps:  
-      - name: Deploy to gh-page
-        uses: JamesIves/github-pages-deploy-action@4.1.4
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          git-config-name: blleng
-          git-config-email: l0bl@outlook.com
-          branch: gh-page
-          folder: dist
+          target_branch: gh-page
+          build_dir: ../dist
+          jekyll: false
