@@ -462,7 +462,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter("dateToZulu", function (date) {
     if (!date) return "";
-    return new Date(date).toISOString("dd-MM-yyyyTHH:mm:ssZ");
+    return new Date(date).toISOString("MMM DD, yyyy HH:mm");
   });
   eleventyConfig.addFilter("jsonify", function (variable) {
     return JSON.stringify(variable) || '""';
