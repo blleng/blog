@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/readings/papers/synergistic-interactions-of-neighboring-platinum-and-iron-atoms-enhance-reverse-water-gas-shift-reaction-performance/","tags":["paper/viewed"]}
+{"dg-publish":true,"permalink":"/readings/papers/synergistic-interactions-of-neighboring-platinum-and-iron-atoms-enhance-reverse-water-gas-shift-reaction-performance/","tags":["paper/viewed"],"created":"Aug 25, 2023 23:48","updated":"Aug 26, 2023 00:32"}
 ---
 
 
