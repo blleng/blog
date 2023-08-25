@@ -10,8 +10,8 @@ env:
   TZ: Asia/Shanghai
 
 jobs:
-  build-deploy:
-    name: Hugo build
+  build:
+    name: Build
     runs-on: ubuntu-22.04
 
     steps:
@@ -32,21 +32,20 @@ jobs:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
       
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: "0.82.0"
-          extended: true
       
       - name: Files generate
         run: |
           npm install
-          ./node_modules/gulp/bin/gulp.js build && hugo --environment production --minify
-      
+          npm run build
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-22.04
+    
+    steps:  
       - name: Deploy to gh-page
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
           git-config-name: blleng
           git-config-email: l0bl@outlook.com
           branch: gh-page
-          folder: ./public        
+          folder: ./dist
