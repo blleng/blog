@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","tags":["gardenEntry"],"created":"Aug 25, 2023 23:56","updated":"Aug 26, 2023 00:32"}
+{"dg-publish":true,"permalink":"/home/","tags":["gardenEntry"],"created":"Aug 25, 2023 11:56 pm","updated":"Aug 26, 2023 12:35 am"}
 ---
 
 
