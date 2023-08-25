@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/3-read/paper/wang-et-al-2023-synergistic-interactions-of-neighboring-platinum-and-iron-atoms-enhance-reverse-water-gas-shift-reaction-performance/","tags":["paper/viewed"],"created":"","updated":""}
+{"Type":"Journal Article","Author":"Wang, Huilin; Bootharaju, Megalamane S.; Kim, Jeong Hyun; Wang, Ying; Wang, Ke; Zhao, Meng; Zhang, Rui; Xu, Jing; Hyeon, Taeghwan; Wang, Xiao; Song, Shuyan; Zhang, Hongjie","Journal":"Journal of the American Chemical Society","Volume":145,"Issue":4,"Pages":"2264-2270","Year":2023,"DOI":"10.1021/jacs.2c10435","tags":["paper/viewed"],"detail":"https://freezing.cool/mind/","dg-publish":true,"date":"2023-08-25-Friday 18:58:49","update":"2023-08-25-Friday 18:58:54","permalink":"/3-read/paper/wang-et-al-2023-synergistic-interactions-of-neighboring-platinum-and-iron-atoms-enhance-reverse-water-gas-shift-reaction-performance/","dgPassFrontmatter":true,"created":"2023-08-25-Friday 18:58:49","updated":"2023-08-25-Friday 18:58:54"}
 ---
 
 
