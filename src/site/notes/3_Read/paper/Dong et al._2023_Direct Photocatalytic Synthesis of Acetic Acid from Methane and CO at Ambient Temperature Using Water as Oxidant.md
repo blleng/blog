@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/3-read/paper/dong-et-al-2023-direct-photocatalytic-synthesis-of-acetic-acid-from-methane-and-co-at-ambient-temperature-using-water-as-oxidant/","tags":["paper/viewed"],"created":"","updated":""}
+{"Type":"Journal Article","Author":"Dong, Chunyang; Marinova, Maya; Tayeb, Karima Ben; Safonova, Olga V.; Zhou, Yong; Hu, Di; Chernyak, Sergei; Corda, Massimo; Zaffran, Jérémie; Khodakov, Andrei Y.; Ordomsky, Vitaly V.","Journal":"Journal of the American Chemical Society","Volume":145,"Issue":2,"Pages":"1185-1193","Year":2023,"DOI":"10.1021/jacs.2c10840","tags":["paper/viewed"],"detail":"https://freezing.cool/mind/","dg-publish":true,"date":"2023-08-25-Friday 18:58:02","update":"2023-08-25-Friday 18:58:31","permalink":"/3-read/paper/dong-et-al-2023-direct-photocatalytic-synthesis-of-acetic-acid-from-methane-and-co-at-ambient-temperature-using-water-as-oxidant/","dgPassFrontmatter":true,"created":"2023-08-25-Friday 18:58:02","updated":"2023-08-25-Friday 18:58:31"}
 ---
 
 
