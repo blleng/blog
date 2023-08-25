@@ -3,8 +3,7 @@
 ---
 
 
-# Synergistic Interactions of Neighboring Platinum and Iron Atoms Enhance Reverse Water–Gas Shift Reaction Performance
-
+Title: Synergistic Interactions of Neighboring Platinum and Iron Atoms Enhance Reverse Water–Gas Shift Reaction Performance
 Type: Journal Article
 Author: Wang, Huilin; Bootharaju, Megalamane S.; Kim, Jeong Hyun; Wang, Ying; Wang, Ke; Zhao, Meng; Zhang, Rui; Xu, Jing; Hyeon, Taeghwan; Wang, Xiao; Song, Shuyan; Zhang, Hongjie
 Journal: Journal of the American Chemical Society
