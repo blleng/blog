@@ -38,6 +38,7 @@ jobs:
           npm install
           npm run build
   deploy:
+    needs: build
     name: Deploy
     runs-on: ubuntu-22.04
     
