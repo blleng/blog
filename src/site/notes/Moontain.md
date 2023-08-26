@@ -1,5 +1,5 @@
 ---
-{"cssClasses":["cards","cards-cols-3"],"contentClasses":"cards cards-cols-3","dg-home":true,"dg-publish":true,"noteIcon":5,"dg-pinned":true,"tags":["gardenEntry","gardenEntry","gardenEntry","gardenEntry"],"metatags":{"description":"Moontain - Digital garden","og:description":"Moontain - Digital garden"},"date":"2023-08-26T14:49","update":"2023-08-26T23:34","permalink":"/moontain/","pinned":true,"dgPassFrontmatter":true,"created":"2023-08-26T14:49","updated":"2023-08-26T23:34"}
+{"cssClasses":["cards","cards-cols-3"],"contentClasses":"cards cards-cols-3","dg-home":true,"dg-publish":true,"noteIcon":5,"dg-pinned":true,"tags":["gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"],"metatags":{"description":"Moontain - Digital garden","og:description":"Moontain - Digital garden"},"date":"2023-08-26T14:49","update":"2023-08-26T23:34","permalink":"/moontain/","pinned":true,"dgPassFrontmatter":true,"created":"2023-08-26T14:49","updated":"2023-08-26T23:34"}
 ---
 
 
@@ -16,7 +16,7 @@ It's [open source](https://github.com/blleng/blog) for sure.
 ## Navigation
 | ("![](" + cover + ")")                                                 | file.link                                              |
 | ---------------------------------------------------------------------- | ------------------------------------------------------ |
-| ![](https://cdn.jsdelivr.net/gh/blleng/images/upload/card-cover-1.svg) | [[Navigation/Papers Collection\|Papers Collection]] |
+| ![](https://cdn.jsdelivr.net/gh/blleng/images/upload/card-cover-1.png) | [[Navigation/Papers Collection\|Papers Collection]] |
 
 { .block-language-dataview}
 
