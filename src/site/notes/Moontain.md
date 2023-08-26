@@ -1,5 +1,5 @@
 ---
-{"cssClasses":["cards","cards-cols-3"],"contentClasses":"cards cards-cols-3","dg-home":true,"dg-publish":true,"note-icon":"boots","noteIcon":"boots","dg-pinned":true,"tags":["gardenEntry","gardenEntry","gardenEntry","gardenEntry"],"metatags":{"description":"Moontain - Digital garden","og:description":"Moontain - Digital garden"},"date":"2023-08-26T14:49","update":"2023-08-26T18:05","permalink":"/moontain/","pinned":true,"dgPassFrontmatter":true,"created":"2023-08-26T14:49","updated":"2023-08-26T18:05"}
+{"cssClasses":["cards","cards-cols-3"],"contentClasses":"cards cards-cols-3","dg-home":true,"dg-publish":true,"note-icon":"boots","noteIcon":"boots","dg-pinned":true,"tags":["gardenEntry","gardenEntry","gardenEntry","gardenEntry"],"metatags":{"description":"Moontain - Digital garden","og:description":"Moontain - Digital garden"},"date":"2023-08-26T14:49","update":"2023-08-26T18:09","permalink":"/moontain/","pinned":true,"dgPassFrontmatter":true,"created":"2023-08-26T14:49","updated":"2023-08-26T18:09"}
 ---
 
 
@@ -41,5 +41,4 @@ Fertilizer (![fertilizer|15](https://cdn.jsdelivr.net/gh/blleng/images/upload/fe
 ### Boots
 boots (![boots|15](https://cdn.jsdelivr.net/gh/blleng/images/upload/boots.svg)) are notes that allow us to navigate easily (e.g. Collection of books or writings).
 
----
 [^1]: 引自洛夫的诗
