@@ -1,2 +1,1 @@
-{% if metatags %}{% for name, content in metatags %}<meta name="{{ name }}" content="{{ content }}">{% endfor %}{% endif %}
-{% if tags and "gardenEntry" in tags %}<meta name="og:image" content="https://cdn.jsdelivr.net/gh/blleng/images/upload/astronomy.svg">{% else for icon in note-icon %}<meta name="og:image" content="https://cdn.jsdelivr.net/gh/blleng/images/upload/{{icon}}.svg">{% endfor endif %}
+{% if "gardenEntry" in tags %}<meta name="og:image" content="https://cdn.jsdelivr.net/gh/blleng/images/upload/astronomy.svg">{% else %}<meta name="og:image" content="https://cdn.jsdelivr.net/gh/blleng/images/upload/{{note-icon}}.svg">{% endif %}
