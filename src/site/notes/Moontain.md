@@ -1,5 +1,5 @@
 ---
-{"cssClasses":["cards","cards-cols-3","cards-cover","cards-cover-no-border","cards-title-hide-icons"],"dg-home":true,"dg-publish":true,"note-icon":"boots","dg-pinned":true,"date":"2023-08-26T14:49","update":"2023-08-26T15:49","permalink":"/moontain/","pinned":true,"tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"boots","created":"2023-08-26T14:49","updated":"2023-08-26T15:49"}
+{"cssClasses":["cards","cards-cols-3"],"contentClasses":"cards cards-cols-3","dg-home":true,"dg-publish":true,"note-icon":"boots","dg-pinned":true,"date":"2023-08-26T14:49","update":"2023-08-26T16:02","permalink":"/moontain/","pinned":true,"tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"boots","created":"2023-08-26T14:49","updated":"2023-08-26T16:02"}
 ---
 
 
@@ -14,7 +14,7 @@ This site serves as a digital garden containing musings from me and treasures fr
 It's [open source](https://github.com/blleng/blog) for sure.
 
 ## Navigation
-| cover                                                                      | Title                                                  |
+| ("![](" + cover + ")")                                                     | file.link                                              |
 | -------------------------------------------------------------------------- | ------------------------------------------------------ |
 | ![](https://cdn.jsdelivr.net/gh/blleng/images/upload/papersCollection.png) | [[Navigation/Papers Collection\|Papers Collection]] |
 
