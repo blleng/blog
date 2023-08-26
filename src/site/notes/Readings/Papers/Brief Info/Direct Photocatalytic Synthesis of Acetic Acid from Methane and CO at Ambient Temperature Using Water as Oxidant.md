@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/readings/papers/brief-info/direct-photocatalytic-synthesis-of-acetic-acid-from-methane-and-co-at-ambient-temperature-using-water-as-oxidant/","tags":["paper/viewed"],"created":"2023-08-25T23:48","updated":"2023-08-26T01:05"}
+{"dg-publish":true,"permalink":"/readings/papers/brief-info/direct-photocatalytic-synthesis-of-acetic-acid-from-methane-and-co-at-ambient-temperature-using-water-as-oxidant/","tags":["paper/viewed"],"noteIcon":"fertilizer","created":"2023-08-25T23:48","updated":"2023-08-26T13:30"}
 ---
 
 
