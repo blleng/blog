@@ -3,13 +3,13 @@
         {% for row in userComputed.forest.trees %}
         <div class="forest-row">
             {% for tree in row %}
-            {% if tree[seedling] == 0 %}
+            {% if tree[0] == 0 %}
             <span class="tree plane">
                 <span></span>
             </span>
             {% else %}
-            <a class="tree" href="{{tree[sapling]}}" title="{{tree[tree]}}">
-                <img src="https://cdn.jsdelivr.net/gh/blleng/images/upload/{{tree[seedling]}}.svg" alt="" style="width: auto;height: {{5 + (10 * tree[tree])}}px;" />
+            <a class="tree" href="{{tree[1]}}" title="{{tree[2]}}">
+                <img src="https://cdn.jsdelivr.net/gh/blleng/images/upload/{{tree[0]}}.svg" alt="" style="width: auto;height: {{5 + (10 * tree[3])}}px;" />
             </a>
             {% endif %}
             {% endfor %}
@@ -18,7 +18,7 @@
     </div>
     <div class="forest-legends">
         {% for count in userComputed.forest.legends %}
-        <div class="stat"><img src="https://cdn.jsdelivr.net/gh/blleng/images/upload/{{count.icon}}.svg" alt="{{count.label}}" />{{count.count}} {% if count.count > 1 %}{% if count.plural %}{{count.plural}}{% else %}{{count.label}}s{% endif %}{% else %}{{count.label}}{% endif %}</div>
+        <div class="stat"><img src="/img/{{count.icon}}.svg" alt="{{count.label}}" />{{count.count}} {% if count.count > 1 %}{% if count.plural %}{{count.plural}}{% else %}{{count.label}}s{% endif %}{% else %}{{count.label}}{% endif %}</div>
         {% endfor %}
     </div>
 </div>
