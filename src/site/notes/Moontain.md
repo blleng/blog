@@ -1,5 +1,5 @@
 ---
-{"cssClasses":["cards","cards-cols-3"],"contentClasses":"cards cards-cols-3","dg-home":true,"dg-publish":true,"noteIcon":5,"dg-pinned":true,"tags":["gardenEntry","gardenEntry","gardenEntry","gardenEntry"],"metatags":{"description":"Moontain - Digital garden","og:description":"Moontain - Digital garden"},"date":"2023-08-26T14:49","update":"2023-08-27T00:19","permalink":"/moontain/","pinned":true,"dgPassFrontmatter":true,"created":"2023-08-26T14:49","updated":"2023-08-27T00:19"}
+{"cssClasses":["cards","cards-cols-3"],"contentClasses":"cards cards-cols-3","dg-home":true,"dg-publish":true,"noteIcon":5,"dg-pinned":true,"tags":["gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"],"metatags":{"description":"Moontain - Digital garden","og:description":"Moontain - Digital garden"},"date":"2023-08-26T14:49","update":"2023-08-27T00:19","permalink":"/moontain/","pinned":true,"dgPassFrontmatter":true,"created":"2023-08-26T14:49","updated":"2023-08-27T00:19"}
 ---
 
 
@@ -14,9 +14,10 @@ This site serves as a digital garden containing musings from me and treasures fr
 It's [open source](https://github.com/blleng/blog) for sure.
 
 ## Navigation
-| ("![](" + cover + ")")                                                 | file.link                                              |
-| ---------------------------------------------------------------------- | ------------------------------------------------------ |
-| ![](https://cdn.jsdelivr.net/gh/blleng/images/upload/card-cover-1.png) | [[Navigation/Papers Collection\|Papers Collection]] |
+| ("![](" + cover + ")")                                                 | file.link                                                  |
+| ---------------------------------------------------------------------- | ---------------------------------------------------------- |
+| ![](https://cdn.jsdelivr.net/gh/blleng/images/upload/card-cover-1.png) | [[Navigation/Papers Collection\|Papers Collection]]     |
+| ![](https://cdn.jsdelivr.net/gh/blleng/images/upload/card-cover-2.png) | [[Navigation/Projects Collection\|Projects Collection]] |
 
 { .block-language-dataview}
 
