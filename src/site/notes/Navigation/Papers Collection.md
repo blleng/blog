@@ -1,5 +1,5 @@
 ---
-{"index":1,"cssClasses":["cards","cards-cols-3"],"contentClasses":"cards cards-cols-3","cover":"https://cdn.jsdelivr.net/gh/blleng/images/upload/papersCollection.png","dg-publish":true,"noteIcon":5,"date":"2023-08-25T23:56","update":"2023-08-26T20:46","permalink":"/navigation/papers-collection/","dgPassFrontmatter":true,"created":"2023-08-25T23:56","updated":"2023-08-26T20:46"}
+{"index":1,"cssClasses":["cards","cards-cols-3"],"contentClasses":"cards cards-cols-3","cover":"https://cdn.jsdelivr.net/gh/blleng/images/upload/card-cover-1.svg","dg-publish":true,"noteIcon":5,"date":"2023-08-25T23:56","update":"2023-08-26T23:34","permalink":"/navigation/papers-collection/","dgPassFrontmatter":true,"created":"2023-08-25T23:56","updated":"2023-08-26T23:34"}
 ---
 
 
