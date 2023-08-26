@@ -1,5 +1,5 @@
 ---
-{"tags":["paper/viewed"],"dg-publish":true,"noteIcon":6,"date":"2023-08-25T23:48","update":"2023-08-26T21:02","permalink":"/readings/papers/brief-info/direct-photocatalytic-synthesis-of-acetic-acid-from-methane-and-co-at-ambient-temperature-using-water-as-oxidant/","dgPassFrontmatter":true,"created":"2023-08-25T23:48","updated":"2023-08-26T21:02"}
+{"tags":["paper/viewed"],"dg-publish":true,"noteIcon":6,"Journal":"Journal of the American Chemical Society","Year":2023,"DOI":"10.1021/jacs.2c10840","date":"2023-08-25T23:48","update":"2023-08-26T21:04","permalink":"/readings/papers/brief-info/direct-photocatalytic-synthesis-of-acetic-acid-from-methane-and-co-at-ambient-temperature-using-water-as-oxidant/","dgPassFrontmatter":true,"created":"2023-08-25T23:48","updated":"2023-08-26T21:04"}
 ---
 
 
