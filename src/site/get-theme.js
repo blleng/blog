@@ -37,7 +37,10 @@ async function getTheme() {
         return match;
       }
     });
-    fs.writeFileSync(`src/site/styles/_theme.css`, data);
+    const hashSum = crypto.createHash("sha256");
+    hashSum.update(data);
+    const hex = hashSum.digest("hex");
+    fs.writeFileSync(`src/site/styles/_theme.${hex.substring(0, 8)}.css`, data);
   }
 }
 
