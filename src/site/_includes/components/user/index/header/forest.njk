@@ -3,13 +3,13 @@
         {% for row in userComputed.forest.trees %}
         <div class="forest-row">
             {% for tree in row %}
-            {% if tree[0] == 0 %}
-            <span class="tree plane}">
+            {% if tree[seedling] == 0 %}
+            <span class="tree plane">
                 <span></span>
             </span>
             {% else %}
-            <a class="tree" href="{{tree[1]}}" title="{{tree[2]}}">
-                <img src="https://cdn.jsdelivr.net/gh/blleng/images/upload/{{tree[0]}}.svg" alt="" style="width: auto;height: {{5 + (10 * tree[3])}}px;" />
+            <a class="tree" href="{{tree[sapling]}}" title="{{tree[tree]}}">
+                <img src="https://cdn.jsdelivr.net/gh/blleng/images/upload/{{tree[seedling]}}.svg" alt="" style="width: auto;height: {{5 + (10 * tree[tree])}}px;" />
             </a>
             {% endif %}
             {% endfor %}
