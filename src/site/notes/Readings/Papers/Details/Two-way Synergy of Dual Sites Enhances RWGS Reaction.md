@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/readings/papers/details/two-way-synergy-of-dual-sites-enhances-rwgs-reaction/","tags":["paper/detailed/bimetallic","paper/detailed/synergy"],"noteIcon":"sapling","created":"2023-08-26T00:59","updated":"2023-08-26T13:34"}
+{"dg-publish":true,"permalink":"/readings/papers/details/two-way-synergy-of-dual-sites-enhances-rwgs-reaction/","tags":["paper/detailed/bimetallic","paper/detailed/synergy"],"noteIcon":"sapling","created":"2023-08-26T00:59","updated":"2023-08-26T13:44"}
 ---
 
 
