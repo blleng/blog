@@ -1,5 +1,5 @@
 ---
-{"cssClasses":["cards","cards-cols-3"],"contentClasses":"cards cards-cols-3","dg-home":true,"dg-publish":true,"note-icon":"boots","dg-pinned":true,"date":"2023-08-26T14:49","update":"2023-08-26T16:02","permalink":"/moontain/","pinned":true,"tags":["gardenEntry"],"dgPassFrontmatter":true,"noteIcon":"boots","created":"2023-08-26T14:49","updated":"2023-08-26T16:02"}
+{"cssClasses":["cards","cards-cols-3"],"contentClasses":"cards cards-cols-3","dg-home":true,"dg-publish":true,"note-icon":"boots","dg-pinned":true,"tags":["gardenEntry","gardenEntry","gardenEntry","gardenEntry"],"date":"2023-08-26T14:49","update":"2023-08-26T16:53","permalink":"/moontain/","pinned":true,"dgPassFrontmatter":true,"noteIcon":"boots","created":"2023-08-26T14:49","updated":"2023-08-26T16:53"}
 ---
 
 
