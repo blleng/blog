@@ -32,10 +32,10 @@ function getPositions(trees) {
 }
 
 const noteLabels = {
-  "note-icon-1": { label: "Seedling", count: 0, icon: "note-icon-1" },
-  "note-icon-2": { label: "Sapling", count: 0, icon: "note-icon-2" },
-  "note-icon-3": { label: "Tree", count: 0, icon: "note-icon-3" },
-  "note-icon-4": { label: "Axe", count: 0, icon: "note-icon-4" },
+  "note-icon-1": { label: "Seedlings", count: 0, icon: "note-icon-1" },
+  "note-icon-2": { label: "Saplings", count: 0, icon: "note-icon-2" },
+  "note-icon-3": { label: "Trees", count: 0, icon: "note-icon-3" },
+  "note-icon-4": { label: "Axes", count: 0, icon: "note-icon-4" },
   "note-icon-5": { label: "Boots", count: 0, icon: "note-icon-5" },
   "note-icon-6": { label: "Fertilizer", count: 0, icon: "note-icon-6" },
 };
