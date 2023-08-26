@@ -32,17 +32,12 @@ function getPositions(trees) {
 }
 
 const noteLabels = {
-  "tree-1": { label: "Seedling", count: 0, icon: "tree-1" },
-  "tree-2": { label: "Sapling", count: 0, icon: "tree-2" },
-  "tree-3": { label: "Tree", count: 0, icon: "tree-3" },
-  withered: {
-    label: "Withered",
-    plural: "Withered",
-    count: 0,
-    icon: "withered",
-  },
-  signpost: { label: "Signpost", count: 0, icon: "signpost" },
-  stone: { label: "Stone", count: 0, icon: "stone" },
+  "note-icon-1": { label: "Seedling", count: 0, icon: "note-icon-1" },
+  "note-icon-2": { label: "Sapling", count: 0, icon: "note-icon-2" },
+  "note-icon-3": { label: "Tree", count: 0, icon: "note-icon-3" },
+  "note-icon-4": { label: "Axe", count: 0, icon: "note-icon-4" },
+  "note-icon-5": { label: "Boots", count: 0, icon: "note-icon-5" },
+  "note-icon-6": { label: "Fertilizer", count: 0, icon: "note-icon-6" },
 };
 
 function forestData(data) {
@@ -54,7 +49,7 @@ function forestData(data) {
       v = n.data.noteIcon;
     } else {
       height = v;
-      v = `tree-${v}`;
+      v = `note-icon-${v}`;
     }
     treeCounts[v].count++;
     return [v, n.url, n.data.title || n.fileSlug, height];
