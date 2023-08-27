@@ -48,14 +48,16 @@
             </div>
         {%endif%}
         <div class="folder" x-data="{isOpen: true}">
-            <ul class="sidebar-nav">
-                <li class="nav-identity">
+        <div class="sidebar-nav">
+            <ul>
+                <li class="current">
                     Contents
                 </li>
-                <li class="nav-identity current">
+                <li>
                     Overview
                 </li>
             </ul>
+        </div>
             <div class="sidebar-panel-container">
             {% if settings.dgShowToc === true %}
                 <div class="item">
