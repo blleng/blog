@@ -7,7 +7,7 @@
                   {%if settings.dgShowLocalGraph === true%}
                         {%include "components/graphScript.njk"%}
                   {%endif%}
-                  {%if dg-home %}
+                  {%if dg-home==true %}
                         {%if settings.dgShowToc === true%}
                               {%set tocHtml= (content and (content|toc)) %}
                                     {%if tocHtml %}
