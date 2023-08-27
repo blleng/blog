@@ -38,8 +38,8 @@
 <script async src="https://cdn.polyfill.io/v3/polyfill.min.js?features=es6"></script>
 
 <script>
-var lis = document.querySelectorAll('ul.sidebar-nav li');
-var items = document.querySelectorAll('div.sidebar-panel-container div.item')
+var lis = document.querySelectorAll('li.nav-identity');
+var items = document.querySelectorAll('.item')
 for (var i = 0; i < lis.length; i++) {
  lis[i].setAttribute('data-index', i)
  lis[i].onclick = function () {
@@ -55,5 +55,5 @@ for (var i = 0; i < lis.length; i++) {
           }
            items[index].style.display = 'block'
         }
-        }
+}
 </script>

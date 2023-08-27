@@ -49,16 +49,17 @@
         {%endif%}
         <div class="folder" x-data="{isOpen: true}">
             <ul class="sidebar-nav">
-                <li class="sidebar-nav-toc">
+                <li class="nav-identity">
                     Contents
                 </li>
-                <li class="sidebar-nav-overview current">
+                <li class="nav-identity current">
                     Overview
                 </li>
             </ul>
             <div class="sidebar-panel-container">
             {% if settings.dgShowToc === true %}
-                <div class="post-toc animated item">
+                <div class="item">
+                <div class="post-toc animated">
                 {%set tocHtml= (content and (content|toc)) %}{%if tocHtml %}
                 <div class="toc">
                     <div class="toc-title-container">
@@ -70,11 +71,14 @@
                 </div>
                 {%endif%}
                 </div>
+                </div>
             {% endif %}
-                <div class="site-overview item">
+                <div class="item">
+                <div class="site-overview">
                 {%- for fileOrFolderName, fileOrFolder in filetree -%}
                     {{menuItem(fileOrFolderName, fileOrFolder, 0, fileOrFolderName)}}
                 {%- endfor -%}
+                </div>
                 </div>
             </div>
         </div> 
