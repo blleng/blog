@@ -8,6 +8,9 @@ body {
     --note-icon-1: url(https://cdn.jsdelivr.net/gh/blleng/images/upload/note-icon-1.svg);
     --note-icon-2: url(https://cdn.jsdelivr.net/gh/blleng/images/upload/note-icon-2.svg);
     --note-icon-3: url(https://cdn.jsdelivr.net/gh/blleng/images/upload/note-icon-3.svg);
+    --note-icon-4: url(https://cdn.jsdelivr.net/gh/blleng/images/upload/note-icon-4.svg);
+    --note-icon-5: url(https://cdn.jsdelivr.net/gh/blleng/images/upload/note-icon-5.svg);
+    --note-icon-6: url(https://cdn.jsdelivr.net/gh/blleng/images/upload/note-icon-6.svg);
     --note-icon-fallback: url(https://cdn.jsdelivr.net/gh/blleng/images/upload/default-note-icon.svg);
     --graph-main: var(--text-accent);
     --graph-muted: var(--text-muted);
@@ -256,7 +259,7 @@ ul.task-list {
     width: fit-content;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1400px) {
     #link-graph {
         border-radius: 0 10px 10px 10px;
     }
@@ -278,6 +281,10 @@ ul.task-list {
         justify-content: space-between;
     }
 
+    .sidebar .backlinks {
+        order:3;
+    }
+
     .graph {
         flex: 1;
         .graph-title-container {
@@ -288,7 +295,13 @@ ul.task-list {
     .toc {
         display: none;
     }
+
+    .sidebar .toc-container {
+        max-height:320px;
+    }
+
 }
+
 @media (max-width: 800px) {
     .sidebar-container {
         display: flex;
@@ -559,7 +572,7 @@ ul.task-list {
 }
 
 .callout {
-    font-family: var(--font-default);
+    font-family: 'Noto Serif SC', serif;
     word-wrap: break-word;
     display: block;
     font-size: 1rem;
@@ -577,6 +590,10 @@ ul.task-list {
 
 .callout-fold .lucide {
     transition: transform 100ms ease-in-out;
+}
+
+.callout-icon {
+    transform: rotate(180deg);
 }
 
 // Graph Controls
@@ -714,6 +731,27 @@ body.filetree-note-icon .filename[data-note-icon="3"]::before,
 body.links-note-icon .internal-link[data-note-icon="3"]::before,
 body.backlinks-note-icon .backlink[data-note-icon="3"]::before {
     background-image: var(--note-icon-3);
+}
+
+body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon="4"]::before,
+body.filetree-note-icon .filename[data-note-icon="4"]::before,
+body.links-note-icon .internal-link[data-note-icon="4"]::before,
+body.backlinks-note-icon .backlink[data-note-icon="4"]::before {
+    background-image: var(--note-icon-4);
+}
+
+body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon="5"]::before,
+body.filetree-note-icon .filename[data-note-icon="5"]::before,
+body.links-note-icon .internal-link[data-note-icon="5"]::before,
+body.backlinks-note-icon .backlink[data-note-icon="5"]::before {
+    background-image: var(--note-icon-5);
+}
+
+body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon="6"]::before,
+body.filetree-note-icon .filename[data-note-icon="6"]::before,
+body.links-note-icon .internal-link[data-note-icon="6"]::before,
+body.backlinks-note-icon .backlink[data-note-icon="6"]::before {
+    background-image: var(--note-icon-6);
 }
 
 .timestamps {

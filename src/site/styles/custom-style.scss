@@ -323,6 +323,10 @@ body .cards th,body .cards td {
     gap:5px;
 }
 
+body .cards td a.external-link {
+    background-image: none;
+}
+
 body .cards th a.tag,body .cards td a.tag {
     padding:3px !important;
 }
@@ -348,6 +352,10 @@ body .cards table.dataview.table-view-table tbody tr td img.inset-cover {
     padding:0;
 }
 
+body .cards table.dataview tbody>tr>td img {
+    background-color: #eaeaea;
+}
+
 body code[class*=language-],body pre[class*=language-] {
     text-shadow:unset;
 }
@@ -355,24 +363,6 @@ body code[class*=language-],body pre[class*=language-] {
 .align-icon {
     display:inline-flex;
     align-items:center;
-}
-
-.pill {
-    background-color:var(--tag-background);
-    border:var(--tag-border-width) solid var(--tag-border-color);
-    border-radius:var(--tag-radius);
-    color:var(--tag-color);
-    font-size:var(--tag-size);
-    text-decoration:var(--tag-decoration);
-    padding:var(--tag-padding-y) var(--tag-padding-x);
-    line-height:1;
-}
-
-.pill:hover {
-    background-color:var(--tag-background-hover);
-    border:var(--tag-border-width) solid var(--tag-border-color-hover);
-    color:var(--tag-color-hover);
-    text-decoration:var(--tag-decoration-hover);
 }
 
 .aliases {
@@ -403,18 +393,6 @@ body code[class*=language-],body pre[class*=language-] {
 
 .sidebar .backlinks {
     flex:unset;
-}
-
-body.title-note-icon .cm-s-obsidian>header>h1[data-note-icon="6"]::before,body.filetree-note-icon .filename[data-note-icon="6"]::before,body.links-note-icon .internal-link[data-note-icon="6"]::before,body.backlinks-note-icon .backlink[data-note-icon="6"]::before {
-    background-image:url(https://cdn.jsdelivr.net/gh/blleng/images/upload/note-icon-6.svg);
-}
-
-body.title-note-icon .cm-s-obsidian>header>h1[data-note-icon="5"]::before,body.filetree-note-icon .filename[data-note-icon="5"]::before,body.links-note-icon .internal-link[data-note-icon="5"]::before,body.backlinks-note-icon .backlink[data-note-icon="5"]::before {
-    background-image:url(https://cdn.jsdelivr.net/gh/blleng/images/upload/note-icon-5.svg);
-}
-
-body.title-note-icon .cm-s-obsidian>header>h1[data-note-icon="4"]::before,body.filetree-note-icon .filename[data-note-icon="4"]::before,body.links-note-icon .internal-link[data-note-icon="4"]::before,body.backlinks-note-icon .backlink[data-note-icon="4"]::before {
-    background-image:url(https://cdn.jsdelivr.net/gh/blleng/images/upload/note-icon-4.svg);
 }
 
 body nav.navbar .navbar-inner h1::before {
@@ -463,52 +441,20 @@ body.theme-dark nav.navbar .navbar-inner h1::before {
     background-position:bottom;
 }
 
-td a.external-link {
-    background-image: none;
-}
-
-.cards table.dataview tbody>tr>td img {
-    background-color: #eaeaea;
-}
-
-.callout {
-    font-family: 'Noto Serif SC', serif;
-}
-
-.callout-icon {
-    transform: rotate(180deg);
-}
-
 @media(max-width: 1490px) {
     body .graph {
         display:block !important;
         order:3;
     }
-}
 
-@media(max-width: 1490px) {
     body .toc {
         display:block !important;
     }
-}
 
-@media(max-width: 1490px) {
     body .sidebar-container {
         flex-wrap:wrap;
         flex-direction:row;
         justify-content:space-between;
-    }
-}
-
-@media(max-width: 1000px) {
-    .sidebar .backlinks {
-        order:3;
-    }
-}
-
-@media(max-width: 1000px) {
-    .sidebar .toc-container {
-        max-height:320px;
     }
 }
 
