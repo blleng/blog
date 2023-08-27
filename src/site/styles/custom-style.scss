@@ -154,33 +154,10 @@ body .cm-s-obsidian>*[id] {
     cursor:pointer;
 }
 
-body .cm-s-obsidian>*[id]:hover {
-    border:1px dotted;
-    border-color:var(--text-accent);
-    margin-left:-10px;
-    margin-right:-10px;
-    padding:10px;
-}
-
 body .cm-s-obsidian>*[id]:hover::before {
-    content:"Double-click to copy link";
+    content:"#";
     position:absolute;
-    right:0;
-    top:-1.55em;
-    font-weight:normal;
-    font-size:12px;
-    color:var(--text-accent);
-    font-variant:initial;
-    letter-spacing:.24px;
-    line-height:14px;
-}
-
-body .referred {
-    border:1px dashed;
-    border-color:var(--text-accent);
-    padding:10px;
-    margin-left:-10px;
-    margin-right:-10px;
+    left:0;
 }
 
 body #floating-control {
@@ -369,27 +346,6 @@ body .cards table.dataview.table-view-table tbody tr td img.inset-cover {
     top:0px;
     right:0px;
     padding:0;
-}
-
-body .cards-cover-no-border table.dataview.table-view-table tbody tr td:first-child {
-    width:100%;
-}
-
-body .cards-cover-no-border table.dataview.table-view-table tbody tr td:first-child img {
-    padding:0;
-}
-
-body .cards-cover-no-border table.dataview.table-view-table tbody tr td:nth-child(2) {
-    min-height:70px;
-}
-
-body .cards-cover-no-border table.dataview.table-view-table tbody tr td svg {
-    width:14px;
-    height:auto;
-}
-
-body .cards-title-hide-icons table.dataview.table-view-table tbody tr td:nth-child(2) a::before,body .cards-title-hide-icons table.dataview.table-view-table tbody tr td:first-child a::before {
-    display:none;
 }
 
 body code[class*=language-],body pre[class*=language-] {
