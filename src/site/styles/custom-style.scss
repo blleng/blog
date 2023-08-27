@@ -465,3 +465,11 @@ body.theme-dark nav.navbar .navbar-inner h1::before {
         transform:rotate(45deg) scale(0.9);
     }
 }
+
+ul.sidebar-nav li {
+    float: left;
+    list-style-type: none;
+    padding: 0 20px;
+    text-align: center;
+    cursor: pointer;
+}
