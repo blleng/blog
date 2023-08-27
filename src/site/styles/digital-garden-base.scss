@@ -230,7 +230,7 @@ ul.task-list {
     }
 
     .graph-title {
-        width: fit-content;
+        width: 100%;
         background-color: var(--background-secondary);
         margin: 10px 0 0 0;
         padding: 3px 7px;
@@ -243,14 +243,11 @@ ul.task-list {
 #link-graph {
     background-color: var(--background-secondary);
     margin-bottom: 20px;
-    border-radius: 10px 0 10px 10px;
+    border-radius: 0 0 10px 10px;
     width: fit-content;
 }
 
 @media (max-width: 1400px) {
-    #link-graph {
-        border-radius: 0 10px 10px 10px;
-    }
     .sidebar {
         position: relative;
         transform: none;
