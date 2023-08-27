@@ -1,9 +1,12 @@
 /*# sourceMappingURL=custom-style.css.map */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500&display=swap');
+
 :root {
     --h1-color:var(--interactive-accent);
 }
 
 body {
+    font-family: 'Noto Serif SC', serif;
     --graph-main:var(--text-accent);
     --graph-muted:rgba(126, 126, 126, 0.5);
 }
@@ -508,6 +511,10 @@ td a.external-link {
 
 .cards table.dataview tbody>tr>td img {
     background-color: #eaeaea;
+}
+
+.callout {
+    font-family: 'Noto Serif SC', serif;
 }
 
 @media(max-width: 1490px) {
