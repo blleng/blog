@@ -76,4 +76,22 @@
     {% endfor %}
     {%include "components/lucideIcons.njk"%}
     </body>
+    <script>
+var lis = document.querySelectorAll('div.sidebar-nav li');
+var items = document.querySelectorAll('.item');
+for (var i = 0; i < lis.length; i++) {
+    lis[i].setAttribute('data-index', i);
+    lis[i].onclick = function () {
+        for (var i = 0; i < lis.length; i++) {
+            lis[i].className = '';
+        }
+        this.className = 'current';
+        var index = this.getAttribute('data-index');
+        for (var j = 0; j < items.length; j++) {
+            items[j].style.display = 'none';
+        }
+        items[index].style.display = 'block';
+    }
+}
+</script>
   </html>
