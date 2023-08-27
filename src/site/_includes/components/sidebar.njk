@@ -7,7 +7,7 @@
                   {%if settings.dgShowLocalGraph === true%}
                         {%include "components/graphScript.njk"%}
                   {%endif%}
-                  {%if "gardenEntry" in tags%}
+                  {%if dg-home %}
                         {%if settings.dgShowToc === true%}
                               {%set tocHtml= (content and (content|toc)) %}
                                     {%if tocHtml %}
