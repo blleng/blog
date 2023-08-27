@@ -60,7 +60,7 @@
         </div>
             <div class="sidebar-panel-container">
             {% if settings.dgShowToc === true %}
-                <div class="item style="display: block;">
+                <div class="item" style="display: block;">
                 <div class="post-toc animated">
                 {%set tocHtml= (content and (content|toc)) %}{%if tocHtml %}
                 <div class="toc">
