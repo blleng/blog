@@ -16,6 +16,7 @@ body {
 body .timestamps {
     display:flex;
     flex-direction:row;
+    flex-wrap: wrap;
     font-size:.8em;
     color:var(--text-muted);
     gap:10px;
