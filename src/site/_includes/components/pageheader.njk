@@ -1,10 +1,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="/styles/digital-garden-base.css" rel="stylesheet">
 {%-if meta.themeStyle%}
-    <link href="https://cdn.jsdelivr.net/gh/blleng/blog@gh-page/styles/obsidian-base.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/gh/blleng/blog@gh-page{{meta.themeStyle}}" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/blleng/blog@gh-page/styles/obsidian-base.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/blleng/blog@gh-page{{meta.themeStyle}}" rel="stylesheet">
 {% else %}
-    <link href="https://cdn.jsdelivr.net/gh/blleng/blog@gh-page/styles/style.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/blleng/blog@gh-page/styles/style.css" rel="stylesheet">
 {%endif%}
 <link href="/styles/custom-style.css" rel="stylesheet">
 {%- for style in dynamics.styles -%}
@@ -14,13 +14,18 @@
 {% favicons './src/site/favicon.svg', appleIconBgColor='#123' %}
 {% if metatags %}
     {% for name, content in metatags %}
-        <meta name="{{ name }}" content="{{ content }}">
+    <meta name="{{ name }}" content="{{ content }}">
     {% endfor %}
 {% endif %}
+{% if "gardenEntry" in tags %}
+    <meta name="og:image" content="https://cdn.jsdelivr.net/gh/blleng/images/upload/astronomy.svg">
+    {% elif noteIcon in [1,2,3,4,5,6] %}
+    <meta name="og:image" content="https://cdn.jsdelivr.net/gh/blleng/images/upload/note-icon-{{noteIcon}}.svg">
+{% endif %}
 {% if meta.styleSettingsCss %}
-    <style>
-        {{ meta.styleSettingsCss | safe }}
-    </style>
+<style>
+    {{ meta.styleSettingsCss | safe }}
+</style>
 {% endif %}
 <script src="https://cdn.jsdelivr.net/npm/mermaid@9.4.0/dist/mermaid.min.js"></script>
 <script>
