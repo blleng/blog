@@ -1,11 +1,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="/styles/digital-garden-base.css" rel="stylesheet">
-{%-if meta.themeStyle%}
-<link href="https://cdn.jsdelivr.net/gh/blleng/blog@gh-page/styles/obsidian-base.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/blleng/blog@gh-page/styles/base.css" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/gh/blleng/blog@gh-page{{meta.themeStyle}}" rel="stylesheet">
-{% else %}
-<link href="https://cdn.jsdelivr.net/gh/blleng/blog@gh-page/styles/style.css" rel="stylesheet">
-{%endif%}
 <link href="/styles/custom-style.css" rel="stylesheet">
 {%- for style in dynamics.styles -%}
 <link href="{{style}}" rel="stylesheet">
