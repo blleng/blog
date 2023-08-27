@@ -517,6 +517,10 @@ td a.external-link {
     font-family: 'Noto Serif SC', serif;
 }
 
+.callout-icon {
+    transform: rotate(180deg);
+}
+
 @media(max-width: 1490px) {
     body .graph {
         display:block !important;
