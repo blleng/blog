@@ -131,7 +131,7 @@ ul.task-list {
 }
 
 .toc {
-    padding-right: 5px;
+    padding: 10px;
     border-radius: 10px;
     ol {
         list-style: none;
@@ -146,9 +146,7 @@ ul.task-list {
 }
 
 .toc-container {
-    font-size: 1rem;
     overflow-y: auto;
-    margin-bottom: 10px;
     border-left: 1px solid var(--text-accent);
     ul {
         list-style-type: none;
