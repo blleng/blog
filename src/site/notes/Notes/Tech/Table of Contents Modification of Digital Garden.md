@@ -1,5 +1,5 @@
 ---
-{"alias":"More convenient ToC","info":"Modify the digital garden for convenient table of contents","date":"2023-08-28T00:36","update":"2023-08-28T01:54","tags":["note/2023/08","note/tech"],"id":"note20230828003602","dg-publish":true,"noteIcon":2,"permalink":"/notes/tech/table-of-contents-modification-of-digital-garden/","dgPassFrontmatter":true,"created":"2023-08-28T00:36","updated":"2023-08-28T01:54"}
+{"alias":"More convenient ToC","info":"Modify the digital garden for convenient table of contents","date":"2023-08-28T00:36","update":"2023-08-28T01:58","tags":["note/2023/08","note/tech"],"id":"note20230828003602","dg-publish":true,"noteIcon":2,"permalink":"/notes/tech/table-of-contents-modification-of-digital-garden/","dgPassFrontmatter":true,"created":"2023-08-28T00:36","updated":"2023-08-28T01:58"}
 ---
 
 {%raw%}
@@ -29,7 +29,7 @@
 
 在`src/site/_include/components/filetree.njk`文件中做如下修改：
 ```diff
-<div class="folder" x-data="{isOpen: true}">
+ <div class="folder" x-data="{isOpen: true}">
 +    <div class="sidebar-nav">
 +        <ul>
 +            <li class="current">
@@ -61,7 +61,7 @@
 +        </div>
 +        {% endif %}
 +    </div>
-</div>
+ </div>
 ```
 
 在`src/site/styles/custom-style.scss`中添加以下样式：
