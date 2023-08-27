@@ -225,26 +225,24 @@ ul.task-list {
 .graph {
     .graph-title-container {
         display: flex;
-        justify-content: flex-end;
+        justify-content: flex-start;
         width: 100%;
     }
 
     .graph-title {
-        width: 100%;
-        background-color: var(--background-secondary);
+        width: fit-content;
         margin: 10px 0 0 0;
         padding: 3px 7px;
         font-size: 1.2rem !important;
-        border-radius: 10px 10px 0 0;
         color: var(--h6-color);
     }
 }
 
 #link-graph {
-    background-color: var(--background-secondary);
     margin-bottom: 20px;
-    border-radius: 0 0 10px 10px;
     width: fit-content;
+    border-left: 1px solid var(--text-accent);
+
 }
 
 @media (max-width: 1400px) {
