@@ -6,9 +6,11 @@
 }
 
 body {
-    font-family: 'Noto Serif SC', serif;
     --graph-main:var(--text-accent);
     --graph-muted:rgba(126, 126, 126, 0.5);
+    --h1-font: 'Noto Serif SC', serif;
+    --h2-font: 'Noto Serif SC', serif;
+    --h3-font: 'Noto Serif SC', serif;
 }
 
 body .timestamps {
