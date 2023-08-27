@@ -32,7 +32,7 @@
         
         <div x-show="showFilesMobile && !isDesktop" @click="showFilesMobile = false" style="display:none;" class="fullpage-overlay"></div>
 
-      <nav class="filetree-sidebar"  x-show.important="isDesktop || showFilesMobile" style="display: none;">
+        <nav class="filetree-sidebar"  x-show.important="isDesktop || showFilesMobile" style="display: none;">
         {% for imp in dynamics.filetree.beforeTitle %}
             {% include imp %}
         {% endfor %}
@@ -47,22 +47,20 @@
                 {% include "components/searchButton.njk" %}
             </div>
         {%endif%}
-         <div class="folder" x-data="{isOpen: true}">
-         <div class="sidebar-inner {% if "gardenEntry" in tags %}sidebar-overview-active{% else %}sidebar-nav-active sidebar-toc-active{% endif %}">
-      <ul class="sidebar-nav">
-        <li class="sidebar-nav-toc">
-          Contents
-        </li>
-        <li class="sidebar-nav-overview">
-          Overview
-        </li>
-      </ul>
-      <div class="sidebar-panel-container">
-        <!--noindex-->
-        <div class="post-toc-wrap sidebar-panel">
-          {% if settings.dgShowToc === true %}
-            <div class="post-toc animated">
-            {%set tocHtml= (content and (content|toc)) %}{%if tocHtml %}
+        <div class="folder" x-data="{isOpen: true}">
+            <ul class="sidebar-nav">
+                <li class="sidebar-nav-toc">
+                    Contents
+                </li>
+                <li class="sidebar-nav-overview current">
+                    Overview
+                </li>
+            </ul>
+            <div class="sidebar-panel-container">
+            <!--noindex-->
+            {% if settings.dgShowToc === true %}
+                <div class="post-toc animated item">
+                {%set tocHtml= (content and (content|toc)) %}{%if tocHtml %}
                 <div class="toc">
                     <div class="toc-title-container">
                     <div class="toc-title">On this page</div>
@@ -71,20 +69,16 @@
                         {{ tocHtml | safe }}
                     </div>
                 </div>
-            {%endif%}
+                {%endif%}
+                </div>
+            {% endif %}
+            <!--/noindex-->
+                <div class="site-overview item">
+                {%- for fileOrFolderName, fileOrFolder in filetree -%}
+                    {{menuItem(fileOrFolderName, fileOrFolder, 0, fileOrFolderName)}}
+                {%- endfor -%}
+                </div>
             </div>
-          {% endif %}
-        </div>
-        <!--/noindex-->
-
-        <div class="site-overview-wrap sidebar-panel">
-          {%- for fileOrFolderName, fileOrFolder in filetree -%}
-                  {{menuItem(fileOrFolderName, fileOrFolder, 0, fileOrFolderName)}}
-               {%- endfor -%}
-        </div>
-      </div>
-    </div>
-         </div>
-         
-      </nav>
+        </div> 
+        </nav>
     </div>

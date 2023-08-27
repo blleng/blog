@@ -466,10 +466,11 @@ body.theme-dark nav.navbar .navbar-inner h1::before {
     }
 }
 
-ul.sidebar-nav li {
+li.sidebar-nav-toc, li.sidebar-nav-overview {
     float: left;
     list-style-type: none;
-    padding: 0 20px;
+    padding: 0 10px;
     text-align: center;
     cursor: pointer;
+    font-size: 14px;
 }
