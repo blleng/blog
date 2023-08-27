@@ -61,19 +61,6 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
         {% include imp %}
       {% endfor %}
       </header>
-      {%if settings.dgShowToc === true%}
-      {%set tocHtml= (content and (content|toc)) %}
-      {%if tocHtml %}
-      <div class="toc">
-        <div class="toc-title-container">
-          <div class="toc-title">On this page</div>
-        </div>
-        <div class="toc-container">
-          {{ tocHtml | safe }}
-        </div>
-      </div>
-      {%endif%}
-      {%endif%}
       {% for imp in dynamics.common.beforeContent %}
         {% include imp %}
       {% endfor %}

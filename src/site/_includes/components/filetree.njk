@@ -48,9 +48,43 @@
             </div>
         {%endif%}
          <div class="folder" x-data="{isOpen: true}">
-               {%- for fileOrFolderName, fileOrFolder in filetree -%}
+         <div class="sidebar-inner {% if "gardenEntry" in tags %}sidebar-overview-active{% else %}sidebar-nav-active sidebar-toc-active{% endif %}">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+          {% if settings.dgShowToc === true %}
+            <div class="post-toc animated">
+            {%set tocHtml= (content and (content|toc)) %}{%if tocHtml %}
+                <div class="toc">
+                    <div class="toc-title-container">
+                    <div class="toc-title">On this page</div>
+                    </div>
+                    <div class="toc-container">
+                        {{ tocHtml | safe }}
+                    </div>
+                </div>
+            {%endif%}
+            </div>
+          {% endif %}
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          {%- for fileOrFolderName, fileOrFolder in filetree -%}
                   {{menuItem(fileOrFolderName, fileOrFolder, 0, fileOrFolderName)}}
                {%- endfor -%}
+        </div>
+      </div>
+    </div>
          </div>
+         
       </nav>
     </div>
