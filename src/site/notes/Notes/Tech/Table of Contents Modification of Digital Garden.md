@@ -1,5 +1,5 @@
 ---
-{"alias":"More convenient ToC","info":"Modify the digital garden for convenient table of contents","date":"2023-08-28T00:36","update":"2023-08-28T01:31","tags":["note/2023/08","note/tech"],"id":"note20230828003602","dg-publish":true,"noteIcon":2,"permalink":"/notes/tech/table-of-contents-modification-of-digital-garden/","dgPassFrontmatter":true,"created":"2023-08-28T00:36","updated":"2023-08-28T01:31"}
+{"alias":"More convenient ToC","info":"Modify the digital garden for convenient table of contents","date":"2023-08-28T00:36","update":"2023-08-28T01:43","tags":["note/2023/08","note/tech"],"id":"note20230828003602","dg-publish":true,"noteIcon":2,"permalink":"/notes/tech/table-of-contents-modification-of-digital-garden/","dgPassFrontmatter":true,"created":"2023-08-28T00:36","updated":"2023-08-28T01:43"}
 ---
 
 
@@ -9,60 +9,10 @@
 # Details
 
 首先删除`src/site/_include/components/sidebar.njk`文件中关于目录的代码：
-```diff
-- {%if settings.dgShowToc === true%}
-- {%set tocHtml= (content and (content\|toc)) %}
-- {%if tocHtml %}
-- <div class="toc">
-- <div class="toc-title-container">
-- <div class="toc-title">
-- On this page
-- </div>
-- </div>
-- <div class="toc-container">
-- {{ tocHtml | safe }}
-- </div>
-- </div>
-- {%endif%}
-- {%endif%}
-```
+
 
 在`src/site/_include/components/filetree.njk`文件中做如下修改：
-```diff
-<div class="folder" x-data="{isOpen: true}">
-+    <div class="sidebar-nav">
-+        <ul>
-+            <li class="current">
-+                Overview
-+            </li>
-+            <li>
-+                Contents
-+            </li>
-+        </ul>
-+    </div>
-+    <div class="sidebar-panel-container">
-+        <div class="item" style="display: block;">
-+			<div class="site-overview">
-	            {% for fileOrFolderName, fileOrFolder in filetree -%}
-					{{menuItem(fileOrFolderName, fileOrFolder, 0, fileOrFolderName)}}
-	            {% endfor -%}
-+	        </div>
-+	    </div>
-+        {% if settings.dgShowToc === true %}
-+        <div class="item">
-+	        {%set tocHtml= (content and (content|toc)) %}
-+	        {%if tocHtml %}
-+            <div class="toc">
-+	            <div class="toc-container">
-+	                {{ tocHtml | safe }}
-+                </div>
-+            </div>
-+	        {%endif%}
-+        </div>
-+        {% endif %}
-+    </div>
-</div> 
-```
+
 
 在`src/site/styles/custom-style.scss`中添加以下样式：
 ```css
