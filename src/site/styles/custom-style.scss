@@ -381,6 +381,7 @@ body code[class*=language-],body pre[class*=language-] {
 .header-tags {
     gap:5px;
     display:flex;
+    flex-wrap: wrap;
 }
 
 .fullpage-overlay {
