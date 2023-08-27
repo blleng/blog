@@ -1,5 +1,5 @@
 ---
-{"alias":"More convenient ToC","info":"Modify the digital garden for convenient table of contents","date":"2023-08-28T00:36","update":"2023-08-28T01:22","tags":["note/2023/08","note/tech"],"id":"note20230828003602","dg-publish":true,"noteIcon":2,"permalink":"/notes/tech/table-of-contents-modification-of-digital-garden/","dgPassFrontmatter":true,"created":"2023-08-28T00:36","updated":"2023-08-28T01:22"}
+{"alias":"More convenient ToC","info":"Modify the digital garden for convenient table of contents","date":"2023-08-28T00:36","update":"2023-08-28T01:31","tags":["note/2023/08","note/tech"],"id":"note20230828003602","dg-publish":true,"noteIcon":2,"permalink":"/notes/tech/table-of-contents-modification-of-digital-garden/","dgPassFrontmatter":true,"created":"2023-08-28T00:36","updated":"2023-08-28T01:31"}
 ---
 
 
@@ -43,9 +43,9 @@
 +    <div class="sidebar-panel-container">
 +        <div class="item" style="display: block;">
 +			<div class="site-overview">
-	            {%- for fileOrFolderName, fileOrFolder in filetree -%}
+	            {% for fileOrFolderName, fileOrFolder in filetree -%}
 					{{menuItem(fileOrFolderName, fileOrFolder, 0, fileOrFolderName)}}
-	            {%- endfor -%}
+	            {% endfor -%}
 +	        </div>
 +	    </div>
 +        {% if settings.dgShowToc === true %}
