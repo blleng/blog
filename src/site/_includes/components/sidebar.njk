@@ -7,21 +7,6 @@
                   {%if settings.dgShowLocalGraph === true%}
                         {%include "components/graphScript.njk"%}
                   {%endif%}
-                  {%if "gardenEntry" in tags%}
-                        {%if settings.dgShowToc === true%}
-                              {%set tocHtml= (content and (content|toc)) %}
-                                    {%if tocHtml %}
-                  <div class="toc">
-                        <div class="toc-title-container">
-                        <div class="toc-title">On this page</div>
-                        </div>
-                        <div class="toc-container">
-                              {{ tocHtml | safe }}
-                        </div>
-                  </div>
-                        {%endif%}
-                  {%endif%}
-                  {%endif%}
                   {%if settings.dgShowBacklinks === true %}
                         <div class="backlinks">
                               <div class="backlink-title" style="margin: 4px 0 !important;">Pages mentioning this page</div>

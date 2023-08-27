@@ -446,11 +446,7 @@ body.theme-dark nav.navbar .navbar-inner h1::before {
 @media(max-width: 1490px) {
     body .graph {
         display:block !important;
-        order:3;
-    }
-
-    body .toc {
-        display:inline-block !important;
+        order:2;
     }
 
     body .sidebar-container {
@@ -464,6 +460,10 @@ body.theme-dark nav.navbar .navbar-inner h1::before {
     body #forest-graph .forest-body {
         transform:rotate(45deg) scale(0.9);
     }
+}
+
+li.current {
+    border-bottom: 1px solid;
 }
 
 .sidebar-nav li {

@@ -131,6 +131,7 @@ ul.task-list {
 }
 
 .toc {
+    display: inline-block;
     padding: 10px;
     border-radius: 10px;
     ol {
@@ -269,7 +270,7 @@ ul.task-list {
     }
 
     .sidebar .backlinks {
-        order:3;
+        order:2;
     }
 
     .graph {

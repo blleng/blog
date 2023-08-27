@@ -51,17 +51,23 @@
         <div class="sidebar-nav">
             <ul>
                 <li class="current">
-                    Contents
+                    Overview
                 </li>
                 <li>
-                    Overview
+                    Contents
                 </li>
             </ul>
         </div>
             <div class="sidebar-panel-container">
-            {% if settings.dgShowToc === true %}
                 <div class="item" style="display: block;">
-                <div class="post-toc animated">
+                <div class="site-overview">
+                {%- for fileOrFolderName, fileOrFolder in filetree -%}
+                    {{menuItem(fileOrFolderName, fileOrFolder, 0, fileOrFolderName)}}
+                {%- endfor -%}
+                </div>
+                </div>
+                {% if settings.dgShowToc === true %}
+                <div class="item">
                 {%set tocHtml= (content and (content|toc)) %}{%if tocHtml %}
                 <div class="toc">
                     <div class="toc-container">
@@ -70,15 +76,7 @@
                 </div>
                 {%endif%}
                 </div>
-                </div>
-            {% endif %}
-                <div class="item">
-                <div class="site-overview">
-                {%- for fileOrFolderName, fileOrFolder in filetree -%}
-                    {{menuItem(fileOrFolderName, fileOrFolder, 0, fileOrFolderName)}}
-                {%- endfor -%}
-                </div>
-                </div>
+                {% endif %}
             </div>
         </div> 
         </nav>
