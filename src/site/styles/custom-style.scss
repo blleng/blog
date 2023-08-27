@@ -157,7 +157,7 @@ body .cm-s-obsidian>*[id] {
 body .cm-s-obsidian>*[id]:hover::before {
     content:"#";
     position:absolute;
-    left:0;
+    left:-20px;
 }
 
 body #floating-control {
