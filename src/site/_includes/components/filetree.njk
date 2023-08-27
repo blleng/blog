@@ -57,7 +57,6 @@
                 </li>
             </ul>
             <div class="sidebar-panel-container">
-            <!--noindex-->
             {% if settings.dgShowToc === true %}
                 <div class="post-toc animated item">
                 {%set tocHtml= (content and (content|toc)) %}{%if tocHtml %}
@@ -72,7 +71,6 @@
                 {%endif%}
                 </div>
             {% endif %}
-            <!--/noindex-->
                 <div class="site-overview item">
                 {%- for fileOrFolderName, fileOrFolder in filetree -%}
                     {{menuItem(fileOrFolderName, fileOrFolder, 0, fileOrFolderName)}}
