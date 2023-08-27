@@ -132,10 +132,7 @@ ul.task-list {
 
 .toc {
     padding-right: 5px;
-    background-color: var(--background-primary);
-    padding: 10px;
     border-radius: 10px;
-
     ol {
         list-style: none;
         padding-left: 10px;
@@ -150,7 +147,6 @@ ul.task-list {
 
 .toc-container {
     font-size: 1rem;
-    max-height: 220px;
     overflow-y: auto;
     margin-bottom: 10px;
     border-left: 1px solid var(--text-accent);
@@ -183,13 +179,6 @@ ul.task-list {
 .toc-title-container {
     display: flex;
     justify-content: flex-start;
-    .toc-title {
-        font-size: 1.2rem !important;
-        color: var(--h6-color);
-        width: fit-content;
-        padding: 3px 7px 3px 0;
-        border-radius: 10px 10px 0 0;
-    }
 }
 
 .backlinks {
@@ -291,15 +280,6 @@ ul.task-list {
             justify-content: flex-start;
         }
     }
-
-    .toc {
-        display: none;
-    }
-
-    .sidebar .toc-container {
-        max-height:320px;
-    }
-
 }
 
 @media (max-width: 800px) {
