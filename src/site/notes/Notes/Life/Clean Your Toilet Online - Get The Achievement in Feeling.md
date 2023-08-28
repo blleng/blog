@@ -1,9 +1,9 @@
 ---
-{"alias":"An online toilet","info":"Get a sense of achievement by cleaning your toilet online","date":"2023-08-28T23:38","update":"2023-08-28T23:58","tags":["note/2023/08","note/life"],"id":"note20230828233847","dg-publish":true,"noteIcon":1,"permalink":"/notes/life/clean-your-toilet-online-get-the-achievement-in-feeling/","dgPassFrontmatter":true,"created":"2023-08-28T23:38","updated":"2023-08-28T23:58"}
+{"alias":"An online toilet","info":"Get a sense of achievement by cleaning your toilet online","date":"2023-08-28T23:38","update":"2023-08-29T00:00","tags":["note/2023/08","note/life"],"id":"note20230828233847","dg-publish":true,"noteIcon":1,"permalink":"/notes/life/clean-your-toilet-online-get-the-achievement-in-feeling/","dgPassFrontmatter":true,"created":"2023-08-28T23:38","updated":"2023-08-29T00:00"}
 ---
 
 
-> [!quote] 刷马桶是个难题，不刷马桶会导致更大的难题。
+> [!quote] 刷马桶是个难题，不刷马桶导致更大难题。
 > 我们想刷的，多于我们去刷的。
 
 对于打扫厕所这件事，我受够了。
