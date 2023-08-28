@@ -5,8 +5,9 @@
 
 # Tech Notes
 
-| File                                                                                                                 | alias               | info                                                       |
-| -------------------------------------------------------------------------------------------------------------------- | ------------------- | ---------------------------------------------------------- |
-| [[Notes/Tech/Table of Contents Modification of Digital Garden\|Table of Contents Modification of Digital Garden]] | More convenient ToC | Modify the digital garden for convenient table of contents |
+| File                                                                                                                                       | alias                 | info                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------ | --------------------- | --------------------------------------------------------------- |
+| [[Notes/Tech/Table of Contents Modification of Digital Garden\|Table of Contents Modification of Digital Garden]]                       | More convenient ToC   | Modify the digital garden for convenient table of contents      |
+| [[Notes/Tech/Communication between Wechat-Mini-Program and ESP8266-Robot\|Communication between Wechat-Mini-Program and ESP8266-Robot]] | MQTT controlled Robot | Control ESP8266-developed robot by wechat mini program via mqtt |
 
 { .block-language-dataview}
