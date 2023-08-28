@@ -163,7 +163,6 @@ body .cm-s-obsidian>*[id]:hover::before {
 
 body #floating-control {
     position:fixed;
-    color:var(--link-color);
     bottom:1vmax;
     right:1vmax;
     font-size:24px;
@@ -172,6 +171,10 @@ body #floating-control {
     flex-direction:row;
     justify-content:flex-end;
     gap:10px;
+}
+
+body #floating-control a{
+    color:var(--text-normal);
 }
 
 body #floating-control .svg-icon,body #floating-control i {
