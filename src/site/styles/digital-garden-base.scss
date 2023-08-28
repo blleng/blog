@@ -125,6 +125,7 @@ ul.task-list {
     width: 100%;
     overflow-y: auto;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: flex-start;
     height: 87%;
@@ -262,10 +263,6 @@ ul.task-list {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-    }
-
-    .sidebar .backlinks {
-        order:2;
     }
 
     .graph {
