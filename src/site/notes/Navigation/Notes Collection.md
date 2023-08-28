@@ -13,8 +13,8 @@
 { .block-language-dataview}
 # Life Notes
 
-| File                                                                                                                                   | alias            | info                                                      |
-| -------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | --------------------------------------------------------- |
-| [[Notes/Life/Clean Your Toilet Online - Get The Achievement in Feeling\|Clean Your Toilet Online - Get The Achievement in Feeling]] | An online toilet | Get a sense of achievement by cleaning your toilet online |
+| File                                                                                                                                     | alias            | info                                                      |
+| ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | --------------------------------------------------------- |
+| [[Notes/Life/Clean Your Toilet Online - Get The Achievements in Feeling\|Clean Your Toilet Online - Get The Achievements in Feeling]] | An online toilet | Get a sense of achievement by cleaning your toilet online |
 
 { .block-language-dataview}
