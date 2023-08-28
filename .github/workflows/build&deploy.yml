@@ -3,9 +3,6 @@ name: Blog build & deploy
 on:
   push:
     branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
-
 env:
   TZ: Asia/Shanghai
   GITHUB_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
