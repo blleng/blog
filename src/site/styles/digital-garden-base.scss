@@ -182,13 +182,13 @@ ul.task-list {
 
 .backlinks {
     flex: 1;
-    margin-top: 10px;
     background-color: var(--background-primary);
     border-radius: 10px;
-    padding: 10px;
 
     .backlink-title {
-        margin: 4px 0;
+        margin: 10px 0 0;
+        padding: 3px 7px;
+        width: fit-content;
         font-size: 18px !important;
         color: var(--h6-color);
     }
