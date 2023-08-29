@@ -4,7 +4,6 @@
 
 
 # ESP8266 Robot - Colderfro
-
 ESP8266模块驱动的四足机器人，通过微信小程序控制。
 
 ## Undergoing...
