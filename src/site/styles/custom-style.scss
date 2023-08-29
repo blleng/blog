@@ -292,10 +292,45 @@ body #forest-graph .forest-legends {
     color:var(--text-muted);
 }
 
-body #forest-graph .forest-legends img {
+body #forest-graph .forest-legends stat[icon]::before {
+    content: " ";
     height:1.5em;
     width:auto;
     margin-right:5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: var(--note-icon-fallback);
+}
+
+body #forest-graph .forest-legends stat[icon="1"]::before {
+
+    background-image: var(--note-icon-1);
+}
+
+body #forest-graph .forest-legends stat[icon="2"]::before {
+
+    background-image: var(--note-icon-2);
+}
+
+body #forest-graph .forest-legends stat[icon="3"]::before {
+
+    background-image: var(--note-icon-3);
+}
+
+body #forest-graph .forest-legends stat[icon="4"]::before {
+
+    background-image: var(--note-icon-4);
+}
+
+body #forest-graph .forest-legends stat[icon="5"]::before {
+
+    background-image: var(--note-icon-5);
+}
+
+body #forest-graph .forest-legends stat[icon="6"]::before {
+
+    background-image: var(--note-icon-6);
 }
 
 body .search-button {

@@ -18,7 +18,7 @@
     </div>
     <div class="forest-legends">
         {% for count in userComputed.forest.legends %}
-        <div class="stat"><img src="https://cdn.jsdelivr.net/gh/blleng/images/upload/{{count.icon}}.svg" alt="{{count.label}}" /> {{count.count}} {{count.label}}</div>
+        <stat icon="{{count.icon}}" > {{count.count}} {{count.label}}</stat>
         {% endfor %}
     </div>
 </div>
