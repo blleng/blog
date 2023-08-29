@@ -102,7 +102,6 @@ body nav.filetree-sidebar>.folder {
     flex:1;
     overflow-y:auto;
     overflow-x:hidden;
-    margin-right:-10px;
 }
 
 body nav.filetree-sidebar .notelink {
@@ -400,18 +399,6 @@ body code[class*=language-],body pre[class*=language-] {
     flex:unset;
 }
 
-body nav.navbar .navbar-inner h1::before {
-    content:" ";
-    display:inline-block;
-    width:1em;
-    height:1.2em;
-    background-size:contain;
-    background-repeat:no-repeat;
-    background-image:url(https://cdn.jsdelivr.net/gh/blleng/images/upload/astronomy.svg);
-    margin-right:5px;
-    background-position:bottom;
-}
-
 body nav.filetree-sidebar h1::before {
     content:" ";
     display:block;
@@ -432,18 +419,6 @@ body.theme-dark nav.filetree-sidebar h1::before {
     background-repeat:no-repeat;
     background-image:url(https://cdn.jsdelivr.net/gh/blleng/images/upload/astronomy-dark.svg);
     background-position:center;
-}
-
-body.theme-dark nav.navbar .navbar-inner h1::before {
-    content:" ";
-    display:inline-block;
-    width:1em;
-    height:1.2em;
-    background-size:contain;
-    background-repeat:no-repeat;
-    background-image:url(https://cdn.jsdelivr.net/gh/blleng/images/upload/astronomy-dark.svg);
-    margin-right:5px;
-    background-position:bottom;
 }
 
 @media(max-width: 1490px) {
