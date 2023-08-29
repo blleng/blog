@@ -658,14 +658,17 @@ body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon]::before,
 body.filetree-note-icon .filename[data-note-icon]::before,
 body.links-note-icon .internal-link[data-note-icon]::before,
 body.backlinks-note-icon .backlink[data-note-icon]::before {
-    content: "<i class="maturity" icon-name="sun"></i>";
+    content: " ";
+    display: inline-block;
+    width: 0.9em;
+    height: 1em;
 }
 
 body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon="1"]::before,
 body.filetree-note-icon .filename[data-note-icon="1"]::before,
 body.links-note-icon .internal-link[data-note-icon="1"]::before,
 body.backlinks-note-icon .backlink[data-note-icon="1"]::before {
-    content: "<i class="maturity" icon-name="sprout"></i>";
+    content: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLXNwcm91dCI+PHBhdGggZD0iTTcgMjBoMTAiLz48cGF0aCBkPSJNMTAgMjBjNS41LTIuNS44LTYuNCAzLTEwIi8+PHBhdGggZD0iTTkuNSA5LjRjMS4xLjggMS44IDIuMiAyLjMgMy43LTIgLjQtMy41LjQtNC44LS4zLTEuMi0uNi0yLjMtMS45LTMtNC4yIDIuOC0uNSA0LjQgMCA1LjUuOHoiLz48cGF0aCBkPSJNMTQuMSA2YTcgNyAwIDAgMC0xLjEgNGMxLjktLjEgMy4zLS42IDQuMy0xLjQgMS0xIDEuNi0yLjMgMS43LTQuNi0yLjcuMS00IDEtNC45IDJ6Ii8+PC9zdmc+);
 }
 
 body.title-note-icon .cm-s-obsidian > header > h1[data-note-icon="2"]::before,
