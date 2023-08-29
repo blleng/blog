@@ -1,5 +1,5 @@
 ---
-{"alias":"More convenient ToC","info":"Modify the digital garden for convenient table of contents","date":"2023-08-28T00:36","update":"2023-08-28T14:13","tags":["note/2023/08","note/tech"],"id":"note20230828003602","dg-publish":true,"noteIcon":3,"permalink":"/notes/tech/table-of-contents-modification-of-digital-garden/","dgPassFrontmatter":true,"created":"2023-08-28T00:36","updated":"2023-08-28T14:13"}
+{"alias":"More convenient ToC","info":"Modify the digital garden for convenient table of contents","date":"2023-08-28T00:36","update":"2023-08-29T16:16","tags":["note/2023/08","note/tech"],"id":"note20230828003602","dg-publish":true,"noteIcon":3,"permalink":"/notes/tech/table-of-contents-modification-of-digital-garden/","dgPassFrontmatter":true,"created":"2023-08-28T00:36","updated":"2023-08-29T16:16"}
 ---
 
 {%raw%}
@@ -7,7 +7,6 @@
 这里对其模板做一些改动，让文章目录与`filetree`显示在同一区域，利用`js`实现Tab切换，方便使用。
 
 # Details
-
 首先删除`src/site/_include/components/sidebar.njk`文件中关于目录的代码：
 ```diff 
 - {%if settings.dgShowToc === true%}
@@ -110,11 +109,10 @@ li.current {
 
 ```ad-tip
 title: Important
-此外还需根据您的实际情况对样式文件中有关目录和文件树的样式进行修改。
+这里给出的样式文件仅保证您能完成文件树和目录切换的基础功能，此外还需根据您的实际情况对样式文件中有关目录和文件树的样式进行修改才行做到更好的呈现。
 ```
 
 # Showcase
-
 ![toc1](https://cdn.jsdelivr.net/gh/blleng/images/upload/202308280119703.png)
 
 ![toc2](https://cdn.jsdelivr.net/gh/blleng/images/upload/202308280119708.png)
