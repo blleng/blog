@@ -37,7 +37,7 @@ const noteLabels = {
   "note-icon-3": { label: "Trees", count: 0, icon: "3" },
   "note-icon-4": { label: "Leaves", count: 0, icon: "4" },
   "note-icon-5": { label: "Guideboards", count: 0, icon: "5" },
-  "note-icon-6": { label: "Droplets", count: 0, icon: "6" },
+  "note-icon-6": { label: "Raindrops", count: 0, icon: "6" },
 };
 
 function forestData(data) {

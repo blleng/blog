@@ -284,7 +284,7 @@ body #forest-graph .forest-body .forest-row .plane {
 body #forest-graph .forest-legends {
     margin-top:10px;
     display:flex;
-    gap:10px;
+    gap:15px;
     width:100%;
     justify-content:center;
     flex-wrap:wrap;
@@ -294,12 +294,12 @@ body #forest-graph .forest-legends {
 
 body #forest-graph .forest-legends div.stat[icon]::before {
     content: " ";
+    display: inline-block;
     height:1.5em;
-    width:auto;
-    margin-right:5px;
+    width:1.5em;
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     background-image: var(--note-icon-fallback);
 }
 
