@@ -1,5 +1,5 @@
 ---
-{"cssClasses":["cards","cards-cols-3"],"contentClasses":"cards cards-cols-3","dg-home":true,"dg-publish":true,"noteIcon":5,"dg-pinned":true,"tags":["gardenEntry","gardenEntry","gardenEntry","gardenEntry"],"metatags":{"description":"Moontain - Digital garden","og:description":"Moontain - Digital garden"},"date":"2023-08-26T14:49","update":"2023-08-29T16:50","permalink":"/moontain/","pinned":true,"dgPassFrontmatter":true,"created":"2023-08-26T14:49","updated":"2023-08-29T16:50"}
+{"cssClasses":["cards","cards-cols-3"],"contentClasses":"cards cards-cols-3","dg-home":true,"dg-publish":true,"noteIcon":5,"dg-pinned":true,"tags":["gardenEntry","gardenEntry","gardenEntry","gardenEntry"],"metatags":{"description":"Moontain - Digital garden","og:description":"Moontain - Digital garden"},"date":"2023-08-26T14:49","update":"2023-08-29T17:13","permalink":"/moontain/","pinned":true,"dgPassFrontmatter":true,"created":"2023-08-26T14:49","updated":"2023-08-29T17:13"}
 ---
 
 
@@ -39,7 +39,7 @@ This part is the collection of my open-source programs.
 My literature works and output of thoughts are put here.
 
 ### Wiki
-Here are some learning points and explanations of concepts I've met while reading or at other places.
+Here are some learning points and explanations of concepts I've met while reading or at other places. Actually, this part contains my learning materials.
 ## Maturity Levels
 Maturity level of each note has been decided subjectively by me. In fact, I need this maturity-identification system due to my immaturity.
 
