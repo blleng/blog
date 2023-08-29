@@ -5,16 +5,16 @@
 
 # Tech Notes
 
-| File                                                                                                                                       | alias                 | info                                                            |
-| ------------------------------------------------------------------------------------------------------------------------------------------ | --------------------- | --------------------------------------------------------------- |
-| [[Notes/Tech/Table of Contents Modification of Digital Garden\|Table of Contents Modification of Digital Garden]]                       | More convenient ToC   | Modify the digital garden for convenient table of contents      |
-| [[Notes/Tech/Communication between Wechat-Mini-Program and ESP8266-Robot\|Communication between Wechat-Mini-Program and ESP8266-Robot]] | MQTT controlled Robot | Control ESP8266-developed robot by wechat mini program via mqtt |
+| File                                                                                                                                   | alias                 | info                                                            |
+| -------------------------------------------------------------------------------------------------------------------------------------- | --------------------- | --------------------------------------------------------------- |
+| [[Notes/Tech/Modification of table of contents of digital garden\|Modification of table of contents of digital garden]]             | More convenient ToC   | Modify the digital garden for convenient table of contents      |
+| [[Notes/Tech/The communication between wechat-mini-program and ESP8266\|The communication between wechat-mini-program and ESP8266]] | MQTT controlled Robot | Control ESP8266-developed robot by wechat mini program via mqtt |
 
 { .block-language-dataview}
 # Life Notes
 
-| File                                                                                                                                     | alias            | info                                                      |
-| ---------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | --------------------------------------------------------- |
-| [[Notes/Life/Clean Your Toilet Online - Get The Achievements in Feeling\|Clean Your Toilet Online - Get The Achievements in Feeling]] | An online toilet | Get a sense of achievement by cleaning your toilet online |
+| File                                                                                                                                   | alias            | info                                                      |
+| -------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | --------------------------------------------------------- |
+| [[Notes/Life/Clean your toilet online, get the achievements in feeling\|Clean your toilet online, get the achievements in feeling]] | An online toilet | Get a sense of achievement by cleaning your toilet online |
 
 { .block-language-dataview}
