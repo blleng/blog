@@ -47,7 +47,6 @@
                 {% include "components/searchButton.njk" %}
             </div>
         {%endif%}
-        <div class="folder" x-data="{isOpen: true}">
         <div class="sidebar-nav">
             <ul>
                 <li class="current">
@@ -58,6 +57,7 @@
                 </li>
             </ul>
         </div>
+        <div class="folder" x-data="{isOpen: true}">
             <div class="sidebar-panel-container">
                 <div class="item" style="display: block;">
                 <div class="site-overview">
