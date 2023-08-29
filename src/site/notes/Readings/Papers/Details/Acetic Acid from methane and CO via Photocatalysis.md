@@ -1,5 +1,5 @@
 ---
-{"tags":["paper/detailed/photocatalysis","paper/detailed/oxidation"],"id":"paper20230826005509","dg-publish":true,"noteIcon":2,"Year":2023,"DOI":"10.1021/jacs.2c10840","date":"2023-08-26T00:55","update":"2023-08-26T20:46","permalink":"/readings/papers/details/acetic-acid-from-methane-and-co-via-photocatalysis/","dgPassFrontmatter":true,"created":"2023-08-26T00:55","updated":"2023-08-26T20:46"}
+{"tags":["paper/detailed/photocatalysis","paper/detailed/oxidation"],"id":"paper20230826005509","dg-publish":true,"noteIcon":2,"Year":2023,"DOI":"10.1021/jacs.2c10840","date":"2023-08-26T00:55","update":"2023-08-29T16:21","permalink":"/readings/papers/details/acetic-acid-from-methane-and-co-via-photocatalysis/","dgPassFrontmatter":true,"created":"2023-08-26T00:55","updated":"2023-08-29T16:21"}
 ---
 
 
@@ -8,23 +8,20 @@ Direct Photocatalytic Synthesis of Acetic Acid from Methane and CO at Ambient Te
 - Type: Journal Article
 - Author: Dong, Chunyang; Marinova, Maya; Tayeb, Karima Ben; Safonova, Olga V.; Zhou, Yong; Hu, Di; Chernyak, Sergei; Corda, Massimo; Zaffran, Jérémie; Khodakov, Andrei Y.; Ordomsky, Vitaly V.
 - Journal: Journal of the American Chemical Society
-- Volume: 145
-- Issue: 2
-- Pages: 1185-1193
+    - Volume: 145
+    - Issue: 2
+    - Pages: 1185-1193
 - Year: 2023
 - DOI: 10.1021/jacs.2c10840
 
 ## Abstract
-
 Direct functionalization of methane selectively to value-added chemicals is still one of the main challenges in modern science. Acetic acid is an important industrial chemical produced nowadays by expensive and environmentally unfriendly carbonylation of methanol using homogeneous catalysts. Here, we report a new photocatalytic reaction route to synthesize acetic acid from CH<sub>4</sub> and CO at room temperature using water as the sole external oxygen source. The optimized photocatalyst consists of a TiO<sub>2</sub> support and ammonium phosphotungstic polyoxometalate (NPW) clusters anchored with isolated Pt single atoms (Pt<sub>1</sub>). It enables a stable synthesis of 5.7 mmol·L<sup>–1</sup> acetic acid solution in 60 h with the selectivity over 90% and 66% to acetic acid on liquid-phase and carbon basis, respectively, with the production of 99 mol of acetic acid per mol of Pt. Combined isotopic and in situ spectroscopy investigation suggests that synthesis of acetic acid proceeds via a photocatalytic oxidative carbonylation of methane over the Pt<sub>1</sub> sites, with the methane activation facilitated by water-derived hydroxyl radicals.
 
 ## Files and Links
-
 - **Url**: https://doi.org/10.1021/jacs.2c10840
 - **Local Library**: [Zotero](zotero://select/library/items/2XRMVBV2)
 
 ## Detail
-
 ![Overview](https://cdn.jsdelivr.net/gh/blleng/images/upload/20230207002559.png)
 
 Key points:
@@ -52,13 +49,11 @@ Learning points:
 - Mars van Krevelen type mechanism
 
 ### Role of Water
-
 Sushkevish et al.: soft oxidant and intermediate stabilizer in anaerobic oxidation of methane for methanol
 
 Liu et al.: O-provider and site-blocker in methane oxidaiton to methanol
 
 ### Photocatalytic Synthesis
-
 #### 4 h (2 bar of CO, 8 bar of CH<sub>4</sub>), different catalysts
 ![Different catalysts performance](https://cdn.jsdelivr.net/gh/blleng/images/upload/20230207011457.png)
 Pt/TiO<sub>2</sub>: a part of the oxygen species for CO and/or methane oxidation to CO<sub>2</sub> comes from the catalysts
@@ -79,7 +74,7 @@ catalysts changed color to dark blue: formation of partially reduced NPW
 Pt species are capable of utilizing H<sub>2</sub>O as the external oxidant for regeneration of NPW oxygen species and simultaneously produce H<sub>2</sub>.
 
 #### Ratio of CO/CH<sub>4</sub>
-![Ratio of CO/CH<sub>4</sub>](https://cdn.jsdelivr.net/gh/blleng/images/upload/20230208151757.png)
+![Ratio of CO/CH4](https://cdn.jsdelivr.net/gh/blleng/images/upload/20230208151757.png)
 
 Acetaldehyde: derived from the intermediates
 
@@ -98,7 +93,6 @@ Best composition: 0.2 wt % Pt loading and the weight ratio between Pt/NPW and Ti
 CO adsorption over Pt sites during the reaction preserves the AcOH from rapid decomposition (Figure S10)
 
 ### Catalyst Characterization
-
 ![Catalyst Characterization](https://cdn.jsdelivr.net/gh/blleng/images/upload/20230208164752.png)
 
 a. XRD patterns, b. HAADF-STEM and EDS-mapping of Pt/NPW, c. HAADF-STEM of (Pt/NPW)/TiO<sub>2</sub>, d. EDS-mapping of (Pt/NPW)/TiO<sub>2</sub>, e. Atomic-resolved HAADF-STEM of (Pt/NPW)/TiO<sub>2</sub>, f. IR spectra of temperature-programmed CO desorption over (Pt/NPW)/TiO<sub>2</sub>
