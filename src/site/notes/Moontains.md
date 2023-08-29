@@ -1,9 +1,9 @@
 ---
-{"cssClasses":["cards","cards-cols-3"],"contentClasses":"cards cards-cols-3","dg-home":true,"dg-publish":true,"noteIcon":5,"dg-pinned":true,"tags":["gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"],"metatags":{"description":"Moontain - Digital garden","og:description":"Moontain - Digital garden"},"date":"2023-08-26T14:49","update":"2023-08-29T17:13","permalink":"/moontains/","pinned":true,"dgPassFrontmatter":true,"created":"2023-08-26T14:49","updated":"2023-08-29T17:13"}
+{"cssClasses":["cards","cards-cols-3"],"contentClasses":"cards cards-cols-3","dg-home":true,"dg-publish":true,"noteIcon":5,"dg-pinned":true,"tags":["gardenEntry","gardenEntry","gardenEntry","gardenEntry"],"metatags":{"description":"Moontain - Digital garden","og:description":"Moontain - Digital garden"},"date":"2023-08-26T14:49","update":"2023-08-30T02:35","permalink":"/moontains/","pinned":true,"dgPassFrontmatter":true,"created":"2023-08-26T14:49","updated":"2023-08-30T02:35"}
 ---
 
 
-# Moontain
+# Moontains
 > [!quote] 我仍只是一只，追逐天涯的孤雁
 > 天空比你的双瞳更为茫然[^1]
 
