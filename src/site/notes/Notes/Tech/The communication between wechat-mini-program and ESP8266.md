@@ -1,5 +1,5 @@
 ---
-{"alias":"MQTT controlled Robot","info":"Control ESP8266-developed robot by wechat mini program via mqtt","date":"2023-08-28T14:07","update":"2023-08-29T16:17","tags":["note/2023/08","note/tech"],"id":"note20230828140740","dg-publish":true,"noteIcon":2,"permalink":"/notes/tech/communication-between-wechat-mini-program-and-esp-8266-robot/","dgPassFrontmatter":true,"created":"2023-08-28T14:07","updated":"2023-08-29T16:17"}
+{"alias":"MQTT controlled Robot","info":"Control ESP8266-developed robot by wechat mini program via mqtt","date":"2023-08-28T14:07","update":"2023-08-29T16:17","tags":["note/2023/08","note/tech"],"id":"note20230828140740","dg-publish":true,"noteIcon":2,"permalink":"/notes/tech/the-communication-between-wechat-mini-program-and-esp-8266/","dgPassFrontmatter":true,"created":"2023-08-28T14:07","updated":"2023-08-29T16:17"}
 ---
 
 
@@ -21,7 +21,7 @@
 # Open Source
 整个项目当前已经基本完善，待代码整理清晰并加入注释后将开源。
 
-[[Open Source/ESP8266-Robot Colderfro with Wechat Mini Program\|ESP8266-Robot Colderfro with Wechat Mini Program]]
+[[Open Source/An ESP8266 robot controlled via wechat mini program\|An ESP8266 robot controlled via wechat mini program]]
 
 # Showcase
 ## Robot
