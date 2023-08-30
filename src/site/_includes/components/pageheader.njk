@@ -7,10 +7,8 @@
 {%- endfor -%}
 <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css"/>
 {% favicons './src/site/favicon.svg', appleIconBgColor='#123' %}
-{% if info %}
-    <meta name="description" content="{{ info }}">
-    <meta property="og:description" content="{{ info }}">
-{% endif %}
+    <meta name="description" content="{% if info %}{{ info }}{% else %}{{ noteTitle }}{% endif %}">
+    <meta property="og:description" content="{% if info %}{{ info }}{% else %}{{ noteTitle }}{% endif %}">
     <meta property="og:type" content="website">
     <meta property="og:title" content="{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}">
     <meta property="og:image" content="https://cdn.jsdelivr.net/gh/blleng/images/upload/202308300229754.svg">
