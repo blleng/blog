@@ -1,5 +1,5 @@
 ---
-{"cssClasses":["cards","cards-cols-3"],"contentClasses":"cards cards-cols-3","dg-home":true,"dg-publish":true,"noteIcon":5,"dg-pinned":true,"tags":["gardenEntry","gardenEntry","gardenEntry","gardenEntry"],"metatags":{"description":"Moontain - Digital garden","og:description":"Moontain - Digital garden"},"date":"2023-08-26T14:49","update":"2023-08-30T15:07","permalink":"/moontains/","pinned":true,"dgPassFrontmatter":true,"created":"2023-08-26T14:49","updated":"2023-08-30T15:07"}
+{"cssClasses":["cards","cards-cols-3"],"contentClasses":"cards cards-cols-3","dg-home":true,"dg-publish":true,"noteIcon":5,"dg-pinned":true,"tags":["gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"],"metatags":{"description":"Moontain - Digital garden","og:description":"Moontain - Digital garden"},"date":"2023-08-26T14:49","update":"2023-08-30T21:28","permalink":"/moontains/","pinned":true,"dgPassFrontmatter":true,"created":"2023-08-26T14:49","updated":"2023-08-30T21:28"}
 ---
 
 
@@ -15,7 +15,7 @@ It's [open source](https://github.com/blleng/blog) for sure.
 ## Navigation
 | Cover                                                                  | Link                                                       |
 | ---------------------------------------------------------------------- | ---------------------------------------------------------- |
-| ![](https://cdn.jsdelivr.net/gh/blleng/images/upload/card-cover-1.png) | [[Navigation/Papers Collection\|Papers Collection]]     |
+| ![](https://cdn.jsdelivr.net/gh/blleng/images/upload/card-cover-1.png) | [[Navigation/Readings Collection\|Readings Collection]] |
 | ![](https://cdn.jsdelivr.net/gh/blleng/images/upload/card-cover-2.png) | [[Navigation/Projects Collection\|Projects Collection]] |
 | ![](https://cdn.jsdelivr.net/gh/blleng/images/upload/card-cover-3.png) | [[Navigation/Notes Collection\|Notes Collection]]       |
 
@@ -24,7 +24,7 @@ It's [open source](https://github.com/blleng/blog) for sure.
 Principally, my garden is divided into 6 parts including **Flashes**, **Notes**, **Readings**, **Open Source**, **Writings**, **Wiki**.
 
 ### Flashes
-This part contains ideas just flashed through my brain or inspiration from anywhere. These contents can be brief and immature, but they are always the original source of my further works.
+This part contains ideas just flashed through my brain or inspiration from anywhere. These contents can be brief and immature, but they are always the original source of my further works. Contents here should be transformed into practical works for other parts as soon as possible.
 
 ### Notes
 Notes are commonly the records of history, conclusion or development of projects or other stuff I've done (or I'm doing). They can be derived from "Flashes" and may be related to my writings or open-source programs.
@@ -40,6 +40,7 @@ My literature works and output of thoughts are put here.
 
 ### Wiki
 Here are some learning points and explanations of concepts I've met while reading or at other places. Actually, this part contains my learning materials.
+
 ## Maturity Levels
 Maturity level of each note has been decided subjectively by me. In fact, I need this maturity-identification system due to my immaturity.
 
