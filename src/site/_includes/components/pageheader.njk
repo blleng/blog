@@ -7,16 +7,14 @@
 {%- endfor -%}
 <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css"/>
 {% favicons './src/site/favicon.svg', appleIconBgColor='#123' %}
-{% if metatags %}
-    {% for name, content in metatags %}
-    <meta name="{{ name }}" content="{{ content }}">
-    {% endfor %}
-{% endif %}
-{% if "gardenEntry" in tags %}
-    <meta name="og:image" content="https://cdn.jsdelivr.net/gh/blleng/images/upload/astronomy.svg">
-    {% elif noteIcon in [1,2,3,4,5,6] %}
-    <meta name="og:image" content="https://cdn.jsdelivr.net/gh/blleng/images/upload/note-icon-{{noteIcon}}.svg">
-{% endif %}
+{% for content in info %}
+    <meta name="description" content="{{ content }}">
+    <meta property="og:description" content="{{ content }}">
+{% endfor %}
+{% if info %}
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}">
+    <meta property="og:image" content="https://cdn.jsdelivr.net/gh/blleng/images/upload/202308300229754.svg">
 {% if meta.styleSettingsCss %}
 <style>
     {{ meta.styleSettingsCss | safe }}
