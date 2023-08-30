@@ -1,4 +1,11 @@
+{% favicons './src/site/favicon.svg', appleIconBgColor='#123' %}
+<meta name="description" content="{% if info %}{{ info }}{% elif title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}">
+<meta property="og:description" content="{% if info %}{{ info }}{% elif title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/blleng/images/upload/202308300229754.svg">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-site-verification" content="eAzC2hbvcHUrLOQa0hXeIGWaQqvhhm_rt3VZI0TpstU" />
 <link href="https://cdn.jsdelivr.net/gh/blleng/blog@gh-page/styles/base.23083006.css" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/gh/blleng/blog@gh-page{{meta.themeStyle}}" rel="stylesheet">
 <link href="/styles/custom-style.css" rel="stylesheet">
@@ -6,12 +13,6 @@
 <link href="{{style}}" rel="stylesheet">
 {%- endfor -%}
 <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css"/>
-{% favicons './src/site/favicon.svg', appleIconBgColor='#123' %}
-    <meta name="description" content="{% if info %}{{ info }}{% elif title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}">
-    <meta property="og:description" content="{% if info %}{{ info }}{% elif title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}">
-    <meta property="og:image" content="https://cdn.jsdelivr.net/gh/blleng/images/upload/202308300229754.svg">
 {% if meta.styleSettingsCss %}
 <style>
     {{ meta.styleSettingsCss | safe }}
