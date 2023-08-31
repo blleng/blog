@@ -75,10 +75,11 @@ body .graph {
     flex:unset !important;
 }
 
-body .sidebar-container>div:not(.graph) {
+body .sidebar-container>div {
     width:320px;
     max-height:365px;
     overflow-y:auto;
+    padding-bottom: 20px;
 }
 
 body nav.filetree-sidebar {
@@ -431,6 +432,14 @@ body code[class*=language-],body pre[class*=language-] {
 
 .sidebar .backlinks {
     flex:unset;
+}
+
+.ads-title {
+    margin: 10px 0 0;
+    padding: 3px 7px;
+    width: fit-content;
+    font-size: 1.2rem !important;
+    color: var(--h6-color);
 }
 
 body nav.filetree-sidebar h1::before {
