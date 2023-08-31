@@ -245,7 +245,7 @@ ul.task-list {
 
 @media (max-width: 1400px) {
     .sidebar {
-        position: relative;
+        position: unset;
         transform: none;
         max-width: 700px;
         margin: auto;
