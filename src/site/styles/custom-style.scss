@@ -75,7 +75,7 @@ body .graph {
     flex:unset !important;
 }
 
-body .sidebar-container>div {
+body .sidebar-container>div:not(.graph) {
     width:320px;
     max-height:365px;
     overflow-y:auto;
