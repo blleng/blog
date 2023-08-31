@@ -245,7 +245,7 @@ ul.task-list {
 
 @media (max-width: 1400px) {
     .sidebar {
-        position: unset;
+        position: relative;
         transform: none;
         max-width: 700px;
         margin: auto;
@@ -257,10 +257,6 @@ ul.task-list {
     .sidebar-container {
         flex-direction: row;
         justify-content: space-between;
-    }
-
-    .graph-title-container {
-        justify-content: flex-start;
     }
 }
 
