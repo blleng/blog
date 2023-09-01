@@ -77,7 +77,28 @@ ul.task-list {
         #graph-fs-btn {
             margin-right: 10px;
         }
+
+        .graph-title-container {
+            display: flex;
+            justify-content: flex-start;
+            width: 100%;
+        }
+    
+        .graph-title {
+            width: fit-content;
+            margin: 10px 0 0 0;
+            padding: 3px 7px;
+            font-size: 1.2rem !important;
+            color: var(--h6-color);
+        }
+    
+        #link-graph {
+            border-left: 1px solid var(--text-accent);
+            width: 320px;
+            height: 320px;
+        }
     }
+
     .graph-fs {
         position: fixed;
         top: 50%;
@@ -215,26 +236,6 @@ ul.task-list {
 .no-backlinks-message {
     font-size: 0.8rem;
     color: var(--text-normal);
-}
-
-.graph {
-    .graph-title-container {
-        display: flex;
-        justify-content: flex-start;
-        width: 100%;
-    }
-
-    .graph-title {
-        width: fit-content;
-        margin: 10px 0 0 0;
-        padding: 3px 7px;
-        font-size: 1.2rem !important;
-        color: var(--h6-color);
-    }
-
-    #link-graph {
-        border-left: 1px solid var(--text-accent);
-    }
 }
 
 @media (max-width: 1400px) {
