@@ -16,8 +16,8 @@
 ### All Papers
 | File                                                                                                                              | Year | DOI                  |
 | --------------------------------------------------------------------------------------------------------------------------------- | ---- | -------------------- |
-| [[Readings/Papers/Acetic acid from methane and CO via photocatalysis\|Acetic acid from methane and CO via photocatalysis]]     | 2023 | 10.1021/jacs.2c10840 |
 | [[Readings/Papers/Two-way synergy of dual sites enhances RWGS reaction\|Two-way synergy of dual sites enhances RWGS reaction]] | 2023 | 10.1021/jacs.2c10435 |
+| [[Readings/Papers/Acetic acid from methane and CO via photocatalysis\|Acetic acid from methane and CO via photocatalysis]]     | 2023 | 10.1021/jacs.2c10840 |
 
 { .block-language-dataview}
 
