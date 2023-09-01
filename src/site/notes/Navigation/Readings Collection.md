@@ -8,16 +8,16 @@
 ### Viewed Papers
 | File                                                                                                                              | Year | DOI                  |
 | --------------------------------------------------------------------------------------------------------------------------------- | ---- | -------------------- |
-| [[Readings/Papers/Acetic Acid from methane and CO via Photocatalysis\|Acetic Acid from methane and CO via Photocatalysis]]     | 2023 | 10.1021/jacs.2c10840 |
-| [[Readings/Papers/Two-way Synergy of Dual Sites Enhances RWGS Reaction\|Two-way Synergy of Dual Sites Enhances RWGS Reaction]] | 2023 | 10.1021/jacs.2c10435 |
+| [[Readings/Papers/Acetic acid from methane and CO via photocatalysis\|Acetic acid from methane and CO via photocatalysis]]     | 2023 | 10.1021/jacs.2c10840 |
+| [[Readings/Papers/Two-way synergy of dual sites enhances RWGS reaction\|Two-way synergy of dual sites enhances RWGS reaction]] | 2023 | 10.1021/jacs.2c10435 |
 
 { .block-language-dataview}
 
 ### All Papers
 | File                                                                                                                              | Year | DOI                  |
 | --------------------------------------------------------------------------------------------------------------------------------- | ---- | -------------------- |
-| [[Readings/Papers/Acetic Acid from methane and CO via Photocatalysis\|Acetic Acid from methane and CO via Photocatalysis]]     | 2023 | 10.1021/jacs.2c10840 |
-| [[Readings/Papers/Two-way Synergy of Dual Sites Enhances RWGS Reaction\|Two-way Synergy of Dual Sites Enhances RWGS Reaction]] | 2023 | 10.1021/jacs.2c10435 |
+| [[Readings/Papers/Acetic acid from methane and CO via photocatalysis\|Acetic acid from methane and CO via photocatalysis]]     | 2023 | 10.1021/jacs.2c10840 |
+| [[Readings/Papers/Two-way synergy of dual sites enhances RWGS reaction\|Two-way synergy of dual sites enhances RWGS reaction]] | 2023 | 10.1021/jacs.2c10435 |
 
 { .block-language-dataview}
 
