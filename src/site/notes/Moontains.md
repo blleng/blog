@@ -18,6 +18,7 @@ It's [open source](https://github.com/blleng/blog) for sure.
 | ![](https://cdn.jsdelivr.net/gh/blleng/images/upload/card-cover-1.png) | [[Navigation/Readings Collection\|Readings Collection]] |
 | ![](https://cdn.jsdelivr.net/gh/blleng/images/upload/card-cover-2.png) | [[Navigation/Projects Collection\|Projects Collection]] |
 | ![](https://cdn.jsdelivr.net/gh/blleng/images/upload/card-cover-3.png) | [[Navigation/Notes Collection\|Notes Collection]]       |
+| ![](https://cdn.jsdelivr.net/gh/blleng/images/upload/card-cover-4.png) | [[Navigation/Flashes Collection\|Flashes Collection]]   |
 
 { .block-language-dataview}
 ## Guidelines
