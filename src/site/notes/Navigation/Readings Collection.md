@@ -1,5 +1,5 @@
 ---
-{"index":1,"cssClasses":["cards","cards-cols-3"],"contentClasses":"cards cards-cols-3","cover":"https://cdn.jsdelivr.net/gh/blleng/images/upload/card-cover-1.png","dg-publish":true,"noteIcon":5,"date":"2023-08-25T23:56","update":"2023-09-01T14:12","permalink":"/navigation/readings-collection/","dgPassFrontmatter":true,"created":"2023-08-25T23:56","updated":"2023-09-01T14:12"}
+{"index":1,"cssClasses":["cards","cards-cols-3"],"contentClasses":"cards cards-cols-3","cover":"https://cdn.jsdelivr.net/gh/blleng/images/upload/card-cover-1.png","dg-publish":true,"noteIcon":5,"date":"2023-08-25T23:56","update":"2023-09-02T01:38","permalink":"/navigation/readings-collection/","dgPassFrontmatter":true,"created":"2023-08-25T23:56","updated":"2023-09-02T01:38"}
 ---
 
 # Papers Collection
@@ -8,16 +8,17 @@
 ### Viewed Papers
 | File                                                                                                                              | Year | DOI                  |
 | --------------------------------------------------------------------------------------------------------------------------------- | ---- | -------------------- |
-| [[Readings/Papers/Acetic Acid from methane and CO via Photocatalysis\|Acetic Acid from methane and CO via Photocatalysis]]     | 2023 | 10.1021/jacs.2c10840 |
-| [[Readings/Papers/Two-way Synergy of Dual Sites Enhances RWGS Reaction\|Two-way Synergy of Dual Sites Enhances RWGS Reaction]] | 2023 | 10.1021/jacs.2c10435 |
+| [[Readings/Papers/Acetic acid from methane and CO via photocatalysis\|Acetic acid from methane and CO via photocatalysis]]     | 2023 | 10.1021/jacs.2c10840 |
+| [[Readings/Papers/Two-way synergy of dual sites enhances RWGS reaction\|Two-way synergy of dual sites enhances RWGS reaction]] | 2023 | 10.1021/jacs.2c10435 |
 
 { .block-language-dataview}
 
 ### All Papers
-| File                                                                                                                              | Year | DOI                  |
-| --------------------------------------------------------------------------------------------------------------------------------- | ---- | -------------------- |
-| [[Readings/Papers/Acetic Acid from methane and CO via Photocatalysis\|Acetic Acid from methane and CO via Photocatalysis]]     | 2023 | 10.1021/jacs.2c10840 |
-| [[Readings/Papers/Two-way Synergy of Dual Sites Enhances RWGS Reaction\|Two-way Synergy of Dual Sites Enhances RWGS Reaction]] | 2023 | 10.1021/jacs.2c10435 |
+| File                                                                                                                              | Year | DOI                        |
+| --------------------------------------------------------------------------------------------------------------------------------- | ---- | -------------------------- |
+| [[Readings/Papers/Acetic acid from methane and CO via photocatalysis\|Acetic acid from methane and CO via photocatalysis]]     | 2023 | 10.1021/jacs.2c10840       |
+| [[Readings/Papers/Two-way synergy of dual sites enhances RWGS reaction\|Two-way synergy of dual sites enhances RWGS reaction]] | 2023 | 10.1021/jacs.2c10435       |
+| [[Readings/Papers/Biomolecular radiation damage in water\|Biomolecular radiation damage in water]]                             | 2023 | 10.1038/s41557-023-01302-1 |
 
 { .block-language-dataview}
 
