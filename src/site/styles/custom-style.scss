@@ -206,14 +206,17 @@ body #floating-control #theme-switch.auto .auto {
     display:inline;
 }
 
-body .gotop {
-    display: none;
+body .topbutton {
     font-size: 24px;
     position: fixed;
     z-index: 999999;
     transition: .5s;
     right: 1vmax;
     bottom: 2.5vmax;
+}
+
+button.gotop {
+    display: none;
 }
 
 body .fnote {
