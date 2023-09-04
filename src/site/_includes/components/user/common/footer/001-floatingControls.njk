@@ -7,6 +7,9 @@
         <i class="svg-icon auto" icon-name="cog" aria-hidden="true"></i>
     </span>
 </aside>
+<div class="topbutton">
+    <button class="gotop" onclick="scrollToTop()"><i  icon-name="arrow-big-up-dash" title="up" aria-hidden="true"></button>
+</div>
 
 <script>
     function setThemeIcon(theme) {
@@ -67,4 +70,18 @@
         window.localStorage.setItem('site-theme', theme);
         window.theme = theme;
     })
+    function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }
+  const button = document.querySelector('.gotop');
+  window.addEventListener('scroll', () => {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      button.style.display = 'block';
+    } else {
+      button.style.display = 'none';
+    }
+  });
 </script>
