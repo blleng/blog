@@ -206,17 +206,24 @@ body #floating-control #theme-switch.auto .auto {
     display:inline;
 }
 
-body .gotop {
-    position: fixed;
+body #gotop {
     opacity: 0;
     visibility: hidden;
     border: none;
     background: none;
+    position: fixed;
     z-index: 999999;
-    transition: .5s;
     right: 1vmax;
-    bottom: 5vmax;
-}
+    bottom: 2.5vmax;
+    transition: .5s;
+  }
+  
+  body #gotop .svg-icon {
+    height: 24px;
+    width: auto;
+    stroke-width: 1.5px;
+    cursor: pointer;
+  }
 
 body .fnote {
     display:none;
