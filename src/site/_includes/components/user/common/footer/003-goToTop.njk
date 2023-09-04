@@ -1,19 +1,19 @@
-<button class="gotop" type="button" onclick="scrollToTop()"><i  data-lucide="arrow-big-up-dash" title="up" aria-hidden="true"></i></button>
+<div class="gotop" onclick="scrollToTop()"><i data-lucide="arrow-big-up-dash"></i></div>
 <script>
-    function scrollToTop() {
+  function scrollToTop() {
     window.scrollTo({
       top: 0,
       behavior: "smooth",
     });
   }
-  const button = document.querySelector('.gotop');
+  const gotopbutton = document.querySelector('.gotop');
   window.addEventListener('scroll', () => {
-    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-      button.style.opacity = '1';
-      button.style.visibility = "visible";
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      gotopbutton.style.opacity = '1';
+      gotopbutton.style.visibility = "visible";
     } else {
-      button.style.opacity = "0";
-      button.style.visibility = "hidden";
+      gotopbutton.style.opacity = "0";
+      gotopbutton.style.visibility = "hidden";
     }
   });
 </script>
