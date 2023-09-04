@@ -1,0 +1,19 @@
+<button class="gotop" type="button" onclick="scrollToTop()"><i  data-lucide="arrow-big-up-dash" title="up" aria-hidden="true"></i></button>
+<script>
+    function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }
+  const button = document.querySelector('.gotop');
+  window.addEventListener('scroll', () => {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+      button.style.opacity = '1';
+      button.style.visibility = "visible";
+    } else {
+      button.style.opacity = "0";
+      button.style.visibility = "hidden";
+    }
+  });
+</script>
