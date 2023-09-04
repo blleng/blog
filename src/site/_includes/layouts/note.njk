@@ -111,4 +111,21 @@ for (var i = 0; i < lis.length; i++) {
     }
 }
 </script>
+<script>
+  function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+}
+  const button = document.getElementById("totop");
+  window.addEventListener('scroll', () => {
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+      button.classList.add('back-to-top-on');
+    }
+    else {
+      button.classList.remove('back-to-top-on')
+    }
+  });
+</script>
 </html>

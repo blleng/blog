@@ -1,19 +1,1 @@
 <div id="totop" class="back-to-top" onclick="scrollToTop()"><i data-lucide="arrow-up"></i></div>
-
-<script>
-  function scrollToTop() {
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth",
-  });
-}
-  const button = document.getElementById("totop");
-  window.addEventListener('scroll', () => {
-    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-      button.classList.add('back-to-top-on');
-    }
-    else {
-      button.classList.remove('back-to-top-on')
-    }
-  });
-</script>
