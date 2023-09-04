@@ -1,4 +1,4 @@
-<div id="gotop" onclick="scrollToTop()"><i data-lucide="arrow-big-up-dash"></i></div>
+<div id="totop" class="back-to-top" onclick="scrollToTop()"><i data-lucide="arrow-up"></i></div>
 
 <script>
   function scrollToTop() {
@@ -7,14 +7,13 @@
     behavior: "smooth",
   });
 }
-  const button = document.getElementById("gotop");
+  const button = document.getElementById("totop");
   window.addEventListener('scroll', () => {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      button.style.opacity = '1';
-      button.style.visibility = "visible";
-    } else {
-      button.style.opacity = "0";
-      button.style.visibility = "hidden";
+    if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+      button.classList.add('back-to-top-on');
+    }
+    else {
+      button.classList.remove('back-to-top-on')
     }
   });
 </script>
