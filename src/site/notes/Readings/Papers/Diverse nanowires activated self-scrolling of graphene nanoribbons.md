@@ -1,5 +1,5 @@
 ---
-{"tags":["paper/viewed/sciences/chemistry/simulation"],"dg-publish":true,"noteIcon":6,"Journal":"Applied Surface Science","Year":2012,"DOI":"10.1016/j.apsusc.2011.05.122","date":"2023-10-08T15:23","update":"2023-10-08T19:01","permalink":"/readings/papers/diverse-nanowires-activated-self-scrolling-of-graphene-nanoribbons/","dgPassFrontmatter":true,"created":"2023-10-08T15:23","updated":"2023-10-08T19:01"}
+{"tags":["paper/viewed/sciences/chemistry/simulation"],"dg-publish":true,"noteIcon":6,"Journal":"Applied Surface Science","Year":2012,"DOI":"10.1016/j.apsusc.2011.05.122","date":"2023-10-08T15:23","update":"2023-10-08T19:05","permalink":"/readings/papers/diverse-nanowires-activated-self-scrolling-of-graphene-nanoribbons/","dgPassFrontmatter":true,"created":"2023-10-08T15:23","updated":"2023-10-08T19:05"}
 ---
 
 
@@ -128,6 +128,10 @@ Fe nanowire and graphene
 ![Fe_Graphene](https://cdn.jsdelivr.net/gh/blleng/images/upload/Fe_Graphene_origin.png)
 
 ### OVITO Display
-
 ![fe_graphene_gif](https://cdn.jsdelivr.net/gh/blleng/images/upload/fe_graphene.gif)
+
+Snapshots of every 2400 timesteps:
+![snapshots](https://cdn.jsdelivr.net/gh/blleng/images/upload/snapshots.png)
+
+
 
