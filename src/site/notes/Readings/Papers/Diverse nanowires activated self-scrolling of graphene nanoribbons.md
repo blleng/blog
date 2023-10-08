@@ -1,5 +1,5 @@
 ---
-{"tags":["paper/viewed/sciences/chemistry/simulation"],"dg-publish":true,"noteIcon":6,"Journal":"Applied Surface Science","Year":2012,"DOI":"10.1016/j.apsusc.2011.05.122","date":"2023-10-08T15:23","update":"2023-10-08T19:05","permalink":"/readings/papers/diverse-nanowires-activated-self-scrolling-of-graphene-nanoribbons/","dgPassFrontmatter":true,"created":"2023-10-08T15:23","updated":"2023-10-08T19:05"}
+{"tags":["paper/viewed/sciences/chemistry/simulation"],"dg-publish":true,"noteIcon":6,"Journal":"Applied Surface Science","Year":2012,"DOI":"10.1016/j.apsusc.2011.05.122","date":"2023-10-08T15:23","update":"2023-10-08T19:07","permalink":"/readings/papers/diverse-nanowires-activated-self-scrolling-of-graphene-nanoribbons/","dgPassFrontmatter":true,"created":"2023-10-08T15:23","updated":"2023-10-08T19:07"}
 ---
 
 
@@ -40,6 +40,7 @@ A simulation of the Fe-Graphene system by LAMMPS:
  # Set the dimensionality of the simulation. By default LAMMPS runs 3d simulations. To run a 2d simulation, this command should be used prior to setting up a simulation box via the create_box or read_data commands. Restart files also store this setting. See https://docs.lammps.org/dimension.html
  
  boundary  s s s
+ # use "p p p" to avoid "atom lost" error!
  # Set the style of boundaries for the global simulation box in each dimension. A single letter assigns the same style to both the lower and upper face of the box. Two letters assigns the first style to the lower face and the second style to the upper face. The initial size of the simulation box is set by the read_data, read_restart, or create_box commands. For style _s_, the position of the face is set so as to encompass the atoms in that dimension (shrink-wrapping), no matter how far they move. See https://docs.lammps.org/boundary.html
  
  neighbor 0.3 bin
