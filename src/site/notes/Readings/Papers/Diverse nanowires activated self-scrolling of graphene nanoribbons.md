@@ -1,5 +1,5 @@
 ---
-{"tags":["paper/viewed/sciences/chemistry/simulation"],"dg-publish":true,"noteIcon":6,"Journal":"Applied Surface Science","Year":2012,"DOI":"10.1016/j.apsusc.2011.05.122","date":"2023-10-08T15:23","update":"2023-10-08T19:07","permalink":"/readings/papers/diverse-nanowires-activated-self-scrolling-of-graphene-nanoribbons/","dgPassFrontmatter":true,"created":"2023-10-08T15:23","updated":"2023-10-08T19:07"}
+{"tags":["paper/viewed/sciences/chemistry/simulation"],"dg-publish":true,"noteIcon":6,"Journal":"Applied Surface Science","Year":2012,"DOI":"10.1016/j.apsusc.2011.05.122","date":"2023-10-08T15:23","update":"2023-10-08T19:12","permalink":"/readings/papers/diverse-nanowires-activated-self-scrolling-of-graphene-nanoribbons/","dgPassFrontmatter":true,"created":"2023-10-08T15:23","updated":"2023-10-08T19:12"}
 ---
 
 
@@ -31,7 +31,7 @@ A simulation of the Fe-Graphene system by LAMMPS:
 # Fe-Graphene
 # settings
  units metal
- #This command sets the style of units used for a simulation. It determines the units of all quantities specified in the input script and data file, as well as quantities output to the screen, log file, and dump files. Typically, this command is used at the very beginning of an input script. See https://docs.lammps.org/units.html
+ # This command sets the style of units used for a simulation. It determines the units of all quantities specified in the input script and data file, as well as quantities output to the screen, log file, and dump files. Typically, this command is used at the very beginning of an input script. See https://docs.lammps.org/units.html
  
  atom_style atomic
  # Define what style of atoms to use in a simulation. This determines what attributes are associated with the atoms. This command must be used before a simulation is setup via a read_data, read_restart, or create_box command. Once a style is assigned, it cannot be changed, so use a style general enough to encompass all attributes. See https://docs.lammps.org/atom_style.html
@@ -84,15 +84,15 @@ A simulation of the Fe-Graphene system by LAMMPS:
  # group of atoms
  group  fe region fe
  group  graphene region graphene
- #Identify a collection of atoms as belonging to a group. The group ID can then be used in other commands such as fix, compute, dump, or velocity to act on those atoms together. See https://docs.lammps.org/group.html
+ # Identify a collection of atoms as belonging to a group. The group ID can then be used in other commands such as fix, compute, dump, or velocity to act on those atoms together. See https://docs.lammps.org/group.html
  
  # save data
  write_data  fe_gp.data
- #Write a data file in text format of the current state of the simulation. Data files can be read by the read data command to begin a simulation. The read_data command also describes their format. See https://docs.lammps.org/write_data.html
+ # Write a data file in text format of the current state of the simulation. Data files can be read by the read data command to begin a simulation. The read_data command also describes their format. See https://docs.lammps.org/write_data.html
  
  # force fields
  pair_style hybrid eam/fs airebo 3.0 lj/cut 10
- #Set the formula(s) LAMMPS uses to compute pairwise interactions. In LAMMPS, pair potentials are defined between pairs of atoms that are within a cutoff distance and the set of active interactions typically changes over time. See https://docs.lammps.org/pair_style.html
+ # Set the formula(s) LAMMPS uses to compute pairwise interactions. In LAMMPS, pair potentials are defined between pairs of atoms that are within a cutoff distance and the set of active interactions typically changes over time. See https://docs.lammps.org/pair_style.html
  # The hybrid, hybrid/overlay, and hybrid/scaled styles enable the use of multiple pair styles in one simulation. The metal atoms interact with each other via an eam potential, the surface atoms interact with each other via a lj/cut potential, and the metal/surface interaction is also computed via a lj/cut potential.  See https://docs.lammps.org/pair_hybrid.html
  
  pair_coeff * * eam/fs fe.eam.fs Fe NULL
@@ -101,18 +101,18 @@ A simulation of the Fe-Graphene system by LAMMPS:
 
  # output 
  thermo 50
- #Compute and print thermodynamic info (e.g. temperature, energy, pressure) on timesteps that are a multiple of N and at the beginning and end of a simulation. A value of 0 will only print thermodynamics at the beginning and end. See https://docs.lammps.org/thermo.html
+ # Compute and print thermodynamic info (e.g. temperature, energy, pressure) on timesteps that are a multiple of N and at the beginning and end of a simulation. A value of 0 will only print thermodynamics at the beginning and end. See https://docs.lammps.org/thermo.html
  
  dump 1 all atom 200 fe_gp.xyz
  # Dump a snapshot of quantities to one or more files once every N timesteps in one of several styles. The timesteps on which dump output is written can also be controlled by a variable. See https://docs.lammps.org/dump.html
 
  # temp initiation
  velocity graphene create 300 878743
- #Set or change the velocities of a group of atoms in one of several styles. For each style, there are required arguments and optional keyword/value parameters. The create style generates an ensemble of velocities using a random number generator with the specified seed at the specified temperature. See https://docs.lammps.org/velocity.html
+ # Set or change the velocities of a group of atoms in one of several styles. For each style, there are required arguments and optional keyword/value parameters. The create style generates an ensemble of velocities using a random number generator with the specified seed at the specified temperature. See https://docs.lammps.org/velocity.html
  
  # fix Fe
  fix 1 fe setforce 0 0 0
- #Set a fix that will be applied to a group of atoms. See https://docs.lammps.org/fix.html
+ # Set a fix that will be applied to a group of atoms. See https://docs.lammps.org/fix.html
  
  fix 2 all nve
  # Perform plain time integration to update position and velocity for atoms in the group each timestep. This creates a system trajectory consistent with the microcanonical ensemble (NVE) provided there are (full) periodic boundary conditions and no other “manipulations” of the system (e.g. fixes that modify forces or velocities). See https://docs.lammps.org/fix_nve.html
