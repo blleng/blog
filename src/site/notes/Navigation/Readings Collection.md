@@ -6,19 +6,21 @@
 
 ## Scienses
 ### Viewed Papers
-| File                                                                                                                              | Year | DOI                  |
-| --------------------------------------------------------------------------------------------------------------------------------- | ---- | -------------------- |
-| [[Readings/Papers/Acetic acid from methane and CO via photocatalysis\|Acetic acid from methane and CO via photocatalysis]]     | 2023 | 10.1021/jacs.2c10840 |
-| [[Readings/Papers/Two-way synergy of dual sites enhances RWGS reaction\|Two-way synergy of dual sites enhances RWGS reaction]] | 2023 | 10.1021/jacs.2c10435 |
+| File                                                                                                                                                          | Year | DOI                          |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- | ---------------------------- |
+| [[Readings/Papers/Acetic acid from methane and CO via photocatalysis\|Acetic acid from methane and CO via photocatalysis]]                                 | 2023 | 10.1021/jacs.2c10840         |
+| [[Readings/Papers/Two-way synergy of dual sites enhances RWGS reaction\|Two-way synergy of dual sites enhances RWGS reaction]]                             | 2023 | 10.1021/jacs.2c10435         |
+| [[Readings/Papers/Diverse nanowires activated self-scrolling of graphene nanoribbons\|Diverse nanowires activated self-scrolling of graphene nanoribbons]] | 2012 | 10.1016/j.apsusc.2011.05.122 |
 
 { .block-language-dataview}
 
 ### All Papers
-| File                                                                                                                              | Year | DOI                        |
-| --------------------------------------------------------------------------------------------------------------------------------- | ---- | -------------------------- |
-| [[Readings/Papers/Acetic acid from methane and CO via photocatalysis\|Acetic acid from methane and CO via photocatalysis]]     | 2023 | 10.1021/jacs.2c10840       |
-| [[Readings/Papers/Two-way synergy of dual sites enhances RWGS reaction\|Two-way synergy of dual sites enhances RWGS reaction]] | 2023 | 10.1021/jacs.2c10435       |
-| [[Readings/Papers/Biomolecular radiation damage in water\|Biomolecular radiation damage in water]]                             | 2023 | 10.1038/s41557-023-01302-1 |
+| File                                                                                                                                                          | Year | DOI                          |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- | ---------------------------- |
+| [[Readings/Papers/Acetic acid from methane and CO via photocatalysis\|Acetic acid from methane and CO via photocatalysis]]                                 | 2023 | 10.1021/jacs.2c10840         |
+| [[Readings/Papers/Two-way synergy of dual sites enhances RWGS reaction\|Two-way synergy of dual sites enhances RWGS reaction]]                             | 2023 | 10.1021/jacs.2c10435         |
+| [[Readings/Papers/Biomolecular radiation damage in water\|Biomolecular radiation damage in water]]                                                         | 2023 | 10.1038/s41557-023-01302-1   |
+| [[Readings/Papers/Diverse nanowires activated self-scrolling of graphene nanoribbons\|Diverse nanowires activated self-scrolling of graphene nanoribbons]] | 2012 | 10.1016/j.apsusc.2011.05.122 |
 
 { .block-language-dataview}
 
