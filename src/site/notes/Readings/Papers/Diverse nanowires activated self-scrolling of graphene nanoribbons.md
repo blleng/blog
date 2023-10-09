@@ -1,5 +1,5 @@
 ---
-{"tags":["paper/viewed/sciences/chemistry/simulation"],"dg-publish":true,"noteIcon":6,"Journal":"Applied Surface Science","Year":2012,"DOI":"10.1016/j.apsusc.2011.05.122","date":"2023-10-08T15:23","update":"2023-10-09T12:58","permalink":"/readings/papers/diverse-nanowires-activated-self-scrolling-of-graphene-nanoribbons/","dgPassFrontmatter":true,"created":"2023-10-08T15:23","updated":"2023-10-09T12:58"}
+{"tags":["paper/viewed/sciences/chemistry/simulation"],"dg-publish":true,"noteIcon":6,"Journal":"Applied Surface Science","Year":2012,"DOI":"10.1016/j.apsusc.2011.05.122","date":"2023-10-08T15:23","update":"2023-10-09T15:46","permalink":"/readings/papers/diverse-nanowires-activated-self-scrolling-of-graphene-nanoribbons/","dgPassFrontmatter":true,"created":"2023-10-08T15:23","updated":"2023-10-09T15:46"}
 ---
 
 
@@ -122,7 +122,7 @@ A simulation of the Fe-Graphene system by LAMMPS:
 ```
 
 ## Workflow
-![workflow](https://cdn.jsdelivr.net/gh/blleng/images/upload/202310091256772.svg)
+![workflow](https://cdn.jsdelivr.net/gh/blleng/images/upload/202310091546420.svg)
 ## Simulation Results
 
 ### Model Showcase
