@@ -1,5 +1,5 @@
 ---
-{"aliases":["More convenient ToC"],"info":"Modify the digital garden for convenient table of contents","date":"2023-08-28T00:36","update":"2023-09-01T21:51","tags":["note/2023/08","note/tech"],"id":"note20230828003602","dg-publish":true,"noteIcon":3,"permalink":"/notes/tech/modification-of-table-of-contents-of-digital-garden/","dgPassFrontmatter":true,"created":"2023-08-28T00:36","updated":"2023-09-01T21:51"}
+{"aliases":["More convenient ToC"],"info":"Modify the digital garden for convenient table of contents","date":"2023-08-28T00:36","update":"2024-02-04T22:56","tags":["note/2023/08","note/tech"],"id":"note20230828003602","dg-publish":true,"noteIcon":3,"permalink":"/notes/tech/modification-of-table-of-contents-of-digital-garden/","dgPassFrontmatter":true,"created":"2023-08-28T00:36","updated":"2024-02-04T22:56"}
 ---
 
 {%raw%}
@@ -113,8 +113,8 @@ title: Important
 ```
 
 # Showcase
-![toc1](https://cdn.jsdelivr.net/gh/blleng/images/upload/202308280119703.png)
+![toc1](https://cdn.freezing.cool/images/202308280119703.png)
 
-![toc2](https://cdn.jsdelivr.net/gh/blleng/images/upload/202308280119708.png)
+![toc2](https://cdn.freezing.cool/images/202308280119708.png)
 
 {%endraw%}
