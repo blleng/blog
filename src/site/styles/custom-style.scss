@@ -486,6 +486,9 @@ body nav.filetree-sidebar h1::before {
     body .graph {
         display:block !important;
     }
+    .beian {
+        top: 70px;
+    }
 }
 
 @media(max-width: 575.99px) {
@@ -518,8 +521,8 @@ li.current {
 }
 .beian {
     position: relative;
-    top: 80px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
     align-items: center;
     flex-direction: column;
