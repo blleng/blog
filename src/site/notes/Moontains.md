@@ -1,5 +1,5 @@
 ---
-{"cssClasses":["cards","cards-cols-3"],"contentClasses":"cards cards-cols-3","dg-home":true,"dg-publish":true,"noteIcon":5,"dg-pinned":true,"info":"Moontains - My digital garden","date":"2023-08-26T14:49","update":"2024-02-04T13:18","permalink":"/moontains/","pinned":true,"tags":["gardenEntry"],"dgPassFrontmatter":true,"created":"2023-08-26T14:49","updated":"2024-02-04T13:18"}
+{"cssClasses":["cards","cards-cols-3"],"contentClasses":"cards cards-cols-3","dg-home":true,"dg-publish":true,"noteIcon":5,"dg-pinned":true,"info":"Moontains - My digital garden","date":"2023-08-26T14:49","update":"2024-02-04T23:12","permalink":"/moontains/","pinned":true,"tags":["gardenEntry"],"dgPassFrontmatter":true,"created":"2023-08-26T14:49","updated":"2024-02-04T23:12"}
 ---
 
 
@@ -13,12 +13,12 @@ This site serves as a digital garden containing musings from me and treasures fr
 It's [open source](https://github.com/blleng/blog) for sure.
 
 ## Navigation
-| Cover                                                                  | Link                                                       |
-| ---------------------------------------------------------------------- | ---------------------------------------------------------- |
-| ![](https://cdn.jsdelivr.net/gh/blleng/images/upload/card-cover-1.png) | [[Navigation/Readings Collection\|Readings Collection]] |
-| ![](https://cdn.jsdelivr.net/gh/blleng/images/upload/card-cover-2.png) | [[Navigation/Projects Collection\|Projects Collection]] |
-| ![](https://cdn.jsdelivr.net/gh/blleng/images/upload/card-cover-3.png) | [[Navigation/Notes Collection\|Notes Collection]]       |
-| ![](https://cdn.jsdelivr.net/gh/blleng/images/upload/card-cover-4.png) | [[Navigation/Flashes Collection\|Flashes Collection]]   |
+| Cover                                                  | Link                                                       |
+| ------------------------------------------------------ | ---------------------------------------------------------- |
+| ![](https://cdn.freezing.cool/images/card-cover-1.png) | [[Navigation/Readings Collection\|Readings Collection]] |
+| ![](https://cdn.freezing.cool/images/card-cover-2.png) | [[Navigation/Projects Collection\|Projects Collection]] |
+| ![](https://cdn.freezing.cool/images/card-cover-3.png) | [[Navigation/Notes Collection\|Notes Collection]]       |
+| ![](https://cdn.freezing.cool/images/card-cover-4.png) | [[Navigation/Flashes Collection\|Flashes Collection]]   |
 
 { .block-language-dataview}
 ## Guidelines
