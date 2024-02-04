@@ -1,5 +1,5 @@
 ---
-{"tags":["paper/viewed/sciences/chemistry/bimetallic","paper/viewed/sciences/chemistry/synergy"],"id":"paper20230826005925","dg-publish":true,"noteIcon":6,"Year":2023,"DOI":"10.1021/jacs.2c10435","date":"2023-08-26T00:59","update":"2023-09-01T14:10","permalink":"/readings/papers/two-way-synergy-of-dual-sites-enhances-rwgs-reaction/","dgPassFrontmatter":true,"created":"2023-08-26T00:59","updated":"2023-09-01T14:10"}
+{"tags":["paper/viewed/sciences/chemistry/bimetallic","paper/viewed/sciences/chemistry/synergy"],"id":"paper20230826005925","dg-publish":true,"noteIcon":6,"Year":2023,"DOI":"10.1021/jacs.2c10435","date":"2023-08-26T00:59","update":"2024-02-04T23:05","permalink":"/readings/papers/two-way-synergy-of-dual-sites-enhances-rwgs-reaction/","dgPassFrontmatter":true,"created":"2023-08-26T00:59","updated":"2024-02-04T23:05"}
 ---
 
 
@@ -22,7 +22,7 @@ The limitations of conventional strategies in finely controlling the composition
 - **Local Library**: [Zotero](zotero://select/library/items/MASV7X98)
 
 # Detail
-![overview](https://cdn.jsdelivr.net/gh/blleng/images/upload/20230208_212016.png)
+![overview](https://cdn.freezing.cool/images/20230208_212016.png)
 
 Key points:
 
@@ -49,43 +49,43 @@ Increasing the availability of active hydrogen species might be a potential rout
 - Single-atom dual sites were introduced into RWGS
 
 ## Structure of Catalyst
-![Structure](https://cdn.jsdelivr.net/gh/blleng/images/upload/20230209_133054.png "structure")
+![Structure](https://cdn.freezing.cool/images/20230209_133054.png "structure")
 
 Pt species are atomically dispersed.
 
 Both Pt and Fe species are uniformly distributed throughout the CeO<sub>2</sub> support.
 
-![XRD](https://cdn.jsdelivr.net/gh/blleng/images/upload/20230209_133627.png "XRD")
+![XRD](https://cdn.freezing.cool/images/20230209_133627.png "XRD")
 
-![XRD_2](https://cdn.jsdelivr.net/gh/blleng/images/upload/20230209_133755.png "XRD")
+![XRD_2](https://cdn.freezing.cool/images/20230209_133755.png "XRD")
 
 The absence of Pt diffraction peaks in the XRD pattern indicates its high atomic dispersion.
 
-![XANES](https://cdn.jsdelivr.net/gh/blleng/images/upload/20230209_134305.png "XANES")
+![XANES](https://cdn.freezing.cool/images/20230209_134305.png "XANES")
 Pt species in Pt/Ce<sub>2</sub> and Pt/Ce<sub>2</sub> are in positively charged states.
 
-![EXAFS](https://cdn.jsdelivr.net/gh/blleng/images/upload/20230209_134748.png "EXAFS")
+![EXAFS](https://cdn.freezing.cool/images/20230209_134748.png "EXAFS")
 
 Pt−O bond in Fe−Pt/CeO<sub>2</sub> is elongated due to nearby Fe atoms.
 
-![Mossbauer](https://cdn.jsdelivr.net/gh/blleng/images/upload/20230209_135015.png "Mossbauer")
+![Mossbauer](https://cdn.freezing.cool/images/20230209_135015.png "Mossbauer")
 <sup>57</sup>Fe Mossbauer Spectroscopy: No metallic iron or iron oxide was identified, suggesting the atomic dispersion of Fe species.
 
 - Pt-O<sub>4</sub>-Fe model was constructed
 
-![XPS](https://cdn.jsdelivr.net/gh/blleng/images/upload/20230209_135506.png "XPS")
+![XPS](https://cdn.freezing.cool/images/20230209_135506.png "XPS")
 Electrons transfer from Pt to Fe.
 
 ## Catalytic Performance
-![Catalytic Performance](https://cdn.jsdelivr.net/gh/blleng/images/upload/20230209_140651.png "Catalytic Performance")
+![Catalytic Performance](https://cdn.freezing.cool/images/20230209_140651.png "Catalytic Performance")
 The stability is closely related to metal−support interactions but not from the Fe promoter.
 
-![Decreasing of Metal Feeding](https://cdn.jsdelivr.net/gh/blleng/images/upload/20230209_141929.png "Decreasing of Metal Feeding")
+![Decreasing of Metal Feeding](https://cdn.freezing.cool/images/20230209_141929.png "Decreasing of Metal Feeding")
 
 Decreasing the total metal content leads to similar improvement (synergy still exists), which indicates that Pt an Fe atoms should not be randomly distributed.
 
 ## Two-way Synergistic Effect
-![Synergy Investigation](https://cdn.jsdelivr.net/gh/blleng/images/upload/20230209_142710.png "In situ DRIFT")
+![Synergy Investigation](https://cdn.freezing.cool/images/20230209_142710.png "In situ DRIFT")
 
 A possible reaction loop:
 
@@ -95,4 +95,4 @@ A possible reaction loop:
 - Next, Pt and Fe atoms individually serve as the active sites for formate intermediate generation.
 - Subsequently, the intermediates are converted into CO* and desorbed from the catalysts in the form of CO molecules.
 
-![DTF Calculation](https://cdn.jsdelivr.net/gh/blleng/images/upload/20230209_143858.png)
+![DTF Calculation](https://cdn.freezing.cool/images/20230209_143858.png)
