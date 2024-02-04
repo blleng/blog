@@ -1,5 +1,5 @@
 ---
-{"index":1,"cssClasses":["cards","cards-cols-3"],"contentClasses":"cards cards-cols-3","cover":"https://cdn.jsdelivr.net/gh/blleng/images/upload/card-cover-1.png","dg-publish":true,"noteIcon":5,"date":"2023-08-25T23:56","update":"2023-09-02T01:38","permalink":"/navigation/readings-collection/","dgPassFrontmatter":true,"created":"2023-08-25T23:56","updated":"2023-09-02T01:38"}
+{"index":1,"cssclasses":["cards","cards-cols-3"],"contentClasses":"cards cards-cols-3","cover":"https://cdn.freezing.cool/images/card-cover-1.png","dg-publish":true,"noteIcon":5,"date":"2023-08-25T23:56","update":"2024-02-04T23:12","permalink":"/navigation/readings-collection/","dgPassFrontmatter":true,"created":"2023-08-25T23:56","updated":"2024-02-04T23:12"}
 ---
 
 # Papers Collection
