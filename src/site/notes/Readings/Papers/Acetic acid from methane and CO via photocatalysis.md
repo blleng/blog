@@ -1,5 +1,5 @@
 ---
-{"tags":["paper/viewed/sciences/chemistry/photocatalysis","paper/viewed/sciences/chemistry/oxidation"],"id":"paper20230826005509","dg-publish":true,"noteIcon":6,"Year":2023,"DOI":"10.1021/jacs.2c10840","date":"2023-08-26T00:55","update":"2023-09-01T14:10","permalink":"/readings/papers/acetic-acid-from-methane-and-co-via-photocatalysis/","dgPassFrontmatter":true,"created":"2023-08-26T00:55","updated":"2023-09-01T14:10"}
+{"tags":["paper/viewed/sciences/chemistry/photocatalysis","paper/viewed/sciences/chemistry/oxidation"],"id":"paper20230826005509","dg-publish":true,"noteIcon":6,"Year":2023,"DOI":"10.1021/jacs.2c10840","date":"2023-08-26T00:55","update":"2024-02-04T23:02","permalink":"/readings/papers/acetic-acid-from-methane-and-co-via-photocatalysis/","dgPassFrontmatter":true,"created":"2023-08-26T00:55","updated":"2024-02-04T23:02"}
 ---
 
 
@@ -22,7 +22,7 @@ Direct functionalization of methane selectively to value-added chemicals is stil
 - **Local Library**: [Zotero](zotero://select/library/items/2XRMVBV2)
 
 # Detail
-![Overview](https://cdn.jsdelivr.net/gh/blleng/images/upload/20230207002559.png)
+![Overview](https://cdn.freezing.cool/images/20230207002559.png)
 
 Key points:
 - Photocatalytic reaction at room temperature, water as sole external oxygen source
@@ -55,7 +55,7 @@ Liu et al.: O-provider and site-blocker in methane oxidaiton to methanol
 
 ## Photocatalytic Synthesis
 #### 4 h (2 bar of CO, 8 bar of CH<sub>4</sub>), different catalysts
-![Different catalysts performance](https://cdn.jsdelivr.net/gh/blleng/images/upload/20230207011457.png)
+![Different catalysts performance](https://cdn.freezing.cool/images/20230207011457.png)
 Pt/TiO<sub>2</sub>: a part of the oxygen species for CO and/or methane oxidation to CO<sub>2</sub> comes from the catalysts
 
 The production of AcOH was observed only for (M/
@@ -68,13 +68,13 @@ No oxygen was detected during the CH<sub>4</sub> photocatalytic conversion.
 lower hydrogen production for other catalysts can be attributed to the partial reduction of NPW and metal oxide species with H<sub>2</sub>, which do not contain Pt, Pd, and Rh.
 
 ### 12 h, NPW/TiO<sub>2</sub> VS (Pt/NPW)/TiO<sub>2</sub>
-![Reaction for 12 h](https://cdn.jsdelivr.net/gh/blleng/images/upload/20230207013037.png)
+![Reaction for 12 h](https://cdn.freezing.cool/images/20230207013037.png)
 catalysts changed color to dark blue: formation of partially reduced NPW
 
 Pt species are capable of utilizing H<sub>2</sub>O as the external oxidant for regeneration of NPW oxygen species and simultaneously produce H<sub>2</sub>.
 
 ### Ratio of CO/CH<sub>4</sub>
-![Ratio of CO/CH4](https://cdn.jsdelivr.net/gh/blleng/images/upload/20230208151757.png)
+![Ratio of CO/CH4](https://cdn.freezing.cool/images/20230208151757.png)
 
 Acetaldehyde: derived from the intermediates
 
@@ -88,12 +88,12 @@ Varying the content of Pt/NPW in the catalyst and Pt content in NPW
 Best composition: 0.2 wt % Pt loading and the weight ratio between Pt/NPW and TiO<sub>2</sub> at 3:10
 
 ### Catalyst Stability
-![Catalyst Stability](https://cdn.jsdelivr.net/gh/blleng/images/upload/20230208163259.png)
+![Catalyst Stability](https://cdn.freezing.cool/images/20230208163259.png)
 
 CO adsorption over Pt sites during the reaction preserves the AcOH from rapid decomposition (Figure S10)
 
 ## Catalyst Characterization
-![Catalyst Characterization](https://cdn.jsdelivr.net/gh/blleng/images/upload/20230208164752.png)
+![Catalyst Characterization](https://cdn.freezing.cool/images/20230208164752.png)
 
 a. XRD patterns, b. HAADF-STEM and EDS-mapping of Pt/NPW, c. HAADF-STEM of (Pt/NPW)/TiO<sub>2</sub>, d. EDS-mapping of (Pt/NPW)/TiO<sub>2</sub>, e. Atomic-resolved HAADF-STEM of (Pt/NPW)/TiO<sub>2</sub>, f. IR spectra of temperature-programmed CO desorption over (Pt/NPW)/TiO<sub>2</sub>
 
@@ -102,7 +102,7 @@ Atomic dispersion of primary Pt species over the catalyst was confirmed by IR of
 The acidity drives the Pt/NPW aggregates’ disassembly over the basic TiO<sub>2</sub> surface.
 
 ## Mechanism
-![Mechanism Experimental evidence](https://cdn.jsdelivr.net/gh/blleng/images/upload/20230208183407.png)
+![Mechanism Experimental evidence](https://cdn.freezing.cool/images/20230208183407.png)
 
 a. *In situ* W L<sub>3</sub>-edge XANES spectra  of (Pt/NPW)/TiO<sub>2</sub>(3:20) b. *In situ* IR spectra of (Pt/NPW)/TiO<sub>2</sub>(3:5) c. *In situ* EPR spectra with DMPO radical-trapping agent
 
@@ -114,13 +114,13 @@ Pt/NPW clusters promote the charge separation efficiency of TiO<sub>2</sub> by a
 
 ·OH played fundamental roles in promoting methane activation
 
-![Isotopic investigation](https://cdn.jsdelivr.net/gh/blleng/images/upload/20230208184913.png)
+![Isotopic investigation](https://cdn.freezing.cool/images/20230208184913.png)
 
 The methyl groups are derived from CH<sub>4</sub>, while acyl groups of AcOH are produced from CO.
 
 CO<sub>2</sub> is principally produced from CO by the photocatalytic WGS reaction (Figure S18)
 
 ### Proposed Mechanism:
-![Proposed Mechanism](https://cdn.jsdelivr.net/gh/blleng/images/upload/20230208192241.png)
+![Proposed Mechanism](https://cdn.freezing.cool/images/20230208192241.png)
 
 Path Ⅲ is more favored (Mars van Krevelen type mechanism)
