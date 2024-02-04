@@ -486,9 +486,6 @@ body nav.filetree-sidebar h1::before {
     body .graph {
         display:block !important;
     }
-    .beian {
-        top: 70px;
-    }
 }
 
 @media(max-width: 575.99px) {
@@ -529,4 +526,9 @@ li.current {
 }
 a.wangan-text, a.icp {
     color: #222;
+}
+@media(max-width: 1400px) {
+    .beian {
+        top: 70px;
+    }
 }
