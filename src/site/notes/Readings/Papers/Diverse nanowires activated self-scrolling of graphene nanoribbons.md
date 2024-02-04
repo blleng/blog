@@ -1,5 +1,5 @@
 ---
-{"tags":["paper/viewed/sciences/chemistry/simulation"],"dg-publish":true,"noteIcon":6,"Journal":"Applied Surface Science","Year":2012,"DOI":"10.1016/j.apsusc.2011.05.122","date":"2023-10-08T15:23","update":"2023-10-09T15:46","permalink":"/readings/papers/diverse-nanowires-activated-self-scrolling-of-graphene-nanoribbons/","dgPassFrontmatter":true,"created":"2023-10-08T15:23","updated":"2023-10-09T15:46"}
+{"tags":["paper/viewed/sciences/chemistry/simulation"],"dg-publish":true,"noteIcon":6,"Journal":"Applied Surface Science","Year":2012,"DOI":"10.1016/j.apsusc.2011.05.122","date":"2023-10-08T15:23","update":"2024-02-04T22:53","permalink":"/readings/papers/diverse-nanowires-activated-self-scrolling-of-graphene-nanoribbons/","dgPassFrontmatter":true,"created":"2023-10-08T15:23","updated":"2024-02-04T22:53"}
 ---
 
 
@@ -122,18 +122,18 @@ A simulation of the Fe-Graphene system by LAMMPS:
 ```
 
 ## Workflow
-![workflow](https://cdn.jsdelivr.net/gh/blleng/images/upload/202310091546420.svg)
+![workflow](https://cdn.freezing.cool/images/202310091546420.svg)
 ## Simulation Results
 
 ### Model Showcase
 
 Fe nanowire and graphene
-![Fe_Graphene](https://cdn.jsdelivr.net/gh/blleng/images/upload/origin_pss_fe_graphene.png)
+![Fe_Graphene](https://cdn.freezing.cool/images/origin_pss_fe_graphene.png)
 
 ### OVITO Display
 
 Snapshots of every 2400 timesteps:
-![snapshots](https://cdn.jsdelivr.net/gh/blleng/images/upload/fe_graphene_109.png)
+![snapshots](https://cdn.freezing.cool/images/fe_graphene_109.png)
 
 
 
