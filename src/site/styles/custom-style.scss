@@ -172,6 +172,12 @@ body #floating-control {
     gap:10px;
 }
 
+@media(max-width: 820px){
+    body #floating-control {
+        flex-direction: column;
+    }
+}
+
 body .svg-icon{
     color:var(--text-normal);
 }
@@ -209,13 +215,13 @@ body #floating-control #theme-switch.auto .auto {
 body .back-to-top {
     opacity: 0.6;
     align-items: center;
-    height: 28px;
-    width: auto;
+    height: 30px;
+    width: 30px;
     background: #222;
     border-radius: 4px;
     position: fixed;
     z-index: 999999;
-    right: 1vmax;
+    right: 2vmax;
     bottom: -50vmax;
     transition: bottom 0.2s ease-in-out;
     display: flex;
@@ -225,7 +231,7 @@ body .back-to-top {
 }
 
 body .back-to-top-on {
-    bottom: 5vmax;
+    bottom: 7vmax;
 }
 
 body .back-to-top .svg-icon {
