@@ -1,0 +1,10 @@
+<script>
+var heading = document.querySelectorAll(".cm-s-obsidian>*[id]");
+for(var i = 0; i < heading.length; i++){
+    var a = document.createElement("a");
+    a.href = "#" + heading[i].id;
+    heading[i].innerText = "";
+    a.innerText = heading[i].id;
+    heading[i].appendChild(a);
+}
+</script>
