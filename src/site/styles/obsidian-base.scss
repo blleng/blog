@@ -6488,6 +6488,13 @@ body {
     font-weight: inherit;
     color: #000;
   }
+  h1 a:hover,
+  .markdown-rendered h1 a:hover,
+  .HyperMD-header-1 a:hover,
+  .HyperMD-list-line .cm-header-1 a:hover {
+    text-decoration-line: none;
+    color: var(--link-color-hover);
+  }
   h2,
   .markdown-rendered h2,
   .HyperMD-header-2,
@@ -6507,6 +6514,13 @@ body {
   .HyperMD-list-line .cm-header-2 a {
     font-weight: inherit;
     color: #000;
+  }
+  h2 a:hover,
+  .markdown-rendered h2 a:hover,
+  .HyperMD-header-2 a:hover,
+  .HyperMD-list-line .cm-header-2 a:hover {
+    text-decoration-line: none;
+    color: var(--link-color-hover);
   }
   h3,
   .markdown-rendered h3,
@@ -6528,6 +6542,13 @@ body {
     font-weight: inherit;
     color: #000;
   }
+  h3 a:hover,
+  .markdown-rendered h3 a:hover,
+  .HyperMD-header-3 a:hover,
+  .HyperMD-list-line .cm-header-3 a:hover {
+    text-decoration-line: none;
+    color: var(--link-color-hover);
+  }
   h4,
   .markdown-rendered h4,
   .HyperMD-header-4,
@@ -6547,6 +6568,13 @@ body {
   .HyperMD-list-line .cm-header-4 a {
     font-weight: inherit;
     color: #000;
+  }
+  h4 a:hover,
+  .markdown-rendered h4 a:hover,
+  .HyperMD-header-4 a:hover,
+  .HyperMD-list-line .cm-header-4 a:hover {
+    text-decoration-line: none;
+    color: var(--link-color-hover);
   }
   h5,
   .markdown-rendered h5,
@@ -6568,6 +6596,13 @@ body {
     font-weight: inherit;
     color: #000;
   }
+  h5 a:hover,
+  .markdown-rendered h5 a:hover,
+  .HyperMD-header-5 a:hover,
+  .HyperMD-list-line .cm-header-5 a:hover {
+    text-decoration-line: none;
+    color: var(--link-color-hover);
+  }
   h6,
   .markdown-rendered h6,
   .HyperMD-header-6,
@@ -6587,6 +6622,13 @@ body {
   .HyperMD-list-line .cm-header-6 a {
     font-weight: inherit;
     color: #000;
+  }
+  h6 a:hover,
+  .markdown-rendered h6 a:hover,
+  .HyperMD-header-6 a:hover,
+  .HyperMD-list-line .cm-header-6 a:hover {
+    text-decoration-line: none;
+    color: var(--link-color-hover);
   }
   .HyperMD-header .cm-header-1,
   .HyperMD-header .cm-header-2,
