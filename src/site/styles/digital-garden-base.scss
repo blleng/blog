@@ -150,50 +150,11 @@ ul.task-list {
     padding: 10px;
     border-radius: 10px;
     width: 100%;
-    ol {
-        list-style: none;
-        padding-left: 10px;
-        border-left: 2px solid var(--background-secondary);
-    }
-
-    & > ol {
-        padding-left: 0;
-        border-left: none;
-    }
 }
 
 .toc-container {
     overflow-y: auto;
     border-left: 1px solid var(--text-accent);
-    ul {
-        list-style-type: none;
-        padding-inline-start: 15px !important;
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-    ul:not(:first-child) {
-        margin-bottom: 3px;
-    }
-
-    li {
-        padding-top: 4px;
-        &::before {
-            content: "# " !important;
-            color: var(--text-accent);
-            font-size: 0.8rem;
-        }
-        a {
-            text-decoration: none;
-            &:hover {
-                text-decoration: underline;
-            }
-        }
-    }
-}
-
-.toc-title-container {
-    display: flex;
-    justify-content: flex-start;
 }
 
 .backlinks {
@@ -308,9 +269,6 @@ ul.task-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    @media (max-width: 1400px) {
-        position: fixed;
-    }
 
     @media (max-width: 800px) {
         h1 {
@@ -329,6 +287,7 @@ ul.task-list {
         @media (max-width: 800px) {
             min-width: 36px;
             margin: 10px 25px 10px 25px;
+            background: none;
         }
     }
 
@@ -483,10 +442,6 @@ ul.task-list {
 
     > i {
         margin-left: 10px;
-    }
-
-    &:hover {
-        border: 1px solid var(--text-accent);
     }
 
     .search-icon {

@@ -120,17 +120,6 @@ body nav.filetree-sidebar .fa-sticky-note {
     display:none !important;
 }
 
-body nav.toc ol {
-    list-style:none;
-    padding-left:10px;
-    border-left:2px solid var(--background-secondary);
-}
-
-body nav.toc>ol {
-    padding-left:0;
-    border-left:none;
-}
-
 body header {
     margin-bottom:1.8em;
 }
@@ -156,8 +145,8 @@ body .cm-s-obsidian>*[id] {
 
 body .cm-s-obsidian>*[id]:hover::before {
     content:"#";
-    left:0;
-    padding-right: 5px;
+    color: #adadad;
+    padding-right: 10px;
 }
 
 body #floating-control {
@@ -373,17 +362,10 @@ body .search-button {
     border-radius:10px;
 }
 
-body .toc-container li::before {
-    content:"" !important;
-}
-
 body nav.navbar {
     top:10px;
     right:10px;
     left:10px;
-    width:calc(100% - 20px);
-    border-radius:10px;
-    z-index:99999;
 }
 
 body .cards table.dataview {
@@ -461,20 +443,8 @@ body code[class*=language-],body pre[class*=language-] {
     position:fixed;
 }
 
-.sidebar .toc-container {
-    max-height:unset;
-}
-
 .sidebar .backlinks {
     flex:unset;
-}
-
-.ads-title {
-    margin: 10px 0 0;
-    padding: 3px 7px;
-    width: fit-content;
-    font-size: 1.2rem !important;
-    color: var(--h6-color);
 }
 
 body nav.filetree-sidebar h1::before {
