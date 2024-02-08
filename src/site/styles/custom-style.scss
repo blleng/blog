@@ -358,10 +358,6 @@ body #forest-graph .forest-legends div.stat[icon="6"]::before {
     background-image: var(--note-icon-6);
 }
 
-body .toc-container li::before {
-    content:"" !important;
-}
-
 body nav.navbar {
     top:10px;
     right:10px;
@@ -441,6 +437,17 @@ body code[class*=language-],body pre[class*=language-] {
 
 .fullpage-overlay {
     position:fixed;
+}
+
+body nav.toc ol {
+    list-style:none;
+    padding-left:10px;
+    border-left:2px solid var(--background-secondary);
+}
+
+body nav.toc>ol {
+    padding-left:0;
+    border-left:none;
 }
 
 .sidebar .toc-container {
