@@ -358,8 +358,8 @@ body #forest-graph .forest-legends div.stat[icon="6"]::before {
     background-image: var(--note-icon-6);
 }
 
-body .search-button {
-    border-radius:10px;
+body .toc-container li::before {
+    content:"" !important;
 }
 
 body nav.navbar {
@@ -441,6 +441,10 @@ body code[class*=language-],body pre[class*=language-] {
 
 .fullpage-overlay {
     position:fixed;
+}
+
+.sidebar .toc-container {
+    max-height:unset;
 }
 
 .sidebar .backlinks {
