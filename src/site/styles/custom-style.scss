@@ -508,7 +508,7 @@ li.current {
     display: flex;
     align-items: center;
     flex-direction: column;
-    @media(max-width: 1400) {
+    @media(max-width: 1400px) {
         top: 70px;
     }
 }
