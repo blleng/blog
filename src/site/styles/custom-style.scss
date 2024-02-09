@@ -157,7 +157,7 @@ body .cm-s-obsidian>*[id]:hover::before {
 body #floating-control {
     position:fixed;
     bottom:1vmax;
-    right:1vmax;
+    right:1.5vmax;
     font-size:24px;
     display:flex;
     flex-direction:row;
@@ -236,15 +236,16 @@ body .back-to-top .svg-icon {
 
 body .fnote {
     display:none;
-    background-color:var(--background-primary);
-    border:1px solid var(--text-accent);
+    background-color:var(--background-secondary);
+    border:1px solid var(--text-normal);
+    border-radius: 4px;
     position:fixed;
     bottom:10px;
     left:0;
     right:0;
     padding:10px;
     text-align:center;
-    z-index:999;
+    z-index:10;
 }
 
 body .footnote-ref {
