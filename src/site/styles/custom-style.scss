@@ -89,8 +89,12 @@ body nav.filetree-sidebar {
     height:calc(100% - 160px);
     display:flex;
     flex-direction:column;
-    border-radius:10px;
     overflow-x:hidden;
+    border-right: 1px solid var(--text-normal);
+    @media(max-width: 1400px){
+        border-radius: 10px;
+        border-right: none;
+    }
 }
 
 body nav.filetree-sidebar .search-button {
@@ -504,12 +508,10 @@ li.current {
     display: flex;
     align-items: center;
     flex-direction: column;
+    @media(max-width: 1400) {
+        top: 70px;
+    }
 }
 a.wangan-text, a.icp {
     color: #858585;
-}
-@media(max-width: 1400px) {
-    .beian {
-        top: 70px;
-    }
 }
