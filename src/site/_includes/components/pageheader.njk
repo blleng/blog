@@ -14,6 +14,7 @@
 {%- for style in dynamics.styles -%}
 <link href="{{style}}" rel="stylesheet">
 {%- endfor -%}
+<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/prism/1.25.0/themes/prism.min.css"/>
 {% if meta.styleSettingsCss %}
 <style>
     {{ meta.styleSettingsCss | safe }}
@@ -25,7 +26,3 @@
         startOnLoad: true,
     });
 </script>
-<script src="https://unpkg.com/whatwg-fetch@3.6.2/dist/fetch.umd.js"></script>
-<script src="https://unpkg.com/force-graph@1.43.3/dist/force-graph.min.js" defer></script>
-<script src="https://unpkg.com/@alpinejs/persist@3.13.0/dist/cdn.min.js" defer></script>
-<script src="https://unpkg.com/alpinejs@3.13.0/dist/cdn.min.js" defer></script>
