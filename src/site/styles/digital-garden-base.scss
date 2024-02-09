@@ -509,6 +509,7 @@ ul.task-list {
     background-color: var(--background-secondary);
     border: 1px solid var(--text-normal);
     border-radius: 5px;
+    z-index: 10;
 
     #full-graph-container {
         width: 100%;
