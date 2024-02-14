@@ -1,5 +1,5 @@
 ---
-{"index":1,"cssclasses":["cards","cards-cols-3"],"contentClasses":"cards cards-cols-3","cover":"https://cdn.freezing.cool/images/card-cover-1.png","dg-publish":true,"noteIcon":5,"date":"2023-08-25T23:56","update":"2024-02-14T20:23","permalink":"/navigation/readings-collection/","dgPassFrontmatter":true,"created":"2023-08-25T23:56","updated":"2024-02-14T20:23"}
+{"index":1,"cssclasses":["cards","cards-cols-3"],"contentClasses":"cards cards-cols-3","cover":"https://cdn.freezing.cool/images/card-cover-1.png","dg-publish":true,"noteIcon":5,"date":"2023-08-25T23:56","update":"2024-02-14T20:34","permalink":"/navigation/readings-collection/","dgPassFrontmatter":true,"created":"2023-08-25T23:56","updated":"2024-02-14T20:34"}
 ---
 
 # Papers Collection
@@ -43,9 +43,9 @@
 # Books Collection
 
 ## Unfinished Reading
-| Cover                                                              | Title       | Link                                                        |
-| ------------------------------------------------------------------ | ----------- | ----------------------------------------------------------- |
-| ![](https://img1.doubanio.com/view/subject/s/public/s34628400.jpg) | 寻找踏水村指南, 沈至 | [Douban Reading](https://book.douban.com/subject/36527880/) |
+| Cover                                                              | Title                                      | Link                                                        |
+| ------------------------------------------------------------------ | ------------------------------------------ | ----------------------------------------------------------- |
+| ![](https://img1.doubanio.com/view/subject/s/public/s34628400.jpg) | [[Readings/Books/寻找踏水村指南\|寻找踏水村指南]], 沈至 | [Douban Reading](https://book.douban.com/subject/36527880/) |
 
 { .block-language-dataview}
 
