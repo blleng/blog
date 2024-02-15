@@ -1,5 +1,5 @@
 ---
-{"tags":["paper/viewed/sciences/chemistry/bimetallic","paper/viewed/sciences/chemistry/synergy"],"id":"paper20230826005925","dg-publish":true,"noteIcon":6,"Year":2023,"DOI":"10.1021/jacs.2c10435","date":"2023-08-26T00:59","update":"2024-02-04T23:05","permalink":"/readings/papers/two-way-synergy-of-dual-sites-enhances-rwgs-reaction/","dgPassFrontmatter":true,"created":"2023-08-26T00:59","updated":"2024-02-04T23:05"}
+{"tags":["paper/viewed/sciences/chemistry/bimetallic","paper/viewed/sciences/chemistry/synergy"],"Journal":"Journal of the American Chemical Society","dg-publish":true,"noteIcon":6,"Year":2023,"DOI":"10.1021/jacs.2c10435","date":"2023-08-26T00:59","update":"2024-02-15T22:43","permalink":"/readings/papers/two-way-synergy-of-dual-sites-enhances-rwgs-reaction/","dgPassFrontmatter":true,"created":"2023-08-26T00:59","updated":"2024-02-15T22:43"}
 ---
 
 
