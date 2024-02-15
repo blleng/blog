@@ -1,5 +1,5 @@
 ---
-{"tags":["paper/viewed/sciences/chemistry/photocatalysis","paper/viewed/sciences/chemistry/oxidation"],"id":"paper20230826005509","dg-publish":true,"noteIcon":6,"Year":2023,"DOI":"10.1021/jacs.2c10840","date":"2023-08-26T00:55","update":"2024-02-04T23:02","permalink":"/readings/papers/acetic-acid-from-methane-and-co-via-photocatalysis/","dgPassFrontmatter":true,"created":"2023-08-26T00:55","updated":"2024-02-04T23:02"}
+{"tags":["paper/viewed/sciences/chemistry/photocatalysis","paper/viewed/sciences/chemistry/oxidation"],"Journal":"Journal of the American Chemical Society","dg-publish":true,"noteIcon":6,"Year":2023,"DOI":"10.1021/jacs.2c10840","date":"2023-08-26T00:55","update":"2024-02-15T22:43","permalink":"/readings/papers/acetic-acid-from-methane-and-co-via-photocatalysis/","dgPassFrontmatter":true,"created":"2023-08-26T00:55","updated":"2024-02-15T22:43"}
 ---
 
 
