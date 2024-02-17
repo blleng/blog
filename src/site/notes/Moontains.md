@@ -13,13 +13,13 @@ This site serves as a digital garden containing musings from me and treasures fr
 It's [open source](https://github.com/blleng/blog) for sure.
 
 ## Navigation
-| Cover                                                                  | Link                                                       |
-| ---------------------------------------------------------------------- | ---------------------------------------------------------- |
-| ![](https://cdn.freezing.cool/images/card-cover-1.png)                 | [[Navigation/Readings Collection\|Readings Collection]] |
-| ![](https://cdn.freezing.cool/images/card-cover-2.png)                 | [[Navigation/Projects Collection\|Projects Collection]] |
-| ![](https://cdn.freezing.cool/images/card-cover-3.png)                 | [[Navigation/Notes Collection\|Notes Collection]]       |
-| ![](https://cdn.freezing.cool/images/card-cover-4.png)                 | [[Navigation/Flashes Collection\|Flashes Collection]]   |
-| ![](https://cdn.jsdelivr.net/gh/blleng/images/upload/card-cover-5.png) | [[Navigation/Writings Collection\|Writings Collection]] |
+| Cover                                                  | Link                                                       |
+| ------------------------------------------------------ | ---------------------------------------------------------- |
+| ![](https://cdn.freezing.cool/images/card-cover-1.png) | [[Navigation/Readings Collection\|Readings Collection]] |
+| ![](https://cdn.freezing.cool/images/card-cover-2.png) | [[Navigation/Projects Collection\|Projects Collection]] |
+| ![](https://cdn.freezing.cool/images/card-cover-3.png) | [[Navigation/Notes Collection\|Notes Collection]]       |
+| ![](https://cdn.freezing.cool/images/card-cover-4.png) | [[Navigation/Flashes Collection\|Flashes Collection]]   |
+| ![](https://cdn.freezing.cool/images/card-cover-5.png) | [[Navigation/Writings Collection\|Writings Collection]] |
 
 { .block-language-dataview}
 ## Guidelines
