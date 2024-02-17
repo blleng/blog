@@ -53,22 +53,56 @@ body h2 {
 }
 
 body h3 {
-    font-size:1.17em !important;
+    font-size:1.38em !important;
 }
 
 body h4 {
-    font-size:1em !important;
+    font-size:1.3em !important;
     font-weight:bolder !important;
 }
 
 body h5 {
-    font-size:.83em !important;
+    font-size:1.25em !important;
     font-weight:bolder !important;
 }
 
 body h6 {
-    font-size:.67em !important;
+    font-size:1.17em !important;
     font-weight:bolder !important;
+}
+
+@media(max-width:900px){
+    #title>h1 {
+        font-size: 2em!important;
+    }
+    
+    body h1 {
+        font-size:1.6em !important;
+    }
+    
+    body h2 {
+        font-size:1.4em !important;
+    }
+    
+    body h3 {
+        font-size:1.3em !important;
+    }
+    
+    body h4 {
+        font-size:1.25em !important;
+    }
+    
+    body h5 {
+        font-size:1.2em !important;
+    }
+    
+    body h6 {
+        font-size:1.15em !important;
+    }
+
+    .content {
+        font-size: 16px;
+    }
 }
 
 body .graph {
