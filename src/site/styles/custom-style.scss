@@ -511,3 +511,13 @@ a.wangan-text, a.icp {
 .cards-reading table.dataview tbody:has(img) {
     --cards-columns: repeat(auto-fit, minmax(min(100%,90px), 128px));
 }
+
+blockquote {
+    border-left: 0.25rem solid #d4d4d4;
+    color: #7c7b7b;
+    font-family: 'Noto Serif SC', serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 1.6em;
+    padding-left: 1.2em;
+}
