@@ -518,5 +518,9 @@ a.wangan-text, a.icp {
 }
 
 .cards-reading {
-    --cards-columns: repeat(auto-fit, minmax(min(128px, 100%), 1fr));
+    --cards-columns: repeat(auto-fit, minmax(128, 1fr));
+}
+
+.cards table.dataview tbody:has(img) {
+    grid-template-columns: repeat(auto-fit, 128px);
 }
