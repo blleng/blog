@@ -488,6 +488,11 @@ body {
     --cards-aspect-ratio: auto;
     --cards-columns: repeat(auto-fit, minmax(var(--cards-min-width), var(--cards-max-width)))
 }
+@media (max-width:400pt) {
+    body {
+        --cards-min-width:var(--cards-mobile-width)
+    }
+}
 .cards table.dataview {
     --table-width: 100%;
     --table-edge-cell-padding-first: calc(var(--cards-padding)/2);
