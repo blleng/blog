@@ -415,19 +415,6 @@ body code[class*=language-],body pre[class*=language-] {
     align-items:center;
 }
 
-.aliases {
-    display:flex;
-    flex-direction:row;
-    gap:5px;
-    align-items:center;
-    margin-top:20px;
-    color:var(--tag-color);
-}
-
-.aliases .heading:only-child {
-    display:none;
-}
-
 .header-tags {
     gap:5px;
     display:flex;
@@ -447,10 +434,6 @@ body nav.toc ol {
 body nav.toc>ol {
     padding-left:0;
     border-left:none;
-}
-
-.sidebar .toc-container {
-    max-height:unset;
 }
 
 .sidebar .backlinks {
