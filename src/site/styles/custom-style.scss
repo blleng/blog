@@ -516,3 +516,9 @@ li.current {
 a.wangan-text, a.icp {
     color: #858585;
 }
+
+@media(min-width:400pt){
+    .cards-img .cards table.dataview tbody>tr>td>img{
+        display: none;
+    }
+}
