@@ -552,6 +552,10 @@ blockquote {
     font-family: 'Noto Serif SC', serif;
     font-weight: 400;
     font-size: 15px;
-    margin-bottom: 1.6em;
     padding-left: 1.2em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
 }
