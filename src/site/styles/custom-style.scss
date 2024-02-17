@@ -518,7 +518,7 @@ a.wangan-text, a.icp {
 }
 
 @media(max-width:400pt){
-    .cards-img table.dataview tbody>tr>td:has(img){
-        width: fit-content;
+    .cards-img table.dataview tbody:has(img){
+        grid-template-columns: repeat(auto-fit, 128px)
     }
 }
