@@ -1,5 +1,5 @@
 ---
-{"cssClasses":["cards","cards-cols-3"],"contentClasses":"cards cards-cols-3","dg-home":true,"dg-publish":true,"noteIcon":5,"dg-pinned":true,"info":"Moontains - My digital garden","date":"2023-08-26T14:49","update":"2024-02-04T23:12","permalink":"/moontains/","pinned":true,"tags":["gardenEntry"],"dgPassFrontmatter":true,"created":"2023-08-26T14:49","updated":"2024-02-04T23:12"}
+{"cssClasses":["cards","cards-cols-3"],"contentClasses":"cards cards-cols-3","dg-home":true,"dg-publish":true,"noteIcon":5,"dg-pinned":true,"info":"Moontains - My digital garden","date":"2023-08-26T14:49","update":"2024-02-14T20:25","permalink":"/moontains/","pinned":true,"tags":["gardenEntry"],"dgPassFrontmatter":true,"created":"2023-08-26T14:49","updated":"2024-02-14T20:25"}
 ---
 
 
