@@ -421,6 +421,10 @@ body code[class*=language-],body pre[class*=language-] {
     flex-wrap: wrap;
 }
 
+a.tag {
+    max-width: 90%;
+}
+
 .fullpage-overlay {
     position:fixed;
 }
