@@ -45,13 +45,13 @@
 ## Unfinished Reading
 | Cover                                                     | Link                           | Author       | Douban                                              |
 | --------------------------------------------------------- | ------------------------------ | ------------ | --------------------------------------------------- |
-| ![](https://cdn.freezing.cool/images/202402152227917.jpg) | [[Readings/Books/盲刺客\|盲刺客]] | [加]玛格丽特·阿特伍德 | [Douban](https://book.douban.com/subject/26748179/) |
+| ![](https://cdn.freezing.cool/images/202402171426022.jpg) | [[Readings/Books/盲刺客\|盲刺客]] | [加]玛格丽特·阿特伍德 | [Douban](https://book.douban.com/subject/26748179/) |
 
 { .block-language-dataview}
 
 ## Finished Reading
 | Cover                                                     | Link                                   | Author | Douban                                              |
 | --------------------------------------------------------- | -------------------------------------- | ------ | --------------------------------------------------- |
-| ![](https://cdn.freezing.cool/images/202402142039788.jpg) | [[Readings/Books/寻找踏水村指南\|寻找踏水村指南]] | 沈至     | [Douban](https://book.douban.com/subject/36527880/) |
+| ![](https://cdn.freezing.cool/images/202402171426515.jpg) | [[Readings/Books/寻找踏水村指南\|寻找踏水村指南]] | 沈至     | [Douban](https://book.douban.com/subject/36527880/) |
 
 { .block-language-dataview}
