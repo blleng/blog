@@ -19,6 +19,7 @@ It's [open source](https://github.com/blleng/blog) for sure.
 | ![](https://cdn.freezing.cool/images/card-cover-2.png) | [[Navigation/Projects Collection\|Projects Collection]] |
 | ![](https://cdn.freezing.cool/images/card-cover-3.png) | [[Navigation/Notes Collection\|Notes Collection]]       |
 | ![](https://cdn.freezing.cool/images/card-cover-4.png) | [[Navigation/Flashes Collection\|Flashes Collection]]   |
+| ![](https://cdn.freezing.cool/images/card-cover-5.png) | [[Navigation/Writings Collection\|Writings Collection]] |
 
 { .block-language-dataview}
 ## Guidelines
