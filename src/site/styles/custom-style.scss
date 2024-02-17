@@ -517,7 +517,7 @@ a.wangan-text, a.icp {
     color: #858585;
 }
 
-@media(min-width:400pt){
+@media(max-width:400pt){
     .cards-img table.dataview tbody>tr>td img{
         display: none;
     }
