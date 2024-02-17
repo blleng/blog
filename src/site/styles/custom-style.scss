@@ -517,8 +517,6 @@ a.wangan-text, a.icp {
     color: #858585;
 }
 
-@media(max-width:400pt){
-    .cards-img table.dataview tbody:has(img){
-        grid-template-columns: repeat(auto-fit, 128px)
-    }
+.cards-reading {
+    --cards-columns: repeat(auto-fit, minmax(min(128px, 100%), 1fr));
 }
