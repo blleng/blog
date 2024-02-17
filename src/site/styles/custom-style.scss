@@ -124,11 +124,7 @@ body nav.filetree-sidebar {
     display:flex;
     flex-direction:column;
     overflow-x:hidden;
-    border-right: 1px solid var(--text-normal);
-    @media(max-width: 1400px){
-        border-radius: 10px;
-        border-right: none;
-    }
+    border-radius: 5px;
 }
 
 body nav.filetree-sidebar .search-button {
