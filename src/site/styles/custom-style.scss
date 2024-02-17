@@ -518,7 +518,7 @@ a.wangan-text, a.icp {
 }
 
 .cards-reading {
-    --cards-columns: repeat(auto-fit, minmax(128, 1fr));
+    --cards-columns: repeat(auto-fit, minmax(128px, 1fr));
 }
 
 .cards-reading table.dataview tbody:has(img) {
