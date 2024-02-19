@@ -11,6 +11,7 @@
 | [[Readings/Papers/Acetic acid from methane and CO via photocatalysis\|Acetic acid from methane and CO via photocatalysis]]                                 | 2023 | Journal of the American Chemical Society |
 | [[Readings/Papers/Two-way synergy of dual sites enhances RWGS reaction\|Two-way synergy of dual sites enhances RWGS reaction]]                             | 2023 | Journal of the American Chemical Society |
 | [[Readings/Papers/Diverse nanowires activated self-scrolling of graphene nanoribbons\|Diverse nanowires activated self-scrolling of graphene nanoribbons]] | 2012 | Applied Surface Science                  |
+| [[Readings/Papers/proximity-controlled nanoparticles for BA hydrogenation\|proximity-controlled nanoparticles for BA hydrogenation]]                       | 2024 | Nature Catalysis                         |
 
 { .block-language-dataview}
 
@@ -21,6 +22,7 @@
 | [[Readings/Papers/Two-way synergy of dual sites enhances RWGS reaction\|Two-way synergy of dual sites enhances RWGS reaction]]                             | 2023 | Journal of the American Chemical Society |
 | [[Readings/Papers/Biomolecular radiation damage in water\|Biomolecular radiation damage in water]]                                                         | 2023 | Nature Chemistry                         |
 | [[Readings/Papers/Diverse nanowires activated self-scrolling of graphene nanoribbons\|Diverse nanowires activated self-scrolling of graphene nanoribbons]] | 2012 | Applied Surface Science                  |
+| [[Readings/Papers/proximity-controlled nanoparticles for BA hydrogenation\|proximity-controlled nanoparticles for BA hydrogenation]]                       | 2024 | Nature Catalysis                         |
 
 { .block-language-dataview}
 
