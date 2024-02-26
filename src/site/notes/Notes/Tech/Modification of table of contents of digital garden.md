@@ -1,5 +1,5 @@
 ---
-{"aliases":["More convenient ToC"],"info":"Modify the digital garden for convenient table of contents","date":"2023-08-28T00:36","update":"2024-02-04T22:56","tags":["note/2023/08","note/tech"],"id":"note20230828003602","dg-publish":true,"noteIcon":3,"permalink":"/notes/tech/modification-of-table-of-contents-of-digital-garden/","dgPassFrontmatter":true,"created":"2023-08-28T00:36","updated":"2024-02-04T22:56"}
+{"aliases":["More convenient ToC"],"info":"Modify the digital garden for convenient table of contents","date":"2023-08-28T00:36","update":"2024-02-26T17:25","tags":["note/2023/08","note/frontend"],"id":"note20230828003602","dg-publish":true,"noteIcon":3,"permalink":"/notes/tech/modification-of-table-of-contents-of-digital-garden/","dgPassFrontmatter":true,"created":"2023-08-28T00:36","updated":"2024-02-26T17:25"}
 ---
 
 {%raw%}
