@@ -1,0 +1,1816 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Diverse nanowires activated self-scrolling of graphene nanoribbons - Moontains</title>
+    
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+
+<meta name="author" content="Leng Bing-Liang">
+<meta name="keywords" content="blleng,Leng,moontains,moontain,blog,Bingliang,Bing-Liang,tech,life">
+<meta name="description" content="Diverse nanowires activated self-scrolling of graphene nanoribbons">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Diverse nanowires activated self-scrolling of graphene nanoribbons">
+<meta property="og:description" content="Diverse nanowires activated self-scrolling of graphene nanoribbons">
+<meta property="og:image" content="https://cdn.freezing.cool/images/202308312102955.jpg">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-site-verification" content="eAzC2hbvcHUrLOQa0hXeIGWaQqvhhm_rt3VZI0TpstU" >
+<link href="https://cdn.freezing.cool/blog/styles/base.css" rel="stylesheet">
+<link href="/styles/custom-style.css" rel="stylesheet"><link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/prism/1.25.0/themes/prism.min.css">
+
+<script src="https://unpkg.com/mermaid@9.4.0/dist/mermaid.min.js"></script>
+<script>
+    mermaid.initialize({
+        startOnLoad: true,
+    });
+</script>
+    
+    
+  </head>
+  <body class="theme-light markdown-preview-view markdown-rendered markdown-preview-section title-note-icon filetree-note-icon links-note-icon backlinks-note-icon">
+    
+    
+    
+      
+    
+    <div x-init="isDesktop = (window.innerWidth>=1400) ? true: false;" 
+            x-on:resize.window="isDesktop = (window.innerWidth>=1400) ? true : false;" 
+            x-data="{isDesktop: true, showFilesMobile: false}">
+
+        <div x-show.important="!isDesktop" style="display: none;">
+            <nav class="navbar">
+    <div class="navbar-inner">
+        <span style="font-size: 1.5rem; margin-right: 10px;" @click="showFilesMobile=!showFilesMobile"><i  data-lucide="menu"></i></span>
+        
+        <a href="/" style="text-decoration: none;">
+            <h1 style="margin: 15px !important;">MOONTAINS</h1>
+        </a>
+        
+    </div>
+    
+    
+        <div class="search-button align-icon" onclick="toggleSearch()">
+    <span class="search-icon">
+        <i data-lucide="search" ></i>
+    </span>
+    <span class="search-text">
+        <span>Search</span>
+        <span style="font-size: 0.6rem; padding: 2px 2px 0 6px; text-align:center; transform: translateY(4px);" class="search-keys">
+            CTRL + K
+        </span>
+    </span>
+</div>
+    
+</nav>
+        </div>
+        
+        <div x-show="showFilesMobile && !isDesktop" @click="showFilesMobile = false" style="display:none;" class="fullpage-overlay"></div>
+
+        <nav class="filetree-sidebar"  x-show.important="isDesktop || showFilesMobile" style="display: none;">
+        
+         <a href="/" style="text-decoration: none;">
+               <h1 style="text-align:center;">MOONTAINS</h1>
+         </a>
+         
+        
+            <div style="display: flex; justify-content: center;">
+                <div class="search-button align-icon" onclick="toggleSearch()">
+    <span class="search-icon">
+        <i data-lucide="search" ></i>
+    </span>
+    <span class="search-text">
+        <span>Search</span>
+        <span style="font-size: 0.6rem; padding: 2px 2px 0 6px; text-align:center; transform: translateY(4px);" class="search-keys">
+            CTRL + K
+        </span>
+    </span>
+</div>
+            </div>
+        
+        <div class="sidebar-nav">
+            <ul>
+                <li class="current">
+                    Overview
+                </li>
+                <li>
+                    Contents
+                </li>
+            </ul>
+        </div>
+        <div class="folder" x-data="{isOpen: true}">
+            <div class="sidebar-panel-container">
+                <div class="item" style="display: block;">
+                <div class="site-overview">
+    
+        <div x-show="isOpen" style="display:none" class="">
+            
+                <div @click.stop class="notelink "><a data-note-icon="5" style="text-decoration: none;" class="filename" href="/">Moontains </a>
+                </div>
+            
+        </div>
+        
+    
+    
+        <div x-show="isOpen" style="display:none" class="">
+            
+                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as('Flashes')}" @click.stop="isOpen=!isOpen">
+                    <div class="foldername-wrapper align-icon">
+                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
+                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
+                    <span class="foldername">Flashes</span>
+                    </div>
+                    
+                        
+    
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><a data-note-icon="1" style="text-decoration: none;" class="filename" href="/approaches-to-correcting-the-false-belief/">错误信念的有效纠正机制 </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                </div>
+            
+        </div>
+        
+    
+    
+        <div x-show="isOpen" style="display:none" class="">
+            
+                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as('Navigation')}" @click.stop="isOpen=!isOpen">
+                    <div class="foldername-wrapper align-icon">
+                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
+                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
+                    <span class="foldername">Navigation</span>
+                    </div>
+                    
+                        
+    
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><a data-note-icon="5" style="text-decoration: none;" class="filename" href="/navigation/flashes-collection/">Flashes Collection </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><a data-note-icon="5" style="text-decoration: none;" class="filename" href="/navigation/notes-collection/">Notes Collection </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><a data-note-icon="5" style="text-decoration: none;" class="filename" href="/navigation/projects-collection/">Projects Collection </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><a data-note-icon="5" style="text-decoration: none;" class="filename" href="/navigation/readings-collection/">Readings Collection </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><a data-note-icon="5" style="text-decoration: none;" class="filename" href="/navigation/writings-collection/">Writings Collection </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                </div>
+            
+        </div>
+        
+    
+    
+        <div x-show="isOpen" style="display:none" class="">
+            
+                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as('Notes')}" @click.stop="isOpen=!isOpen">
+                    <div class="foldername-wrapper align-icon">
+                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
+                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
+                    <span class="foldername">Notes</span>
+                    </div>
+                    
+                        
+    
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as('Notes/Life')}" @click.stop="isOpen=!isOpen">
+                    <div class="foldername-wrapper align-icon">
+                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
+                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
+                    <span class="foldername">Life</span>
+                    </div>
+                    
+                        
+    
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><a data-note-icon="1" style="text-decoration: none;" class="filename" href="/notes/life/clean-your-toilet-online-get-the-achievements-in-feeling/">Clean your toilet online, get the achievements in feeling </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as('Notes/Tech')}" @click.stop="isOpen=!isOpen">
+                    <div class="foldername-wrapper align-icon">
+                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
+                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
+                    <span class="foldername">Tech</span>
+                    </div>
+                    
+                        
+    
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><a data-note-icon="3" style="text-decoration: none;" class="filename" href="/notes/tech/modification-of-table-of-contents-of-digital-garden/">Modification of table of contents of digital garden </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><a data-note-icon="3" style="text-decoration: none;" class="filename" href="/notes/tech/the-communication-between-wechat-mini-program-and-esp-8266/">The communication between wechat-mini-program and ESP8266 </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                </div>
+            
+        </div>
+        
+    
+                    
+                </div>
+            
+        </div>
+        
+    
+    
+        <div x-show="isOpen" style="display:none" class="">
+            
+                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as('Open Source')}" @click.stop="isOpen=!isOpen">
+                    <div class="foldername-wrapper align-icon">
+                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
+                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
+                    <span class="foldername">Open Source</span>
+                    </div>
+                    
+                        
+    
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><a data-note-icon="3" style="text-decoration: none;" class="filename" href="/open-source/a-theme-designed-for-hexo-hexo-theme-lx/">A theme designed for Hexo - Hexo-Theme-Lx </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><a data-note-icon="1" style="text-decoration: none;" class="filename" href="/open-source/an-esp-8266-robot-controlled-via-wechat-mini-program/">An ESP8266 robot controlled via wechat mini program </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                </div>
+            
+        </div>
+        
+    
+    
+        <div x-show="isOpen" style="display:none" class="">
+            
+                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as('Readings')}" @click.stop="isOpen=!isOpen">
+                    <div class="foldername-wrapper align-icon">
+                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
+                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
+                    <span class="foldername">Readings</span>
+                    </div>
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as('Readings/Books')}" @click.stop="isOpen=!isOpen">
+                    <div class="foldername-wrapper align-icon">
+                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
+                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
+                    <span class="foldername">Books</span>
+                    </div>
+                    
+                        
+    
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><a data-note-icon="6" style="text-decoration: none;" class="filename" href="/readings/books/in-search-of-tashui-village-a-guide/">寻找踏水村指南 </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><a data-note-icon="6" style="text-decoration: none;" class="filename" href="/readings/books/ le-temps-et-l-autre/">时间与他者 </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><a data-note-icon="6" style="text-decoration: none;" class="filename" href="/readings/books/the-blind-assassin/">盲刺客 </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><a data-note-icon="6" style="text-decoration: none;" class="filename" href="/readings/books/the-continuing-silence-of-a-poet/">诗人继续沉默 </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as('Readings/Papers')}" @click.stop="isOpen=!isOpen">
+                    <div class="foldername-wrapper align-icon">
+                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
+                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
+                    <span class="foldername">Papers</span>
+                    </div>
+                    
+                        
+    
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><a data-note-icon="6" style="text-decoration: none;" class="filename" href="/readings/papers/acetic-acid-from-methane-and-co-via-photocatalysis/">Acetic acid from methane and CO via photocatalysis </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><a data-note-icon="6" style="text-decoration: none;" class="filename" href="/readings/papers/belief-is-weak/">Belief is weak </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><a data-note-icon="6" style="text-decoration: none;" class="filename" href="/readings/papers/biomolecular-radiation-damage-in-water/">Biomolecular radiation damage in water </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink active-note"><a data-note-icon="6" style="text-decoration: none;" class="filename" href="/readings/papers/diverse-nanowires-activated-self-scrolling-of-graphene-nanoribbons/">Diverse nanowires activated self-scrolling of graphene nanoribbons </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><a data-note-icon="6" style="text-decoration: none;" class="filename" href="/readings/papers/memory-belief-is-weak/">Memory belief is weak </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><a data-note-icon="6" style="text-decoration: none;" class="filename" href="/readings/papers/proximity-controlled-nanoparticles-for-ba-hydrogenation/">proximity-controlled nanoparticles for BA hydrogenation </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><a data-note-icon="6" style="text-decoration: none;" class="filename" href="/readings/papers/two-way-synergy-of-dual-sites-enhances-rwgs-reaction/">Two-way synergy of dual sites enhances RWGS reaction </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><a data-note-icon="6" style="text-decoration: none;" class="filename" href="/readings/papers/what-we-remember-is-more-than-what-we-can-talk/">我们记得的，多于我们能说的 </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                </div>
+            
+        </div>
+        
+    
+                    
+                </div>
+            
+        </div>
+        
+    
+    
+        <div x-show="isOpen" style="display:none" class="">
+            
+                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as('Writings')}" @click.stop="isOpen=!isOpen">
+                    <div class="foldername-wrapper align-icon">
+                    <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
+                    <i x-show="!isOpen"  data-lucide="chevron-right"></i>
+                    <span class="foldername">Writings</span>
+                    </div>
+                    
+                        
+    
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><a data-note-icon="3" style="text-decoration: none;" class="filename" href="/writings/2024/0215223949/">动筷子时，能生吞的才叫诗 </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                </div>
+            
+        </div>
+        
+    </div>
+                </div>
+                
+                <div class="item">
+                
+                <div class="toc">
+                    <div class="toc-container">
+                        <nav class="toc">
+                <ol>
+                    
+                    <li><a href="#abstract">Abstract</a>
+            		</li>
+
+                    <li><a href="#files-and-links">Files and Links</a>
+            		</li>
+
+                    <li><a href="#an-example">An Example</a>
+            
+                <ol>
+                    
+                    <li><a href="#input-file-and-explanation">Input File and Explanation</a>
+            		</li>
+
+                    <li><a href="#workflow">Workflow</a>
+            		</li>
+
+                    <li><a href="#simulation-results">Simulation Results</a>
+            
+                <ol>
+                    
+                    <li><a href="#model-showcase">Model Showcase</a>
+            		</li>
+
+                    <li><a href="#ovito-display">OVITO Display</a>
+            		</li>
+                </ol>
+            		</li>
+                </ol>
+            		</li>
+                </ol>
+            </nav>
+                    </div>
+                </div>
+                
+                </div>
+                
+            </div>
+        </div> 
+        </nav>
+    </div>
+
+    
+
+    
+      <div class="search-container" id="globalsearch" onclick="toggleSearch()">
+    <div class="search-box">
+        <input type="search" id="term" placeholder="Start typing...">
+        <div id="search-results"></div>
+        <footer class="search-box-footer">
+            <div class="navigation-hint">
+                <span>Enter to select</span>
+            </div>
+
+            <div class="navigation-hint align-icon">
+                <i  data-lucide="arrow-up" aria-hidden="true"></i>
+                <i  data-lucide="arrow-down" aria-hidden="true"></i>
+                <span>to navigate</span>
+            </div>
+
+            <div class="navigation-hint">
+                <span>ESC to close</span>
+            </div>
+
+        </footer>
+    </div>
+</div>
+<script src="https://cdn.bootcdn.net/ajax/libs/FlexSearch/0.7.31/flexsearch.bundle.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', init, false);
+    document.addEventListener('DOMContentLoaded', setCorrectShortcut, false);
+
+    window.toggleSearch = function () {
+        if (document.getElementById('globalsearch').classList.contains('active')) {
+            document
+                .getElementById('globalsearch')
+                .classList
+                .remove('active');
+        } else {
+            document
+                .getElementById('globalsearch')
+                .classList
+                .add('active');
+            document
+                .getElementById('term')
+                .focus();
+        }
+    }
+
+    window.toggleTagSearch = function (evt) {
+        console.log(evt.textContent);
+        const term = evt.textContent;
+        if (term) {
+            window
+                .document
+                .getElementById('term')
+                .value = term.trim();
+            window.toggleSearch();
+            window.search();
+        }
+    }
+
+    const loadingSvg = `
+    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">
+      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">
+          <circle cx="22" cy="22" r="6" stroke-opacity="0">
+              <animate attributeName="r"
+                   begin="1.5s" dur="3s"
+                   values="6;22"
+                   calcMode="linear"
+                   repeatCount="indefinite" />
+              <animate attributeName="stroke-opacity"
+                   begin="1.5s" dur="3s"
+                   values="1;0" calcMode="linear"
+                   repeatCount="indefinite" />
+              <animate attributeName="stroke-width"
+                   begin="1.5s" dur="3s"
+                   values="2;0" calcMode="linear"
+                   repeatCount="indefinite" />
+          </circle>
+          <circle cx="22" cy="22" r="6" stroke-opacity="0">
+              <animate attributeName="r"
+                   begin="3s" dur="3s"
+                   values="6;22"
+                   calcMode="linear"
+                   repeatCount="indefinite" />
+              <animate attributeName="stroke-opacity"
+                   begin="3s" dur="3s"
+                   values="1;0" calcMode="linear"
+                   repeatCount="indefinite" />
+              <animate attributeName="stroke-width"
+                   begin="3s" dur="3s"
+                   values="2;0" calcMode="linear"
+                   repeatCount="indefinite" />
+          </circle>
+          <circle cx="22" cy="22" r="8">
+              <animate attributeName="r"
+                   begin="0s" dur="1.5s"
+                   values="6;1;2;3;4;5;6"
+                   calcMode="linear"
+                   repeatCount="indefinite" />
+          </circle>
+      </g>
+  </svg>`;
+
+    function debounce(func, wait, immediate) {
+        var timeout;
+        return function () {
+            var context = this,
+                args = arguments;
+            var later = function () {
+                timeout = null;
+                if (!immediate) 
+                    func.apply(context, args);
+                };
+            var callNow = immediate && !timeout;
+            clearTimeout(timeout);
+            timeout = setTimeout(later, wait);
+            if (callNow) 
+                func.apply(context, args);
+            };
+    };
+
+    function setCorrectShortcut() {
+        if (navigator.platform.toUpperCase().indexOf('MAC') >= 0) {
+            document
+                .querySelectorAll(".search-keys")
+                .forEach(x => x.innerHTML = "⌘ + K");
+        }
+    }
+
+    function createIndex(posts) {
+        const encoder = (str) => str
+            .toLowerCase()
+            .split(/([^a-z]|[^\x00-\x7F])/)
+        const contentIndex = new FlexSearch.Document({
+            cache: true,
+            charset: "latin:extra",
+            optimize: true,
+            index: [
+                {
+                    field: "content",
+                    tokenize: "reverse",
+                    encode: encoder
+                }, {
+                    field: "title",
+                    tokenize: "forward",
+                    encode: encoder
+                }, {
+                    field: "tags",
+                    tokenize: "forward",
+                    encode: encoder
+                }
+            ]
+        })
+        posts.forEach((p, idx) => {
+            contentIndex.add({
+                id: idx, title: p.title, content: p.content, tags: p.tags //Change to removeHTML
+            })
+        });
+        return contentIndex;
+    }
+
+    async function init() {
+        //init offline search index
+
+        const searchIndexDate = '2024-02-26T15:45:34.518Z';
+        let shouldFetch = true;
+        if(localStorage.getItem("searchIndex")) {
+            let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
+            if(date === searchIndexDate){
+                shouldFetch = false;
+                let index = createIndex(docs);
+                window.docs = docs
+                window.index = index;
+            }        
+        }
+        if(shouldFetch){
+            let docs = await(await fetch('/searchIndex.json?v=2024-02-26T15:45:34.518Z')).json();
+            let index = createIndex(docs);
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-02-26T15:45:34.518Z', docs}));
+            window.docs = docs
+            window.index = index;
+        }
+
+        //open searchmodal when ctrl + k is pressed, cmd + k on mac
+        document.addEventListener('keydown', (e) => {
+            if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+                e.preventDefault();
+                toggleSearch();
+            }
+            if (e.key === 'Escape') {
+                document
+                    .getElementById('globalsearch')
+                    .classList
+                    .remove('active');
+            }
+
+            //navigate search results with arrow keys
+            if (document.getElementById('globalsearch').classList.contains('active')) {
+                if (e.key === 'ArrowDown') {
+                    e.preventDefault();
+                    let active = document.querySelector('.searchresult.active');
+                    if (active) {
+                        active
+                            .classList
+                            .remove('active');
+                        if (active.nextElementSibling) {
+                            active
+                                .nextElementSibling
+                                .classList
+                                .add('active');
+                        } else {
+                            document
+                                .querySelector('.searchresult')
+                                .classList
+                                .add('active');
+                        }
+                    } else {
+                        document
+                            .querySelector('.searchresult')
+                            .classList
+                            .add('active');
+                    }
+
+                    let currentActive = document.querySelector('.searchresult.active');
+                    if (currentActive) {
+                        currentActive.scrollIntoView({behavior: 'smooth', block: 'nearest', inline: 'start'});
+                    }
+                }
+                if (e.key === 'ArrowUp') {
+                    e.preventDefault();
+                    let active = document.querySelector('.searchresult.active');
+                    if (active) {
+                        active
+                            .classList
+                            .remove('active');
+                        if (active.previousElementSibling) {
+                            active
+                                .previousElementSibling
+                                .classList
+                                .add('active');
+                        } else {
+                            document
+                                .querySelectorAll('.searchresult')
+                                .forEach((el) => {
+                                    if (!el.nextElementSibling) {
+                                        el
+                                            .classList
+                                            .add('active');
+                                    }
+                                });
+                        }
+                    } else {
+                        document
+                            .querySelectorAll('.searchresult')
+                            .forEach((el) => {
+                                if (el.nextElementSibling) {
+                                    el
+                                        .classList
+                                        .add('active');
+                                }
+                            });
+                    }
+
+                    let currentActive = document.querySelector('.searchresult.active');
+                    if (currentActive) {
+                        currentActive.scrollIntoView({behavior: 'smooth', block: 'nearest', inline: 'start'});
+                    }
+
+                }
+                if (e.key === 'Enter') {
+                    e.preventDefault();
+                    let active = document.querySelector('.searchresult.active');
+                    if (active) {
+                        window.location.href = active
+                            .querySelector("a")
+                            .href;
+                    }
+                }
+            }
+        });
+
+        const debouncedSearch = debounce(search, 200, false);
+        field = document.querySelector('#term');
+        field.addEventListener('keydown', (e) => {
+            if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp') {
+                debouncedSearch();
+            }
+        });
+        resultsDiv = document.querySelector('#search-results');
+
+        const params = new URL(location.href).searchParams;
+        if (params.get('q')) {
+            field.setAttribute('value', params.get('q'));
+            toggleSearch();
+            search();
+        }
+    }
+    window.lastSearch = '';
+    async function search() {
+        let search = field
+            .value
+            .trim();
+        if (!search) 
+            return;
+        if (search == lastSearch) 
+            return;
+        console.log(`search for ${search}`);
+        window.lastSearch = search;
+
+        resultsDiv.innerHTML = loadingSvg;
+        //let searchRequest = await fetch(`/api/search?term=${encodeURIComponent(search)}`);
+        //let results = await searchRequest.json();
+        let results = offlineSearch(search);
+        let resultsHTML = '';
+        if (!results.length) {
+            let resultParagraph = document.createElement("p");
+            resultParagraph.innerText = `No results for "${search}"`;
+            resultsDiv.innerHTML = '';
+            resultsDiv.appendChild(resultParagraph);
+            return;
+        }
+        resultsHTML += '<div style="max-width:100%;">';
+        // we need to add title, url from ref
+        results.forEach(r => {
+            if(r.tags && r.tags.length > 0){
+                resultsHTML += `<div class="searchresult">
+                    <a class="search-link" href="${r.url}">${r.title}</a>
+                    <div onclick="window.location='${r.url}'">
+                        <div class="header-meta">
+                            <div class="header-tags">
+                                ${r.tags.map(tag=>'<a class="tag" href="JavaScript:Void(0);">#'+tag+'</a>').join("")}
+                            </div>
+                        </div>
+                        ${r.content}
+                    </div>
+                </div>`;
+            } else {
+                resultsHTML += `<div class="searchresult">
+                    <a class="search-link" href="${r.url}">${r.title}</a>
+                    <div onclick="window.location='${r.url}'">
+                        ${r.content}
+                    </div>
+                </div>`;
+            }
+        });
+        resultsHTML += '</div>';
+        resultsDiv.innerHTML = resultsHTML;
+    }
+
+    function truncate(str, size) {
+        //first, remove HTML
+        str = str.replaceAll(/<[^>]*>/g, '');
+        if (str.length < size) 
+            return str;
+        return str.substring(0, size - 3) + '...';
+    }
+
+    function offlineSearch(searchQuery) {
+        let data = window.docs;
+
+        let isTagSearch = searchQuery[0] === "#" && searchQuery.length > 1;
+
+        let searchResults = isTagSearch
+            ? index.search(searchQuery.substring(1), [
+                {
+                    field: "tags"
+                }
+            ])
+            : index.search(searchQuery, [
+                {
+                    field: "title",
+                    limit: 5
+                }, {
+                    field: "content",
+                    weight: 10
+                }
+            ]);
+
+        const getByField = (field) => {
+            const results = searchResults.filter((x) => x.field === field)
+            if (results.length === 0) {
+                return []
+            } else {
+                return [...results[0].result]
+            }
+        }
+        const allIds = new Set([
+            ...getByField("title"),
+            ...getByField("content"),
+            ...getByField("tags")
+        ])
+        const dataIds = [...allIds];
+        const finalResults = dataIds.map((id) => {
+            let result = data[id];
+            result.content = truncate(result.content, 400);
+            result.tags = result
+                .tags
+                .filter((x) => x != "gardenEntry" && x != "note"); //Note is automatically added by 11ty. GardenEntry is used internally to mark the home page
+
+            return result;
+        })
+        return finalResults;
+
+    }
+</script>
+    
+
+    <main class="content cm-s-obsidian ">
+      <header>
+        
+          <h1 data-note-icon="6">Diverse nanowires activated self-scrolling of graphene nanoribbons</h1>
+        
+        <div class="header-meta">
+          
+            <div class="header-tags">
+              
+                
+              
+                
+                  <a class="tag" onclick="toggleTagSearch(this)">
+                    #paper/viewed/sciences/chemistry/simulation
+                  </a>
+                
+              
+            </div>
+          <div class="timestamps"><div><i data-lucide="calendar-plus"></i> <span class="human-date" data-date="2023-10-08T15:23"></span></div><div><i data-lucide="calendar-clock"></i> <span class="human-date" data-date="2024-02-04T22:53"></span></div></div></div>
+      
+      
+      </header>
+      
+      
+      <p>Diverse nanowires activated self-scrolling of graphene nanoribbons</p>
+<ul>
+<li>Type: Journal Article</li>
+<li>Author: Xia, Dan; Xue, Qingzhong; Yan, Keyou; Lv, Cheng</li>
+<li>Journal: Applied Surface Science
+<ul>
+<li>Volume: 258</li>
+<li>Issue: 6</li>
+<li>Pages: 1964-1970</li>
+</ul>
+</li>
+<li>Year: 2012</li>
+<li>DOI: 10.1016/j.apsusc.2011.05.122</li>
+</ul>
+<h1 id="abstract" tabindex="-1">Abstract</h1>
+<p>Diverse nanowires (NWs) activating the self-scrolling of planar graphene (GN) nanoribbons have been studied by using molecular dynamics (MD) simulations. Once the NWs’ radiuses reach a threshold, all the seven NWs, acting as an external force, can initiate the conformational change of the GN nanoribbons, and finally form the core/shell composite NWs. Our simulation found that van der Waals (vdW) force plays an important role in the process of forming core/shell composite NWs. This preparation method of the core/shell composite NWs will open a further development of a broad new class of metal/GN core/shell composite NWs with enhanced properties. And these core/shell structures can be the building blocks of functional nanodevices with unique mechanical, electrical, or optical properties.</p>
+<h1 id="files-and-links" tabindex="-1">Files and Links</h1>
+<ul>
+<li><strong>Url</strong>: <a href="https://www.sciencedirect.com/science/article/pii/S016943321100852X" target="_blank" class="external-link">https://www.sciencedirect.com/science/article/pii/S016943321100852X</a></li>
+<li><strong>Local Library</strong>: <a href="zotero://select/library/items/P3ZQPYMW" target="_blank" class="external-link">Zotero</a></li>
+</ul>
+<h1 id="an-example" tabindex="-1">An Example</h1>
+<p>Fe nanowires interacts with graphene.</p>
+<p>A simulation of the Fe-Graphene system by LAMMPS:</p>
+<h2 id="input-file-and-explanation" tabindex="-1">Input File and Explanation</h2>
+<pre><code># Fe-Graphene
+# settings
+ units metal
+ # This command sets the style of units used for a simulation. It determines the units of all quantities specified in the input script and data file, as well as quantities output to the screen, log file, and dump files. Typically, this command is used at the very beginning of an input script. See https://docs.lammps.org/units.html
+ 
+ atom_style atomic
+ # Define what style of atoms to use in a simulation. This determines what attributes are associated with the atoms. This command must be used before a simulation is setup via a read_data, read_restart, or create_box command. Once a style is assigned, it cannot be changed, so use a style general enough to encompass all attributes. See https://docs.lammps.org/atom_style.html
+ 
+ dimension 3
+ # Set the dimensionality of the simulation. By default LAMMPS runs 3d simulations. To run a 2d simulation, this command should be used prior to setting up a simulation box via the create_box or read_data commands. Restart files also store this setting. See https://docs.lammps.org/dimension.html
+ 
+ boundary  s s s
+ # use &quot;p s s&quot; to avoid &quot;atoms number inconsistent&quot; error!
+ # Set the style of boundaries for the global simulation box in each dimension. A single letter assigns the same style to both the lower and upper face of the box. Two letters assigns the first style to the lower face and the second style to the upper face. The initial size of the simulation box is set by the read_data, read_restart, or create_box commands. For style _s_, the position of the face is set so as to encompass the atoms in that dimension (shrink-wrapping), no matter how far they move. See https://docs.lammps.org/boundary.html
+ 
+ neighbor 0.3 bin
+ # This command sets parameters that affect the building of pairwise neighbor lists. All atom pairs within a neighbor cutoff distance equal to the their force cutoff plus the _skin_ distance are stored in the list. Typically, the larger the skin distance, the less often neighbor lists need to be built, but more pairs must be checked for possible force interactions every timestep. See https://docs.lammps.org/neighbor.html
+ 
+ neigh_modify delay 0
+ # This command sets parameters that affect the building and use of pairwise neighbor lists. Depending on what pair interactions and other commands are defined, a simulation may require one or more neighbor lists. The delay setting means never build new lists until at least N steps after the previous build. See https://docs.lammps.org/neigh_modify.html
+ 
+ timestep 0.001
+ # Set the timestep size for subsequent molecular dynamics simulations. See https://docs.lammps.org/timestep.html
+
+ # modeling of Fe
+ region box block 0 200 0 80 -5 70 units box
+ # This command defines a geometric region of space. Various other commands use regions. For example, the region can be filled with atoms via the create_atoms command. Or a bounding box around the region, can be used to define the simulation box via the create_box command. See https://docs.lammps.org/region.html 
+
+ create_box 2 box
+ # This command creates a simulation box based on the specified region. Thus a region command must first be used to define a geometric domain. See https://docs.lammps.org/create_box.html
+ 
+ lattice fcc 2.863
+ # Define a lattice for use by other commands. In LAMMPS, a lattice is simply a set of points in space, determined by a unit cell with basis atoms, that is replicated infinitely in all dimensions. The arguments of the lattice command can be used to define a wide variety of crystallographic lattices. See https://docs.lammps.org/lattice.html
+
+ region fe cylinder y 15 15 10 0 60 units box
+ 
+ create_atoms 1 region fe
+
+ # modeling of graphene
+ lattice custom 2.4768 a1 1.0 0.0 0.0 a2 0.0 1.732 0.0 a3 0.0 0.0 1.3727 &amp;
+ basis 0.0 0.33333 0.0 &amp;
+ basis 0.0 0.66667 0.0 &amp;
+ basis 0.5 0.16667 0.0 &amp;
+ basis 0.5 0.83333 0.0
+ # A lattice of style custom allows you to specify a1, a2, a3, and a list of basis atoms to put in the unit cell. By default, a1 and a2 and a3 are 3 orthogonal unit vectors (edges of a unit cube). But you can specify them to be of any length and non-orthogonal to each other, so that they describe a tilted parallelepiped. Via the basis keyword you add atoms, one at a time, to the unit cell. Its arguments are fractional coordinates (0.0 &lt;= x,y,z &lt; 1.0). The position vector x of a basis atom within the unit cell is thus a linear combination of the unit cell’s 3 edge vectors, i.e. x = bx a1 + by a2 + bz a3, where bx,by,bz are the 3 values specified for the basis keyword. See https://docs.lammps.org/lattice.html
+
+ region graphene block 5 100 10 70 -1 3 units box
+ create_atoms 2 region graphene
+
+ # mass of atoms
+ mass 1 56
+ mass 2 12
+
+ # group of atoms
+ group  fe region fe
+ group  graphene region graphene
+ # Identify a collection of atoms as belonging to a group. The group ID can then be used in other commands such as fix, compute, dump, or velocity to act on those atoms together. See https://docs.lammps.org/group.html
+ 
+ # save data
+ write_data  fe_gp.data
+ # Write a data file in text format of the current state of the simulation. Data files can be read by the read data command to begin a simulation. The read_data command also describes their format. See https://docs.lammps.org/write_data.html
+ 
+ # force fields
+ pair_style hybrid eam/fs airebo 3.0 lj/cut 10
+ # Set the formula(s) LAMMPS uses to compute pairwise interactions. In LAMMPS, pair potentials are defined between pairs of atoms that are within a cutoff distance and the set of active interactions typically changes over time. See https://docs.lammps.org/pair_style.html
+ # The hybrid, hybrid/overlay, and hybrid/scaled styles enable the use of multiple pair styles in one simulation. The metal atoms interact with each other via an eam potential, the surface atoms interact with each other via a lj/cut potential, and the metal/surface interaction is also computed via a lj/cut potential.  See https://docs.lammps.org/pair_hybrid.html
+ 
+ pair_coeff * * eam/fs fe.eam.fs Fe NULL
+ pair_coeff * * airebo CH.airebo NULL C
+ pair_coeff 1 2 lj/cut 0.043 2.221
+
+ # output 
+ thermo 50
+ # Compute and print thermodynamic info (e.g. temperature, energy, pressure) on timesteps that are a multiple of N and at the beginning and end of a simulation. A value of 0 will only print thermodynamics at the beginning and end. See https://docs.lammps.org/thermo.html
+ 
+ dump 1 all atom 200 fe_gp.xyz
+ # Dump a snapshot of quantities to one or more files once every N timesteps in one of several styles. The timesteps on which dump output is written can also be controlled by a variable. See https://docs.lammps.org/dump.html
+
+ # temp initiation
+ velocity graphene create 300 878743
+ # Set or change the velocities of a group of atoms in one of several styles. For each style, there are required arguments and optional keyword/value parameters. The create style generates an ensemble of velocities using a random number generator with the specified seed at the specified temperature. See https://docs.lammps.org/velocity.html
+ 
+ # fix Fe
+ fix 1 fe setforce 0 0 0
+ # Set a fix that will be applied to a group of atoms. See https://docs.lammps.org/fix.html
+ 
+ fix 2 all nve
+ # Perform plain time integration to update position and velocity for atoms in the group each timestep. This creates a system trajectory consistent with the microcanonical ensemble (NVE) provided there are (full) periodic boundary conditions and no other “manipulations” of the system (e.g. fixes that modify forces or velocities). See https://docs.lammps.org/fix_nve.html
+ 
+ run 12000
+ # Run or continue dynamics for a specified number of timesteps. See https://docs.lammps.org/run.html
+</code></pre>
+<h2 id="workflow" tabindex="-1">Workflow</h2>
+<p><img src="https://cdn.freezing.cool/images/202310091546420.svg" alt="workflow"></p>
+<h2 id="simulation-results" tabindex="-1">Simulation Results</h2>
+<h3 id="model-showcase" tabindex="-1">Model Showcase</h3>
+<p>Fe nanowire and graphene<br>
+<img src="https://cdn.freezing.cool/images/origin_pss_fe_graphene.png" alt="Fe_Graphene"></p>
+<h3 id="ovito-display" tabindex="-1">OVITO Display</h3>
+<p>Snapshots of every 2400 timesteps:<br>
+<img src="https://cdn.freezing.cool/images/fe_graphene_109.png" alt="snapshots"></p>
+
+      
+      
+    </main>
+
+    
+      <aside>
+      <div class="sidebar">
+            <div class="sidebar-container">
+                  
+                  
+                        <script>
+    async function fetchGraphData() {
+        const graphData = await fetch('/graph.json').then(res => res.json());
+        const fullGraphData  = filterFullGraphData(graphData);
+        return {graphData, fullGraphData}
+    }
+
+    function getNextLevelNeighbours(existing, remaining) {
+        const keys = Object.values(existing).map((n) => n.neighbors).flat();
+        const n_remaining = Object.keys(remaining).reduce((acc, key) => {
+                if (keys.indexOf(key) != -1) {
+                    if (!remaining[key].hide) {
+                        existing[key] = remaining[key];
+                    }
+                } else {
+                    acc[key] = remaining[key];
+                }
+                return acc;
+            }, {});
+        return existing, n_remaining;
+    }
+
+    function filterLocalGraphData(graphData, depth) {
+        if (graphData == null) {
+            return null;
+        }
+        let remaining = JSON.parse(JSON.stringify(graphData.nodes));
+        let links = JSON.parse(JSON.stringify(graphData.links));
+        let currentLink = decodeURI(window.location.pathname);
+        let currentNode = remaining[currentLink] || Object.values(remaining).find((v) => v.home);
+        delete remaining[currentNode.url];
+        if (!currentNode.home) {
+            let home = Object.values(remaining).find((v) => v.home);
+            delete remaining[home.url];
+        }
+        currentNode.current = true;
+        let existing = {};
+        existing[currentNode.url] = currentNode;
+        for (let i = 0; i < depth; i++) {
+            existing, remaining = getNextLevelNeighbours(existing, remaining);
+        }
+        nodes = Object.values(existing);
+        if (!currentNode.home) {
+            nodes = nodes.filter(n => !n.home);
+        }
+        let ids = nodes.map((n) => n.id);
+        return {
+            nodes,
+            links: links.filter(function (con) {
+                return ids.indexOf(con.target) > -1 && ids.indexOf(con.source) > -1;
+            }),
+        }
+    }
+
+    function getCssVar(variable) {return getComputedStyle(document.body).getPropertyValue(variable)}
+
+    function htmlDecode(input) {
+        var doc = new DOMParser().parseFromString(input, "text/html");
+        return doc.documentElement.textContent;
+    }
+
+    function renderGraph(graphData, id, delay, fullScreen) {
+        if (graphData == null) {
+            return;
+        }
+        const el = document.getElementById(id);
+        width = el.offsetWidth;
+        height = el.offsetHeight;
+        const highlightNodes = new Set();
+        let hoverNode = null;
+        const color = getCssVar("--graph-main");
+        const mutedColor = getCssVar("--graph-muted");
+        let Graph = ForceGraph()
+        (el)
+            .graphData(graphData)
+            .nodeId('id')
+            .nodeLabel('title')
+            .linkSource('source')
+            .linkTarget('target')
+            .d3AlphaDecay(0.10)
+            .width(width)
+            .height(height)
+            .linkDirectionalArrowLength(2)
+            .linkDirectionalArrowRelPos(0.5)
+            .autoPauseRedraw(false)
+            .linkColor((link) => {
+                if (hoverNode == null) {
+                    return color;
+                }
+                if (link.source.id == hoverNode.id || link.target.id == hoverNode.id) {
+                    return color;
+                } else {
+                    return mutedColor;
+                }
+                
+            })
+            .nodeCanvasObject((node, ctx) => {
+                const numberOfNeighbours = (node.neighbors && node.neighbors.length) || 2;
+                const nodeR = Math.min(7, Math.max(numberOfNeighbours / 2, 2));
+                
+                ctx.beginPath();
+                ctx.arc(node.x, node.y, nodeR, 0, 2 * Math.PI, false);
+                if (hoverNode == null) {
+                    ctx.fillStyle = color;
+                } else {
+                    if (node == hoverNode || highlightNodes.has(node.url)) {
+                        ctx.fillStyle = color;
+                    } else {
+                        ctx.fillStyle = mutedColor;
+                    }
+                }
+                 
+                ctx.fill();
+                
+                if (node.current) {
+                    ctx.beginPath();
+                    ctx.arc(node.x, node.y, nodeR + 1, 0, 2 * Math.PI, false);
+                    ctx.lineWidth = 0.5;
+                    ctx.strokeStyle = color;
+                    ctx.stroke();
+                }
+
+                const label = htmlDecode(node.title)
+                const fontSize = 3.5;
+                ctx.font = `${fontSize}px Sans-Serif`;
+
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'top';
+                ctx.fillText(label, node.x, node.y + nodeR + 2);
+            })
+            .onNodeClick(node => {
+                window.location = node.url;
+            })
+            .onNodeHover(node => {
+                highlightNodes.clear();
+                if (node) {
+                highlightNodes.add(node);
+                node.neighbors.forEach(neighbor => highlightNodes.add(neighbor));
+                }
+                hoverNode = node || null;
+                
+            });
+            if (fullScreen || (delay != null && graphData.nodes.length > 4)) {
+                setTimeout(() => {
+                    Graph.zoomToFit(5, 75);
+                }, delay || 200);
+            }
+        return Graph;
+    }
+
+    function renderLocalGraph(graphData, depth, fullScreen) {
+        if (window.graph){
+            window.graph._destructor();
+        }
+        const data = filterLocalGraphData(graphData, depth);
+        return renderGraph(data, 'link-graph', null, fullScreen);
+    }
+
+    function filterFullGraphData(graphData) {
+        if (graphData == null) {
+            return null;
+        }
+        graphData = JSON.parse(JSON.stringify(graphData));
+        const hiddens = Object.values(graphData.nodes).filter((n) => n.hide).map((n) => n.id);
+        const data = {
+            links: JSON.parse(JSON.stringify(graphData.links)).filter((l) => hiddens.indexOf(l.source) == -1 && hiddens.indexOf(l.target) == -1),
+            nodes: [...Object.values(graphData.nodes).filter((n) => !n.hide)]
+        }
+        return data
+    }
+
+    function openFullGraph(fullGraphData) {
+        lucide.createIcons({
+                attrs: {
+                    class: ["svg-icon"]
+                }
+            });
+        return renderGraph(fullGraphData, "full-graph-container", 200, false);;
+    }
+
+    function closefullGraph(fullGraph) {
+        if (fullGraph) {
+            fullGraph._destructor();
+        }
+        return null;
+    }
+</script>
+<div  x-init="{graphData, fullGraphData} = await fetchGraphData();" x-data="{ graphData: null, depth: 1, graph: null, fullGraph: null, showFullGraph: false, fullScreen: false, fullGraphData: null}" id="graph-component" x-bind:class="fullScreen ? 'graph graph-fs' : 'graph'" v-scope>
+    <div class="graph-title-container">
+        <div class="graph-title">Connected Pages</div>
+        <div id="graph-controls">
+                <div class="depth-control">
+                    <label for="graph-depth">Depth</label>
+                    <div class="slider">
+                            <input x-model.number="depth" name="graph-depth" list="depthmarkers" type="range" step="1" min="1" max="3" id="graph-depth">
+                    <datalist id="depthmarkers">
+                            <option value="1" label="1"></option>
+                            <option value="2" label="2"></option>
+                            <option value="3" label="3"></option>
+                    </datalist>
+                    </div>
+                    <span id="depth-display" x-text="depth"></span>
+                </div>
+                <div class="ctrl-right">
+                    <span id="global-graph-btn" x-on:click="showFullGraph = true; setTimeout(() => {fullGraph = openFullGraph(fullGraphData)}, 100)"><i  data-lucide="globe" aria-hidden="true"></i></span>
+                    <span  id="graph-fs-btn"  x-on:click="fullScreen = !fullScreen"><i  data-lucide="expand" aria-hidden="true"></i></span>
+                </div>
+        </div>
+    </div>
+    <div x-effect="window.graph = renderLocalGraph(graphData, depth, fullScreen)" id="link-graph" ></div>
+    <div x-show="showFullGraph" id="full-graph" class="show" style="display: none;">
+        <span id="full-graph-close" x-on:click="fullGraph = closefullGraph(fullGraph); showFullGraph = false;"><i data-lucide="x" aria-hidden="true"></i></span><div id="full-graph-container"></div>
+    </div>
+</div>
+                  
+                  
+                        <div class="backlinks">
+                              <div class="backlink-title">Backlinks List</div>
+                                    <div class="backlink-list"><div class="backlink-card"><a href="/navigation/readings-collection/" data-note-icon="5" class="backlink">Readings Collection</a>
+                                                </div></div>
+                              </div>
+                  
+                  
+            </div>
+      </div>
+</aside>
+<span class="beian">
+      <div class="wangan">
+            <img src="https://cdn.freezing.cool/images/beian.png" class="wangan-pic" style="width: 16px;">
+            <a class="wangan-text" href="https://beian.mps.gov.cn/#/query/webSearch?code=51012202000874" target="_blank">川公网安备 51012202000874</a>
+      </div>
+      <a class="icp" href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">蜀ICP备2023019585号</a>
+</span>
+    
+
+    
+      
+<style>
+#tooltip-wrapper {
+  background: var(--background-primary);
+  padding: 1em;
+  border-radius: 4px;
+  overflow: hidden;
+  position: fixed;
+  width: 80%;
+  max-width: 400px;
+  height: auto;
+  max-height: 300px;
+  font-size: 0.8em;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  opacity: 0;
+  transition: opacity 100ms;
+  unicode-bidi: plaintext;
+  overflow-y: scroll;
+  z-index: 10;
+}
+
+#tooltip-wrapper:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+  width: 100%;
+  unicode-bidi: plaintext;
+  height: 75px;
+}
+</style>
+<div style="opacity: 0; display: none;" id='tooltip-wrapper'>
+  <div id='tooltip-content'>
+  </div>
+</div>
+
+<iframe style="display: none; height: 0; width: 0;" id='link-preview-iframe' src="">
+</iframe>
+
+<script>
+  var opacityTimeout;
+  var contentTimeout;
+  var transitionDurationMs = 100;
+
+  var iframe = document.getElementById('link-preview-iframe')
+  var tooltipWrapper = document.getElementById('tooltip-wrapper')
+  var tooltipContent = document.getElementById('tooltip-content')
+
+  var linkHistories = {};
+
+  function hideTooltip() {
+    opacityTimeout = setTimeout(function () {
+      tooltipWrapper.style.opacity = 0;
+      contentTimeout = setTimeout(function () {
+        tooltipContent.innerHTML = '';
+        tooltipWrapper.style.display = 'none';
+      }, transitionDurationMs + 1);
+    }, transitionDurationMs)
+  }
+
+  function showTooltip(event) {
+    var elem = event.target;
+    var elem_props = elem.getClientRects()[elem.getClientRects().length - 1];
+    var top = window.pageYOffset || document.documentElement.scrollTop;
+    var url = event.target.getAttribute("href");
+    if (url.indexOf("http") === -1 || url.indexOf(window.location.host) !== -1) {
+      let contentURL = url.split('#')[0]
+      if (!linkHistories[contentURL]) {
+        iframe.src = contentURL
+        iframe.onload = function () {
+          tooltipContentHtml = ''
+          tooltipContentHtml += '<div style="font-weight: bold; unicode-bidi: plaintext;">' + iframe.contentWindow.document.querySelector('h1').innerHTML + '</div>'
+          tooltipContentHtml += iframe.contentWindow.document.querySelector('.content').innerHTML
+          tooltipContent.innerHTML = tooltipContentHtml
+          linkHistories[contentURL] = tooltipContentHtml
+          tooltipWrapper.style.display = 'block';
+          tooltipWrapper.scrollTop = 0;
+          setTimeout(function () {
+            tooltipWrapper.style.opacity = 1;
+            if (url.indexOf("#") != -1) {
+              let id = url.split('#')[1];
+              const focus = tooltipWrapper.querySelector(`[id='${id}']`);
+              focus.classList.add('referred');
+              console.log(focus);
+              focus.scrollIntoView({behavior: 'smooth'}, true)
+            } else {
+              tooltipWrapper.scroll(0, 0);
+            }
+          }, 1)
+        }
+      } else {
+        tooltipContent.innerHTML = linkHistories[contentURL]
+        tooltipWrapper.style.display = 'block';
+        setTimeout(function () {
+          tooltipWrapper.style.opacity = 1;
+          if (url.indexOf("#") != -1) {
+              let id = url.split('#')[1];
+              const focus = tooltipWrapper.querySelector(`[id='${id}']`);
+              focus.classList.add('referred');
+              focus.scrollIntoView({behavior: 'smooth'}, true)
+          } else {
+              tooltipWrapper.scroll(0, 0);
+          }
+        }, 1)
+      }
+
+      function getInnerWidth(elem) {
+        var style = window.getComputedStyle(elem);
+        return elem.offsetWidth - parseFloat(style.paddingLeft) - parseFloat(style.paddingRight) - parseFloat(style.borderLeft) - parseFloat(style.borderRight) - parseFloat(style.marginLeft) - parseFloat(style.marginRight);
+      }
+
+      tooltipWrapper.style.left = elem_props.left - (tooltipWrapper.offsetWidth / 2) + (elem_props.width / 2) + "px";
+
+      if ((window.innerHeight - elem_props.top) < (tooltipWrapper.offsetHeight)) {
+        tooltipWrapper.style.top = elem_props.top + top - tooltipWrapper.offsetHeight - 10 + "px";
+      } else if ((window.innerHeight - elem_props.top) > (tooltipWrapper.offsetHeight)) {
+        tooltipWrapper.style.top = elem_props.top + top + 35 + "px";
+      }
+
+      if ((elem_props.left + (elem_props.width / 2)) < (tooltipWrapper.offsetWidth / 2)) {
+        tooltipWrapper.style.left = "10px";
+      } else if ((document.body.clientWidth - elem_props.left - (elem_props.width / 2)) < (tooltipWrapper.offsetWidth / 2)) {
+        tooltipWrapper.style.left = document.body.clientWidth - tooltipWrapper.offsetWidth - 20 + "px";
+      }
+    }
+  }
+
+  function setupListeners(linkElement) {
+    linkElement.addEventListener('mouseleave', function (_event) {
+      hideTooltip();
+    });
+
+    tooltipWrapper.addEventListener('mouseleave', function (_event) {
+      hideTooltip();
+    });
+
+    linkElement.addEventListener('mouseenter', function (event) {
+      clearTimeout(opacityTimeout);
+      clearTimeout(contentTimeout);
+      showTooltip(event);
+    });
+
+    tooltipWrapper.addEventListener('mouseenter', function (event) {
+      clearTimeout(opacityTimeout);
+      clearTimeout(contentTimeout);
+    });
+  }
+
+  window.addEventListener("load", function(event) 
+  {
+    document.querySelectorAll('.internal-link').forEach(setupListeners);
+    document.querySelectorAll('.backlink-card a').forEach(setupListeners);
+  });
+</script>
+
+    
+      <script>
+    window.addEventListener('hashchange', (evt) => {
+      const oldParts = evt.oldURL.split("#");
+      const newParts = evt.newURL.split("#");
+    }, false);
+    const url_parts = window.location.href.split("#")
+    const url = url_parts[0];
+    const referrence = url_parts[1];
+    document.querySelectorAll(".cm-s-obsidian > *[id]").forEach(function (el) {
+      el.ondblclick = function(evt) {
+        const ref_url = url + '#' + evt.target.id
+        navigator.clipboard.writeText(ref_url);
+      }
+      });
+</script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/luxon/3.2.1/luxon.min.js"></script>
+<script defer>
+    TIMESTAMP_FORMAT = "yyyy/MM/dd";
+    document.querySelectorAll('.human-date').forEach(function (el) {
+        el.innerHTML = luxon.DateTime.fromISO(el.getAttribute('data-date') || el.innerText).toFormat(TIMESTAMP_FORMAT);
+      });
+</script>
+    
+      <aside id="floating-control">
+    <a  id="github" href="https://github.com/blleng"><i  data-lucide="github" title="GitHub" aria-hidden="true"></i></a>
+    <a  id="emailme" href="mailto:lengbl@outlook.com?subject=Regarding &body=Discussing https://dg.freezing.cool/readings/papers/diverse-nanowires-activated-self-scrolling-of-graphene-nanoribbons/"><i  data-lucide="mail-plus" title="Discuss" aria-hidden="true"></i></a>
+    <span id="theme-switch">
+        <i class="svg-icon light" data-lucide="sun" aria-hidden="true"></i>
+        <i class="svg-icon dark" data-lucide="moon" aria-hidden="true"></i>
+        <i class="svg-icon auto" data-lucide="contrast" aria-hidden="true"></i>
+    </span>
+</aside>
+<script>
+    function setThemeIcon(theme) {
+        let toAdd;
+        switch (theme) {
+            case 'dark':
+                toRemove = ['auto', 'light'];
+                break;
+            case 'light':
+                toAdd = 'fa-adjust';
+                toRemove = ['dark', 'auto'];
+                break;
+            default:
+                toRemove = ['light', 'dark'];
+                break;
+        }
+        document.getElementById('theme-switch').classList.add(theme);
+        document.getElementById('theme-switch').classList.remove(...toRemove);
+    }
+    function setTheme(theme, setIcon) {
+        if (setIcon) {
+            setThemeIcon(theme);
+        }
+        if (theme == 'dark') {
+            document.body.classList.remove('theme-light');
+            document.body.classList.add('theme-dark');
+        } else if (theme == "light") {
+            document.body.classList.add('theme-light');
+            document.body.classList.remove('theme-dark');
+        } else {
+            theme = (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+            setTheme(theme, false);
+        }
+        
+    }
+    let theme = window.localStorage.getItem('site-theme') || "light";
+    setTheme(theme, true);
+    window.theme = theme;
+    window.localStorage.setItem('site-theme', theme);
+
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(event) {
+        const settings = window.localStorage.getItem('site-theme');
+        if (!settings || settings == "auto") {
+            window.localStorage.setItem('site-theme', "auto");
+            setTheme("auto", true);
+        }
+    });
+    document.getElementById('theme-switch').addEventListener('click', function() {
+        let theme;
+        if (window.theme == 'auto') {
+            theme = "dark";
+        } else if (window.theme == 'dark') {
+            theme = 'light'
+        } else {
+            theme = 'auto';
+        }
+        setTheme(theme, true);
+        window.localStorage.setItem('site-theme', theme);
+        window.theme = theme;
+    })
+</script>
+    
+      <script>
+  
+function fancyFootnote(element) {
+  var notenum = 0;
+  document.querySelectorAll(element).forEach(function (post) {
+    const footnotes = post.querySelectorAll(".footnotes [id^='fn']");
+    footnotes.forEach(function (entry) {
+      var note = document.createElement("div");
+      var did = entry.id.split("fn")[1];
+      var fid = "fnref" + did;
+      entry.querySelector("a.footnote-backref").href = "#" + fid;
+
+      var notename = "fnote" + "-" + notenum + "-" + did;
+      note.id = notename;
+      note.className = "content fnote";
+      note.innerHTML =
+        '<div class="note-wrapper">' + entry.innerHTML + "</div>";
+      document.body.append(note);
+    });
+    const markers = post.querySelectorAll("[id^='fnref']");
+    markers.forEach(function (entry) {
+      entry.innerText = entry.innerText.substring(1, entry.innerText.length - 1);
+      var did = "fnote-" + notenum + '-' + entry.id.split("fnref")[1];
+      entry.classList.add("pointer", "fnote-marker");
+      entry.addEventListener("click", function (e) {
+        e.preventDefault();
+        shownote(did);
+      });
+    });
+    notenum++;
+  });
+}
+
+function shownote(f) {
+  document.querySelectorAll(".fnote").forEach(function(el) {
+    el.classList.remove("shownote");
+  });
+  document.querySelector("#" + f).classList.add("shownote");
+}
+
+document.addEventListener("mouseup", function (event) {
+  document.querySelectorAll(".fnote").forEach(function (container) {
+    if (container !== event.target && !container.contains(event.target)) {
+      container.classList.remove("shownote");
+    }
+  });
+});
+
+fancyFootnote(".content")
+</script>
+    
+      
+    
+      <script>
+var heading = document.querySelectorAll(".cm-s-obsidian>*[id]");
+for(var i = 0; i < heading.length; i++){
+    var a = document.createElement("a");
+    a.href = "#" + heading[i].id;
+    a.innerText = heading[i].innerText;
+    heading[i].innerText = "";
+    heading[i].appendChild(a);
+}
+</script>
+    
+    
+    <script src="https://unpkg.com/lucide@0.274.0/dist/umd/lucide.min.js"></script>
+<script>
+    // Create callout icons
+    window.addEventListener("load", () => {
+        document.querySelectorAll(".callout").forEach((elem) => {
+            const icon = getComputedStyle(elem).getPropertyValue('--callout-icon');
+            const iconName = icon && icon.trim().replace(/^lucide-/, "");
+
+            if (iconName) {
+                const calloutTitle = elem.querySelector(".callout-title");
+
+                if (calloutTitle) {
+                    const calloutIconContainer = document.createElement("div");
+                    const calloutIcon = document.createElement("i");
+
+                    calloutIconContainer.appendChild(calloutIcon);
+                    calloutIcon.setAttribute("icon-name", iconName);
+                    calloutIconContainer.setAttribute("class", "callout-icon");
+                    calloutTitle.insertBefore(calloutIconContainer, calloutTitle.firstChild);
+                }
+            }
+        });
+
+        lucide.createIcons();
+
+        // Collapse callouts
+        Array.from(document.querySelectorAll(".callout.is-collapsible")).forEach((elem) => {
+            elem.querySelector('.callout-title').addEventListener("click", (event) => {
+                if (elem.classList.contains("is-collapsed")) {
+                    elem.classList.remove("is-collapsed");
+                } else {
+                    elem.classList.add("is-collapsed");
+                }
+            });
+        });
+    });
+</script>
+<script>
+lucide.createIcons({
+            attrs: {
+                class: ["svg-icon"]
+            }
+        });
+</script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/prism/1.25.0/prism.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js"></script>
+<script src="https://unpkg.com/whatwg-fetch@3.6.2/dist/fetch.umd.js"></script>
+<script src="https://unpkg.com/force-graph@1.43.3/dist/force-graph.min.js" defer></script>
+<script src="https://unpkg.com/@alpinejs/persist@3.13.0/dist/cdn.min.js" defer></script>
+<script src="https://unpkg.com/alpinejs@3.13.0/dist/cdn.min.js" defer></script>
+  </body>
+  <script>
+var lis = document.querySelectorAll('div.sidebar-nav li');
+var items = document.querySelectorAll('.item');
+for (var i = 0; i < lis.length; i++) {
+    lis[i].setAttribute('data-index', i);
+    lis[i].onclick = function () {
+        for (var i = 0; i < lis.length; i++) {
+            lis[i].className = '';
+        }
+        this.className = 'current';
+        var index = this.getAttribute('data-index');
+        for (var j = 0; j < items.length; j++) {
+            items[j].style.display = 'none';
+        }
+        items[index].style.display = 'block';
+    }
+}
+</script>
+</html>
