@@ -41,9 +41,8 @@
 # Books Collection
 
 ## Unfinished Reading
-| Cover                                                     | Link                           | Author       | Douban                                              |
-| --------------------------------------------------------- | ------------------------------ | ------------ | --------------------------------------------------- |
-| ![](https://cdn.freezing.cool/images/202402171426022.jpg) | [[Readings/Books/盲刺客\|盲刺客]] | [加]玛格丽特·阿特伍德 | [Douban](https://book.douban.com/subject/26748179/) |
+| Cover | Link | Author | Douban |
+| ----- | ---- | ------ | ------ |
 
 { .block-language-dataview}
 
