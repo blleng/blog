@@ -41,14 +41,16 @@
 # Books Collection
 
 ## Unfinished Reading
-| Cover | Link | Author | Douban |
-| ----- | ---- | ------ | ------ |
+| Cover                                                     | Link                                 | Author         | Douban                                              |
+| --------------------------------------------------------- | ------------------------------------ | -------------- | --------------------------------------------------- |
+| ![](https://cdn.freezing.cool/images/202402261313962.jpg) | [[Readings/Books/诗人继续沉默\|诗人继续沉默]] | [以色列]亚伯拉罕·耶霍舒克 | [Douban](https://book.douban.com/subject/35552618/) |
 
 { .block-language-dataview}
 
 ## Finished Reading
-| Cover                                                     | Link                                   | Author | Douban                                              |
-| --------------------------------------------------------- | -------------------------------------- | ------ | --------------------------------------------------- |
-| ![](https://cdn.freezing.cool/images/202402171426515.jpg) | [[Readings/Books/寻找踏水村指南\|寻找踏水村指南]] | 沈至     | [Douban](https://book.douban.com/subject/36527880/) |
+| Cover                                                     | Link                                   | Author       | Douban                                              |
+| --------------------------------------------------------- | -------------------------------------- | ------------ | --------------------------------------------------- |
+| ![](https://cdn.freezing.cool/images/202402171426515.jpg) | [[Readings/Books/寻找踏水村指南\|寻找踏水村指南]] | 沈至           | [Douban](https://book.douban.com/subject/36527880/) |
+| ![](https://cdn.freezing.cool/images/202402171426022.jpg) | [[Readings/Books/盲刺客\|盲刺客]]         | [加]玛格丽特·阿特伍德 | [Douban](https://book.douban.com/subject/26748179/) |
 
 { .block-language-dataview}
