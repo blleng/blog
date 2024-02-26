@@ -1,5 +1,5 @@
 ---
-{"aliases":["An online toilet"],"info":"Get a sense of achievement by cleaning your toilet online","date":"2023-08-28T23:38","update":"2024-02-04T23:08","tags":["note/2023/08","note/life"],"id":"note20230828233847","dg-publish":true,"noteIcon":1,"permalink":"/notes/life/clean-your-toilet-online-get-the-achievements-in-feeling/","dgPassFrontmatter":true,"created":"2023-08-28T23:38","updated":"2024-02-04T23:08"}
+{"aliases":["An online toilet"],"info":"Get a sense of achievement by cleaning your toilet online","date":"2023-08-28T23:38","update":"2024-02-26T17:28","tags":["note/2023/08","note/digital"],"id":"note20230828233847","dg-publish":true,"noteIcon":1,"permalink":"/notes/life/clean-your-toilet-online-get-the-achievements-in-feeling/","dgPassFrontmatter":true,"created":"2023-08-28T23:38","updated":"2024-02-26T17:28"}
 ---
 
 
