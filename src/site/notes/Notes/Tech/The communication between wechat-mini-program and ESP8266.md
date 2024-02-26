@@ -1,5 +1,5 @@
 ---
-{"aliases":["MQTT controlled Robot"],"info":"Control ESP8266-developed robot by wechat mini program via mqtt","date":"2023-08-28T14:07","update":"2024-02-04T22:59","tags":["note/2023/08","note/tech"],"id":"note20230828140740","dg-publish":true,"noteIcon":3,"permalink":"/notes/tech/the-communication-between-wechat-mini-program-and-esp-8266/","dgPassFrontmatter":true,"created":"2023-08-28T14:07","updated":"2024-02-04T22:59"}
+{"aliases":["MQTT controlled Robot"],"info":"Control ESP8266-developed robot by wechat mini program via mqtt","date":"2023-08-28T14:07","update":"2024-02-26T17:25","tags":["note/2023/08","note/control"],"id":"note20230828140740","dg-publish":true,"noteIcon":3,"permalink":"/notes/tech/the-communication-between-wechat-mini-program-and-esp-8266/","dgPassFrontmatter":true,"created":"2023-08-28T14:07","updated":"2024-02-26T17:25"}
 ---
 
 
