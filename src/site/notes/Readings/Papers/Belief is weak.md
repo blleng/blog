@@ -1,5 +1,5 @@
 ---
-{"tags":["paper/unviewed/humanities/philosophy/epistemology"],"dg-publish":true,"noteIcon":6,"Journal":"Philosophical Studies","Year":2016,"DOI":"10.1007/s11098-015-0553-7","date":"2023-09-01T14:07","update":"2023-09-01T17:01","permalink":"/readings/papers/belief-is-weak/","dgPassFrontmatter":true,"created":"2023-09-01T14:07","updated":"2023-09-01T17:01"}
+{"tags":["paper/unviewed/humanities/philosophy/epistemology"],"dg-publish":true,"noteIcon":6,"Journal":"Philosophical Studies","Year":2016,"DOI":"10.1007/s11098-015-0553-7","date":"2023-09-01T14:07","update":"2024-02-26T17:23","permalink":"/readings/papers/belief-is-weak/","dgPassFrontmatter":true,"created":"2023-09-01T14:07","updated":"2024-02-26T17:23"}
 ---
 
 
