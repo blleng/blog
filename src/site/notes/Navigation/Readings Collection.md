@@ -44,6 +44,7 @@
 | Cover                                                     | Link                                 | Author         | Douban                                              |
 | --------------------------------------------------------- | ------------------------------------ | -------------- | --------------------------------------------------- |
 | ![](https://cdn.freezing.cool/images/202402261313962.jpg) | [[Readings/Books/诗人继续沉默\|诗人继续沉默]] | [以色列]亚伯拉罕·耶霍舒亚 | [Douban](https://book.douban.com/subject/35552618/) |
+| ![](https://cdn.freezing.cool/images/202402261326470.jpg) | [[Readings/Books/时间与他者\|时间与他者]]   | [法]伊曼努尔·列维纳斯   | [Douban](https://book.douban.com/subject/34940791/) |
 
 { .block-language-dataview}
 
