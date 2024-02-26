@@ -43,7 +43,7 @@
 ## Unfinished Reading
 | Cover                                                     | Link                                 | Author         | Douban                                              |
 | --------------------------------------------------------- | ------------------------------------ | -------------- | --------------------------------------------------- |
-| ![](https://cdn.freezing.cool/images/202402261313962.jpg) | [[Readings/Books/诗人继续沉默\|诗人继续沉默]] | [以色列]亚伯拉罕·耶霍舒克 | [Douban](https://book.douban.com/subject/35552618/) |
+| ![](https://cdn.freezing.cool/images/202402261313962.jpg) | [[Readings/Books/诗人继续沉默\|诗人继续沉默]] | [以色列]亚伯拉罕·耶霍舒亚 | [Douban](https://book.douban.com/subject/35552618/) |
 
 { .block-language-dataview}
 
