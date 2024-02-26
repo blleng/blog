@@ -1,5 +1,5 @@
 ---
-{"tags":["paper/unviewed/sciences/chemistry/radiation","paper/unviewed/sciences/chemistry/radiation/ionization"],"dg-publish":true,"noteIcon":6,"Journal":"Nature Chemistry","Year":2023,"DOI":"10.1038/s41557-023-01302-1","date":"2023-09-02T01:35","update":"2023-09-02T01:36","permalink":"/readings/papers/biomolecular-radiation-damage-in-water/","dgPassFrontmatter":true,"created":"2023-09-02T01:35","updated":"2023-09-02T01:36"}
+{"tags":["paper/unviewed/sciences/chemistry/radiation/ionization"],"dg-publish":true,"noteIcon":6,"Journal":"Nature Chemistry","Year":2023,"DOI":"10.1038/s41557-023-01302-1","date":"2023-09-02T01:35","update":"2024-02-26T17:24","permalink":"/readings/papers/biomolecular-radiation-damage-in-water/","dgPassFrontmatter":true,"created":"2023-09-02T01:35","updated":"2024-02-26T17:24"}
 ---
 
 
